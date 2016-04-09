@@ -1,0 +1,498 @@
+body {
+    font-family: Calibri, "Open Sans", Arial;
+}
+
+#mobile_menu {
+    display: none;
+    font-family: Calibri, "Open Sans", Arial;
+    position: absolute;
+    max-width: 300px;
+    height: 100%;
+    background-color:white;
+    position: fixed;
+    z-index: 9999;
+}
+
+
+#mobile_menu .row  div {
+   padding: 5px 20px 5px 20px;
+}
+
+#mobile_menu .row a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo_menu .img-responsive {
+    max-height: 60px;
+}
+
+.header {
+	padding: 1em;
+
+}
+
+.header .item {
+   font-weight: bold;
+   font-size: 1.2em;
+   color: white;
+   padding: 0 5px 0 5px;
+}
+
+
+.header .item .inside  {
+   background-color: #008498;
+   margin-top: 0.5em;
+   padding: 0.5em;
+   width: auto;
+}
+
+.header .item .inside .fa-stack {
+   font-size: 1em;
+}
+
+.header .item .inside .fa-inverse {
+   color: #008498;
+}
+
+.header .item .glyphicon {
+    font-size: 0.9em;
+    padding-right: 0.5em;
+}
+
+.header .item .fake-select-wrap {
+   padding: 0.5em;
+}
+
+.header .item .fake-select-wrap button {
+   width: 15em;
+   height: 3em;
+}
+
+.menu {
+	padding: 1em;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#header_mobile {
+    font-size: 2em;
+}
+
+#header_mobile .burger {
+   padding: 0.5em 0.5em 0em 1em;
+   font-size: 1em;
+}
+
+#header_mobile img {
+   max-height: 80px;
+}
+
+#header_mobile .item {
+	padding: 0;
+}
+
+#header_mobile .blue {
+   padding: 0.3em 0.3em 0em 0.3em;
+   font-size: 0.7em;
+}
+
+
+.welcome  {
+	font-size:2em;
+	font-weight: normal;
+	background-image: url('../img/background_home.gif');
+	color: white;
+	padding: 2em 0em 2em 0em;
+}
+
+.red_bg {
+    background-color: #ec695c;
+}
+
+.sub_menu {
+	color: white;
+	font-size: 1.5em;
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+.sub_menu .item {
+	padding: 1em;
+	font-weight: bold;
+}
+
+.sub_menu .item .inside  {
+   background-color: #008498;
+   margin-top: 0.5em;
+   padding: 0.5em;
+   width: auto;
+}
+
+.sub_menu .item .inside .fa-stack {
+   font-size: 1em;
+}
+
+.sub_menu .item .inside .fa-inverse {
+   color: #008498;
+}
+
+.sub_menu .item .glyphicon {
+    font-size: 0.9em;
+    padding-right: 0.5em;
+}
+
+
+.sub_menu .item_level0 {
+	padding: 0.8em 0em 0.8em 0em;
+}
+
+.sub_menu .level0 {
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0em 0.2em 0em 0em;
+}
+
+
+.sub_menu .item_level1 {
+	padding: 0em 0em 0em 0em;
+}
+
+.sub_menu .level1 {
+	color: white;
+	font-size: 0.8em;
+}
+
+.sub_menu .item_level2 {
+	padding: 0em 0em 0em 0em;
+}
+
+.sub_menu .level2 {
+	color: #F6D8CE;
+	font-weight: bold;
+	font-size: 0.75em;
+	line-height:1.1em;
+}
+
+.sub_menu .item_level3 {
+	font-size: 1em;
+}
+
+.sub_menu .level3 {
+	color: #F6D8CE;
+	font-weight: bold;
+	font-size: 2em;
+	line-height:1.1em;
+
+}
+
+.programme {
+	padding: 1em 0em 1em 0em;
+	background-color: white;
+
+}
+
+.sub_programme0 {
+        font-weight: bold;
+	color: #424242;
+	font-size: 1.75em;
+
+}
+
+.sub_programme1 {
+	color: #ec695c;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 2em;
+
+}
+
+
+.sub_programme2 {
+	padding: 0em 1em 0em 1em;
+	color: black;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+
+.sub_programme2 .glyphicon {
+	font-size: 0.75em;
+	padding-right: 0.5em;
+	color: #ec695c;
+
+}
+
+.sub_programme2 .alinea {
+	padding-left: 1em;
+
+}
+
+.sub_programme2 .alinea .glyphicon {
+	font-size: 0.5em;
+	padding-right: 0.5em;
+	color: black;
+
+
+}
+
+.sub_programme3 {
+	padding: 2.5em 1em 0em 1em;
+	color: #ec695c;
+	font-weight: bold;
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+.Benevoles {
+	padding: 3em 0em 1em 0em;
+	background-color: white;
+
+}
+
+.sub_benevoles0 {
+	color: black;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 2em;
+	line-height: 1em;
+
+}
+
+
+.sub_benevoles1 {
+	padding: 0.5em 1em 0em 1em;
+	color: black;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+.sub_benevoles1 .alinea {
+	padding-left: 1em;
+
+}
+
+.sub_benevoles1 .alinea .glyphicon {
+	font-size: 0.5em;
+	padding-right: 0.5em;
+	color: black;
+}
+
+
+.container_inscriptions {
+    padding-top: 0.5em;
+}
+
+.inscriptions {
+	background-color: #ec695c;
+	color: white;
+	font-size: 1.5em;
+}
+
+.inscriptions .glyphicon {
+	font-size: 0.75em;
+	padding-right: 0.5em;
+	color: white;
+}
+
+.inscriptions .item {
+	padding: 0em;
+}
+
+.inscriptions .item_inscr {
+	padding: 0.8em 5em 0.8em 5em;
+}
+
+.inscriptions .inscr {
+	font-weight: bold;
+	font-size: 0.9em;
+	background-color: #008498;
+	color: white;
+	padding: 0.5em;
+}
+
+.inscriptions .inscr .glyphicon {
+	font-size: 0.9em;
+	padding-right: 0.5em;
+}
+
+.inscriptions .level0 {
+	padding-bottom: 1em;
+	color: white;
+	font-size: 1em;
+        font-weight: bold;
+}
+
+.inscriptions .level1 {
+	color: white;
+	font-size: 1.2em;
+	padding: 0em 0.2em 0em 0em;
+}
+
+.inscriptions .level2 {
+	color: white;
+	font-size: 0.8em;
+}
+
+.inscriptions .item {
+	padding: 1em;
+	font-weight: bold;
+}
+
+.inscriptions .item .inside  {
+   background-color: #008498;
+   margin: 0.5em;
+   padding: 0.5em;
+   width: auto;
+}
+
+.inscriptions .item .inside .fa-stack {
+   font-size: 1em;
+}
+
+.inscriptions .item .inside .fa-inverse {
+   color: #008498;
+}
+
+.inscriptions .item .glyphicon {
+    font-size: 0.9em;
+    padding-right: 0.5em;
+}
+
+
+.about {
+	padding: 1em 0em 1em 0em;
+	background-color: white;
+
+}
+
+.about .item {
+	padding: 1em;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em;
+}
+
+.about .item .inside  {
+   background-color: #008498;
+   margin: 0.5em;
+   padding: 0.5em;
+   width: auto;
+}
+
+.about .item .inside .fa-stack {
+   font-size: 1em;
+}
+
+.about .item .inside .fa-inverse {
+   color: #008498;
+}
+
+.about .item .glyphicon {
+    font-size: 0.9em;
+    padding-right: 0.5em;
+}
+
+.sub_about0 {
+	padding: 0em 1em 0em 1em;
+	color: gray;
+	font-size: 1.75em;
+
+}
+
+.sub_about1 {
+	padding: 0em 1em 0em 1em;
+	color: #ec695c;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 2em;
+
+}
+
+
+.sub_about2 {
+	color: black;
+	font-weight: normal;
+	font-family: "Open Sans";
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+
+.sub_about2 .glyphicon {
+	font-size: 0.75em;
+	padding-right: 0.5em;
+	color: #008498;
+
+}
+
+.sub_about2 .liens {
+	padding-right: 0em;
+	color: #008498;
+	font-weight: bold;
+}
+
+
+.sub_about3 {
+	padding: 1em 0em 1em 0em;
+	color: #ec695c;
+	font-weight: bold;
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+.padding_bottom {
+    padding-bottom: 10px;
+}
+
+.email {
+    padding-left: 15px;
+}
+
+.email a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.donation_btn  {
+   background-color: #008498;
+   margin: 0.5em;
+   padding: 0.5em;
+   width: auto;
+}
+.donation_btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.donation_btn .fa-stack {
+   font-size: 1em;
+}
+
+.donation_btn .fa-inverse {
+   color: #008498;
+}
+
+.footer .donation_btn {
+    margin-left: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer .logo img {
+    max-width: 150px;
+}
+
+.footer .logo {
+    padding: 2em 0em 2em 0em;
+}

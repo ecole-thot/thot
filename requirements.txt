@@ -1,0 +1,4 @@
+flask
+Flask-Babel
+Frozen-Flask
+jinja2
