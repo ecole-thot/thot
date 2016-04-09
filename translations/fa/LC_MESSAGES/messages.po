@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-09 19:16+0200\n"
+"POT-Creation-Date: 2016-04-09 22:33+0200\n"
 "PO-Revision-Date: 2016-04-09 18:56+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fa\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Thot, l'école diplomante de français à destination des migrants"
 msgstr ""
 
-#: templates/base.html:33 templates/base.html:90
+#: templates/base.html:33 templates/base.html:90 templates/home.html:59
 msgid "PROGRAMME"
 msgstr ""
 
-#: templates/base.html:34 templates/base.html:91
+#: templates/base.html:34 templates/base.html:91 templates/home.html:159
 msgid "INSCRIPTION"
 msgstr ""
 
@@ -34,7 +34,7 @@ msgstr ""
 msgid "À PROPOS"
 msgstr ""
 
-#: templates/base.html:36 templates/base.html:93
+#: templates/base.html:36 templates/base.html:93 templates/home.html:264
 msgid "CONTACT"
 msgstr ""
 
@@ -42,15 +42,16 @@ msgstr ""
 msgid "PARTENAIRES"
 msgstr ""
 
-#: templates/base.html:59 templates/base.html:153
+#: templates/base.html:59 templates/base.html:153 templates/home.html:46
+#: templates/home.html:243
 msgid "Je veux faire un don"
 msgstr ""
 
-#: templates/base.html:69
+#: templates/base.html:69 templates/home.html:184
 msgid "Je veux m'inscrire"
 msgstr ""
 
-#: templates/base.html:92
+#: templates/base.html:92 templates/home.html:197
 msgid "A PROPOS"
 msgstr ""
 
@@ -65,5 +66,303 @@ msgid ""
 "Amis, donateurs,<br>\n"
 "          nous avons<br>\n"
 "          besoin de vous!"
+msgstr ""
+
+#: templates/home.html:19
+msgid ""
+"L'association est entièrement prise en charge par des\n"
+"            bénévoles, seuls les professeurs sont rémunérés.<br>\n"
+"            La richesse de l'association, c'est vous!"
+msgstr ""
+
+#: templates/home.html:26
+msgid ""
+"<span class=\"level3\"> 1 000 €</span> <br>\n"
+"                <span class=\"level2\"> par apprenant pour\n"
+"                4 mois de formation</span>"
+msgstr ""
+
+#: templates/home.html:33
+msgid ""
+"<span class=\"level3\"> 40 </span> \n"
+"                <span class=\"level2\"> apprenants <br>\n"
+"                  pris en charge en 2016 grâce à vos dons</span>"
+msgstr ""
+
+#: templates/home.html:63
+msgid "Notre pédagogie"
+msgstr ""
+
+#: templates/home.html:65
+msgid ""
+"Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour "
+"passer d'un niveau de langue à l'autre."
+msgstr ""
+
+#: templates/home.html:66
+msgid ""
+"Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont "
+"toujours dispensés à des horaires hors démarches administratives (en fin "
+"de journée et le weekend)."
+msgstr ""
+
+#: templates/home.html:67
+msgid ""
+"Chaque session de formation comprend <b>160 heures</b> de cours conçus "
+"selon les besoins et niveaux des apprenants."
+msgstr ""
+
+#: templates/home.html:77
+msgid "Une offre de Français Langue Étrangère (FLE) pour tous"
+msgstr ""
+
+#: templates/home.html:79
+msgid "Nous assurons les cours pour tous les niveaux de maîtrise de langue."
+msgstr ""
+
+#: templates/home.html:80
+msgid ""
+"Le statut n'importe guère : réfugié, demandeur d'asile, dubliné ou autre "
+"sont tous pris en compte."
+msgstr ""
+
+#: templates/home.html:81
+msgid ""
+"Nos cours s'adressent en priorité aux personnes n'ayant pas un niveau "
+"équivalent au Baccalauréat. Des structures d'intégration en université se"
+" mettent en place pour les diplômés du secondaire, que nous encourageons "
+"à se renseigner auprès des associations."
+msgstr ""
+
+#: templates/home.html:91
+msgid "Des professeurs recrutés sur leur excellence"
+msgstr ""
+
+#: templates/home.html:93
+msgid ""
+"Les professeurs de Thot sont tous diplômés en FLE et habilités à mener "
+"nos apprenants vers le diplôme correspondant à leur objectif en France."
+msgstr ""
+
+#: templates/home.html:94
+msgid ""
+"Autant que possible, nous recrutons des professeurs parlant la langue des"
+" apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus "
+"fluide d'une langue vers l'autre."
+msgstr ""
+
+#: templates/home.html:95
+msgid ""
+"Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre"
+" Thot sont invités à envoyer un mail avec CV et lettre de motivation à "
+"professeurs@thot-fle.fr. Les postes sont rémunérés."
+msgstr ""
+
+#: templates/home.html:105
+msgid "Une formation rapide et innovante"
+msgstr ""
+
+#: templates/home.html:108
+msgid ""
+"Nous construisons nos programmes autour de la réalité culturelle et "
+"plurilingue des apprenants :"
+msgstr ""
+
+#: templates/home.html:110
+msgid ""
+"utilisation des logiques syntaxiques et lexicales des langues connues "
+"pour créer une passerelle logique vers le français"
+msgstr ""
+
+#: templates/home.html:111
+msgid "échanges interculturels."
+msgstr ""
+
+#: templates/home.html:114
+msgid "Nous associons des méthodologies diversifiées dans notre pédagogie :"
+msgstr ""
+
+#: templates/home.html:116
+msgid ""
+"programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux "
+"méthodes)"
+msgstr ""
+
+#: templates/home.html:117
+msgid ""
+"mises en situation réelles des apprenants (remplissage de formulaires, "
+"démarches professionnelles ou administratives, échanges avec des "
+"interlocuteurs du quotidien)"
+msgstr ""
+
+#: templates/home.html:118
+msgid "introduction à la vie culturelle (patrimoine et société), etc."
+msgstr ""
+
+#: templates/home.html:131
+msgid "Un diplôme d'aptitude au français reconnu par l'Etat"
+msgstr ""
+
+#: templates/home.html:133
+msgid ""
+"Thot s'engage à mener ses apprenants vers l'obtention du DELF Pro (qui "
+"atteste de la capacité à interagir en milieu professionnel en fonction du"
+" niveau de langue)."
+msgstr ""
+
+#: templates/home.html:134
+msgid ""
+"Il est délivré après examen écrit et oral en centre d'examen, et "
+"correspond donc à un diplôme international, reconnu par l'Etat français."
+msgstr ""
+
+#: templates/home.html:143
+msgid "Bénévoles, nous avons besoin de vous!"
+msgstr ""
+
+#: templates/home.html:145
+msgid ""
+"La formation Thot est rendue efficace grâce la conjonction d’un "
+"enseignement par des professeurs diplômés et votre intervention en tant "
+"que tuteurs et accompagnants."
+msgstr ""
+
+#: templates/home.html:147
+msgid "Les bénévoles sont formés à la méthodologie Thot."
+msgstr ""
+
+#: templates/home.html:148
+msgid ""
+"Leurs interventions consolident les cours des professeurs et vont du "
+"tutorat à d'autres activités inclusives (sorties culturelles, jeux, "
+"conversations...)."
+msgstr ""
+
+#: templates/home.html:150
+msgid ""
+"Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures"
+" hebdomadaires sur 4 mois. Pour être bénévole, écrivez-nous à : benevoles"
+"@thot-fle.fr."
+msgstr ""
+
+#: templates/home.html:164
+msgid ""
+"Réfugiés ou demandeurs d'asile :<br>\n"
+"          inscrivez-vous"
+msgstr ""
+
+#: templates/home.html:170
+msgid "En vous inscrivant chez Thot, vous vous engagez à :"
+msgstr ""
+
+#: templates/home.html:171
+msgid "payer une inscription symbolique de 7 € au moment de l'adhésion finaleo"
+msgstr ""
+
+#: templates/home.html:172
+msgid "suivre chaque cours sans exception"
+msgstr ""
+
+#: templates/home.html:202
+msgid ""
+"Notre mission,<br>\n"
+"            transmettre un horizon à tous"
+msgstr ""
+
+#: templates/home.html:206
+msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
+msgstr ""
+
+#: templates/home.html:208
+msgid ""
+"Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
+"mission étant de disséminer ses connaissances, il inventa le langage. Ce "
+"symbole est à l'image de la mission que nous nous sommes confiée : "
+"transmettre par le langage la possibilité pour les individus de "
+"s'épanouir ici, en France."
+msgstr ""
+
+#: templates/home.html:211
+msgid "Qui sommes nous ?"
+msgstr ""
+
+#: templates/home.html:213
+msgid ""
+"L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
+"demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
+" toutes dramatiques, et leurs niveaux sociaux très variés, nous avons "
+"constaté qu'une question leur demeurait commune : « Où pouvons-nous "
+"apprendre le français ? »</p>\n"
+"              <p>A ce jour, aucune formation gratuite et qualifiante, "
+"dispensée par des professeurs diplômés, ne leur est pourtant proposée. "
+"Nous créons donc l'école Thot pour pallier l’absence de formation "
+"diplômante à destination des réfugiés et demandeurs d’asile."
+msgstr ""
+
+#: templates/home.html:217
+msgid "présidente"
+msgstr ""
+
+#: templates/home.html:219
+msgid "vice-présidente"
+msgstr ""
+
+#: templates/home.html:221
+msgid "trésorière"
+msgstr ""
+
+#: templates/home.html:223
+msgid "directeur pédagogique"
+msgstr ""
+
+#: templates/home.html:225
+msgid "responsable de l'enseignement et de la formation"
+msgstr ""
+
+#: templates/home.html:230
+msgid "Comment gérons-nous notre budget ?"
+msgstr ""
+
+#: templates/home.html:232
+msgid ""
+"Nous croyons en la transparence, d'autant plus que les fonds dont nous "
+"disposons viennent du grand public autant que d'institutions privées et "
+"publiques. C'est pourquoi nous publions notre budget à jour."
+msgstr ""
+
+#: templates/home.html:253
+msgid "Je veux consulter le budget"
+msgstr ""
+
+#: templates/home.html:269
+msgid "Nous serons ravis de vous répondre"
+msgstr ""
+
+#: templates/home.html:271
+msgid "Nous écrire par voie électronique"
+msgstr ""
+
+#: templates/home.html:274
+msgid "Pour être recruté en tant que professeur de FLE :"
+msgstr ""
+
+#: templates/home.html:279
+msgid "Pour proposer votre aide en tant que bénévole :"
+msgstr ""
+
+#: templates/home.html:284
+msgid "Pour des partenariats :"
+msgstr ""
+
+#: templates/home.html:289
+msgid "Pour tout autre renseignement :"
+msgstr ""
+
+#: templates/home.html:293
+msgid "Réhabiliter la missive traditionnelle"
+msgstr ""
+
+#: templates/home.html:299
+msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr ""
 
