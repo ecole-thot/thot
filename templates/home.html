@@ -7,8 +7,7 @@
         <div class="red_bg">
             <div class="container">
             <div class="row sub_menu">
-
-   			<div class="col-md-3 text-left"><div class="level0">
+   	     <div class="col-md-3 text-left"><div class="level0">
    				{% trans %}Amis, donateurs,<br>
           nous avons<br>
           besoin de vous!{% endtrans %}</div>
@@ -23,27 +22,30 @@
               
             <div class="row">
               <div class="col-md-4 text-left">
-                {% trans %}<span class="level3"> 1 000 €</span> <br>
+                {% trans %}<span class="level3"> 1 200 €</span> <br>
                 <span class="level2"> par apprenant pour
                 4 mois de formation</span>{% endtrans %}
               </div>
   
-              
+              {% if nb_students > 0 %}
               <div class="col-md-4 text-left">
-                {% trans %}<span class="level3"> 40 </span> 
-                <span class="level2"> apprenants <br>
-                  pris en charge en 2016 grâce à vos dons</span>{% endtrans %}
+                {% trans %}<span class="level3"> {{ nb_students }} </span> 
+                <span class="level2">apprenants <br>
+                  pris en charge en 2016 grâce à vos dons{% endtrans %}</span>
               </div>
+              {% endif %}
 
           </div>
         
                 <div class="col-md-6 text-center item">
-                  <div class="inside">
+                  <div class="donation_btn">
+                    <a href="{{ donation_link }}" target="_blank">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-heart fa-stack-2x"></i>
                       <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
                     </span>
                     {% trans %}Je veux faire un don{% endtrans %}
+                    </a>
                   </div>
                 </div>
          
@@ -53,7 +55,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" id="programme">
     <div class="row programme">
           <div class="col-md-3 text-left sub_programme0"> 
             {% trans %}PROGRAMME{% endtrans %}</div>
@@ -153,7 +155,7 @@
     </div>
 
     <div class="red_bg">
-    <div class="container container_inscriptions">
+    <div class="container container_inscriptions" id="inscription">
     <div class="row inscriptions">
           <div class="col-md-3 text-left level0"> 
             {% trans %}INSCRIPTION{% endtrans %}</div>
@@ -173,6 +175,7 @@
           </div>
 
         
+          {% if registration_open %}
           <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-6 text-center item">
@@ -185,13 +188,16 @@
               </div>
             </div>
           </div>
+          {% else %}
+            {% trans %}Les inscriptions ne sont pas encore ouvertes{% endtrans %}
+          {% endif %}
 
         </div>
     </div>
     </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="apropos">
     <div class="row about">
           <div class="col-md-3 text-left sub_about0"> 
             {% trans %}A PROPOS{% endtrans %}</div>
@@ -236,14 +242,17 @@
 
               <div class="col-md-6 text-center item">
                   <div class="donation_btn">
+                    <a href="{{ donation_link }}" target="_blank">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-heart fa-stack-2x"></i>
                       <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
                     </span>
                     {% trans %}Je veux faire un don{% endtrans %}
+                    </a>
                   </div>
               </div>
 
+              <!--
               <div class="col-md-6 text-center item">
                 <div class="inside">
                   <span class="fa-stack fa-lg">
@@ -253,13 +262,14 @@
                   {% trans %}Je veux consulter le budget{% endtrans %}
                 </div>
               </div>
+              -->
 
             </div>
               
           </div>
         </div>
 
-    <div class="row about">
+    <div class="row about" id="contact">
           <div class="col-md-3 text-left sub_about0"> 
             {% trans %}CONTACT{% endtrans %}</div>
     </div>
@@ -315,12 +325,21 @@
         </div>
     </div>
 
-
-
           </div> 
 
         </div>
+
+    <div class="row about" id="partenaires">
+          <div class="col-md-3 text-left sub_about0"> 
+            {% trans %}PARTENAIRES{% endtrans %}</div>
+    </div>
+
+        <div class="row about">
+          <div class="col-md-3 text-left sub_about1">
+            {% trans %}Ils croient en nous, merci à eux !{% endtrans %}</div>
+          <div class="col-md-9 text-left">
+            <img src="/static/img/partenaires.png" class="img-responsive">
+        </div>
+        </div>
 </div>
-
-
 {% endblock %}

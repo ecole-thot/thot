@@ -74,11 +74,10 @@
 		  		<div class="col-md-4 text-left item lang">
 
 				    <select id="lang">
-				      <option>Français</option>
-				      <option>Anglais</option>
-				      <option>العربية</option> <!--arabe-->
-				      <option>پښتو</option> <!--pashto-->
-				      <option>Farsi</option> <!--farsi-->
+				      <option value="/"{% if locale == "fr"%} selected{% endif %}>Français</option>
+				      <option value="/ar.html"{% if locale == "ar"%} selected{% endif %}>العربية</option> <!--arabe-->
+				      <option value="/ps.html"{% if locale == "ps"%} selected{% endif %}>پښتو</option> <!--pashto-->
+				      <option value="/fa.html"{% if locale == "fa"%} selected{% endif %}>Farsi</option> <!--farsi-->
 				    </select>
 				</div>
         			</div>  
@@ -87,12 +86,12 @@
 
 
     <div class="row menu">
-          <div class="col-md-2 text-center item">{% trans %}PROGRAMME{% endtrans %}</div>
-          <div class="col-md-2 text-center item">{% trans %}INSCRIPTION{% endtrans %}</div>
-          <div class="col-md-2 text-center item">{% trans %}A PROPOS{% endtrans %}</div>
-          <div class="col-md-2 text-center item">{% trans %}CONTACT{% endtrans %}</div>
-          <div class="col-md-2 text-center item">{% trans %}PARTENAIRES{% endtrans %}</div>
-          
+          <div class="col-md-2 text-center item"><a href="#programme">{% trans %}PROGRAMME{% endtrans %}</a></div>
+          <div class="col-md-2 text-center item"><a href="#inscription">{% trans %}INSCRIPTION{% endtrans %}</a></div>
+          <div class="col-md-2 text-center item"><a href="#apropos">{% trans %}A PROPOS{% endtrans %}</a></div>
+          <div class="col-md-2 text-center item"><a href="#contact">{% trans %}CONTACT{% endtrans %}</a></div>
+          <div class="col-md-2 text-center item"><a href="#partenaires">{% trans %}PARTENAIRES{% endtrans %}</a></div>
+
           <!--<div class="col-md-5 text-center item_don"><div class="don">
           <span class="glyphicon glyphicon-play"></span>
             Je veux faire un don</div></div>
@@ -175,6 +174,7 @@
 	});
   $('.burger').bind('click', function(e) { $("#mobile_menu").show(); });
   $('.close_menu').bind('click', function(e) { $("#mobile_menu").hide(); });
+  $('#lang').bind('change', function(e) { window.location.href = $("#lang option:selected").val(); });
     </script>
   </body>
 </html>

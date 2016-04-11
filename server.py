@@ -10,6 +10,7 @@ babel = Babel(app)
 
 DONATION_LINK = "https://fr.ulule.com/ecole-thot/"
 REGISTRATION_OPEN = False
+NB_STUDENTS = 0
 
 
 @babel.localeselector
@@ -25,7 +26,9 @@ def render_home():
     return render_template(
         'home.html',
         donation_link=DONATION_LINK,
-        registration_open=REGISTRATION_OPEN)
+        registration_open=REGISTRATION_OPEN,
+        nb_students=NB_STUDENTS,
+        locale=request.locale)
 
 
 @app.route('/')
@@ -34,20 +37,20 @@ def homepage_fr():
     return render_home()
 
 
-@app.route('/ar')
+@app.route('/ar.html')
 def homepage_ar():
     request.locale = 'ar'
     return render_home()
 
 
-@app.route('/ps')
+@app.route('/ps.html')
 def homepage_ps():
     request.locale = 'ps'
     return render_home()
 
 
-@app.route('/fa')
-def homepage_ar():
+@app.route('/fa.html')
+def homepage_fa():
     request.locale = 'fa'
     return render_home()
 
