@@ -257,8 +257,13 @@ a {
 	line-height:1.5em;
 }
 
+hr.benevoles {
+    margin-top: 2em;
+    border-top: 1px solid #333;
+}
+
 .Benevoles {
-	padding: 3em 0em 1em 0em;
+	padding: 2em 0em 1em 0em;
 	background-color: white;
 
 }
@@ -295,7 +300,8 @@ a {
 
 
 .container_inscriptions {
-    padding-top: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .inscriptions {
@@ -376,7 +382,7 @@ a {
 
 
 .about {
-	padding: 1em 0em 1em 0em;
+	padding: 0em 0em 1em 0em;
 	background-color: white;
 
 }
@@ -416,7 +422,6 @@ a {
 }
 
 .sub_about1 {
-	padding: 0em 1em 0em 1em;
 	color: #ec695c;
 	font-weight: normal;
 	font-family: "Open Sans";
@@ -454,6 +459,14 @@ a {
 	font-weight: bold;
 	font-size: 1em;
 	line-height:1.5em;
+}
+
+.padding_top {
+    padding-top: 10px;
+}
+
+.padding_top_20 {
+    padding-top: 20px;
 }
 
 .padding_bottom {
@@ -500,4 +513,17 @@ a {
 
 .footer .logo {
     padding: 2em 0em 2em 0em;
+}
+
+.chapo {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.white {
+    color:white;
+}
+
+.black {
+    color: #333;
 }

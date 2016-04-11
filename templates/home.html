@@ -138,7 +138,8 @@
 
       </div>
     </div>
-    <!-- ajouter un trait horizontal (voir DA)-->
+
+    <hr class="benevoles">
 
     <div class="row Benevoles">
           <div class="col-md-3 text-left sub_benevoles0">
@@ -156,8 +157,8 @@
 
     <div class="red_bg">
     <div class="container container_inscriptions" id="inscription">
-    <div class="row inscriptions">
-          <div class="col-md-3 text-left level0"> 
+    <div class="row padding_top padding_bottom">
+          <div class="col-md-3 text-left chapo white"> 
             {% trans %}INSCRIPTION{% endtrans %}</div>
         </div>
     <div class="row inscriptions">
@@ -189,7 +190,9 @@
             </div>
           </div>
           {% else %}
+            <div class="level2 padding_top">
             {% trans %}Les inscriptions ne sont pas encore ouvertes{% endtrans %}
+            </div>
           {% endif %}
 
         </div>
@@ -198,9 +201,9 @@
     </div>
 
     <div class="container" id="apropos">
-    <div class="row about">
-          <div class="col-md-3 text-left sub_about0"> 
-            {% trans %}A PROPOS{% endtrans %}</div>
+    <div class="row padding_top_20">
+          <div class="col-md-3 text-left chapo black"> 
+            {% trans %}À PROPOS{% endtrans %}</div>
     </div>
 
         <div class="row about">
@@ -269,8 +272,8 @@
           </div>
         </div>
 
-    <div class="row about" id="contact">
-          <div class="col-md-3 text-left sub_about0"> 
+    <div class="row" id="contact">
+          <div class="col-md-3 text-left chapo black"> 
             {% trans %}CONTACT{% endtrans %}</div>
     </div>
 
@@ -329,8 +332,8 @@
 
         </div>
 
-    <div class="row about" id="partenaires">
-          <div class="col-md-3 text-left sub_about0"> 
+    <div class="row" id="partenaires">
+          <div class="col-md-3 text-left chapo black"> 
             {% trans %}PARTENAIRES{% endtrans %}</div>
     </div>
 

@@ -35,6 +35,14 @@
     <div class="col-md-12 text-left"><a href="#apropos">{% trans %}À PROPOS{% endtrans %}</a></div>
     <div class="col-md-12 text-left"><a href="#contact">{% trans %}CONTACT{% endtrans %}</a></div>
     <div class="col-md-12 text-left"><a href="#partenaires">{% trans %}PARTENAIRES{% endtrans %}</a></div>
+
+    <hr>
+    <div class="col-md-12 text-left"><a href="/">Français</a></div>
+    <div class="col-md-12 text-left"><a href="/ar">العربية</a></div>
+    <div class="col-md-12 text-left"><a href="/ps">پښتو</a></div>
+    <div class="col-md-12 text-left"><a href="/fa">Farsi</a></div>
+    
+
     </div>
   </div>
 </div>
@@ -48,7 +56,7 @@
    			</div>
    			<div class="col-md-8 text-right">
           <div class="row header_buttons">
-		  		<div class="col-md-4 text-left item">
+		  		<div class="col-md-5 text-left item">
 				   <div class="donation_btn">
                                         <a href="{{ donation_link }}" target="_blank">
 					<span class="fa-stack fa-lg">
@@ -71,7 +79,7 @@
 				</div>
                                 {% endif %}
 
-		  		<div class="col-md-4 text-left item lang">
+		  		<div class="col-md-6 text-left item lang">
 
 				    <select id="lang">
 				      <option value="/"{% if locale == "fr"%} selected{% endif %}>Français</option>
@@ -118,12 +126,15 @@
 		    </div>
 		    <div class="col-xs-1 item item_don">
 			<div class="button blue">
-					<span class="fa-stack fa-lg">
-  						<i class="fa fa-heart fa-stack-2x"></i>
-  						<i class="fa fa-eur fa-stack-1x fa-inverse"></i>
-					</span>
+                                <a href="{{ donation_link }}" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                        <i class="fa fa-heart fa-stack-2x"></i>
+                                        <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
 			</div>
 		    </div>
+                    {% if registration_open %}
 		    <div class="col-xs-1 item item_register">
 			<div class="button blue">
 					<span class="fa-stack fa-lg">
@@ -132,7 +143,7 @@
 					</span>
 			</div>
 		    </div>
-
+                    {% endif %}
 		</div>
 	</div>
 	<!-- End Mobile header -->
@@ -153,7 +164,7 @@
                   </div>        </div></div>
             <div><b>{% trans %}Pour transmettre un horizon à tous, nous avons créé la première école diplômante de français pour les réfugiés et demandeurs d’asile.{% endtrans %}</b></div>
             <hr/>
-            <div>Crédits et mentions légales</div>
+            <div>{% trans %}Crédits et mentions légales{% endtrans %}</div>
         </div>
     </div>
 </div>
@@ -174,6 +185,7 @@
 	});
   $('.burger').bind('click', function(e) { $("#mobile_menu").show(); });
   $('.close_menu').bind('click', function(e) { $("#mobile_menu").hide(); });
+  $('#mobile_menu a').bind('click', function(e) { $("#mobile_menu").hide(); });
   $('#lang').bind('change', function(e) { window.location.href = $("#lang option:selected").val(); });
     </script>
   </body>
