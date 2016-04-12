@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+.btn {
+  border-radius: 0;
+}
+
 #mobile_menu {
     display: none;
     font-family: "Open Sans", Arial, sans-serif;
@@ -32,13 +36,12 @@ a {
     font-weight: bold;
 }
 
-#logo_menu .img-responsive {
-    max-height: 60px;
+.header {
+	padding: 2em 0.5em;
 }
 
-.header {
-	padding: 2em 1em;
-
+.header_buttons .btn {
+  margin-right: 10px;
 }
 
 .header .item {
@@ -69,13 +72,10 @@ a {
     padding-right: 0.5em;
 }
 
-.header .item .fake-select-wrap {
-   padding: 0.5em;
-}
-
-.header .item .fake-select-wrap button {
-   width: 15em;
-   height: 3.6em;
+.header .fake-select-wrap button {
+  width: 11.5em;
+  padding: 10px;
+  border-radius: 0;
 }
 
 
@@ -84,6 +84,14 @@ a {
 	font-weight: 800;
 	font-size: 1.3em;
 }
+
+.menu .item {
+  padding: 2em;
+}
+.menu .item:first-child {
+  padding-left: 0.5em;
+}
+
 
 
 #header_mobile {
@@ -107,6 +115,14 @@ a {
    padding: 0.3em 0.3em 0em 0.3em;
    font-size: 0.7em;
 }
+
+
+
+/*
+
+MAIN STUFF
+
+*/
 
 
 .welcome  {
@@ -531,7 +547,15 @@ fieldset[disabled] .btn-thot.focus {
 .btn-thot .fa-inverse {
    color: #008498;
 }
-
+.btn-thot-text {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.btn-success .fa-inverse {
+   color: #5cb85c;
+}
 
 
 .footer .donation_btn {
