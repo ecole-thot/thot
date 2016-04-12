@@ -23,13 +23,13 @@
 
 <div id="mobile_menu">
   <div class="row">
-    <div class="col-md-10 text-left"></div>
-      <div class="col-md-2 text-right">
+      <div class="col-md-2 col-md-offset-10 text-right">
+          <img src="static/img/logo.png" alt="Thot">
           <span class="fa-stack fa-lg close_menu">
               <i class="fa fa-close fa-stack-2x"></i>
           </span>
       </div>
-    <div class="col-md-12 text-left" id="logo_menu"><img src="static/img/logo.png" alt="Thot"></div>
+    <div class="col-md-12 text-left" id="logo_menu"></div>
 
     <div class="col-md-12 text-left"><a href="#programme">{% trans %}PROGRAMME{% endtrans %}</a></div>
     <div class="col-md-12 text-left"><a href="#inscription">{% trans %}INSCRIPTION{% endtrans %}</a></div>
@@ -46,7 +46,7 @@
  		<div class="row header">
  			
       <div class="col-md-4 logo">
- 				<img src="static/img/logo.png" width="260px" alt="Thot">
+ 				<a href="/"><img src="static/img/logo.png" width="260px" alt="Thot"></a>
  			</div>
 
  			<div class="col-md-8">
@@ -60,7 +60,7 @@
             <span class="btn-thot-text">{% trans %}Je veux faire un don{% endtrans %}</span>
 				  </a>
 
-          {% if registration_open or true  %}
+          {% if registration_open %}
   				  <a class="btn btn-success"  href="#" target="_blank">
     					<span class="fa-stack">
       						<i class="fa fa-circle fa-stack-2x"></i>

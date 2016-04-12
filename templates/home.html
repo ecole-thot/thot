@@ -8,15 +8,13 @@
   <div class="container">
     <div class="row sub_menu">
 
-        <div class="col-md-3 text-left">
+        <div class="col-md-4 text-left">
         <div class="level0">
-   				{% trans %}Amis, donateurs,<br>
-          nous avons<br>
-          besoin de vous!{% endtrans %}
+   				{% trans %}Amis, donateurs, nous avons besoin de vous!{% endtrans %}
         </div>
        </div>
 
-      <div class="col-md-9 text-left">
+      <div class="col-md-8 text-left">
         <div class="level1">
           <p>{% trans %}L'association est entièrement prise en charge par des
           bénévoles, seuls les professeurs sont rémunérés.<br>
@@ -24,30 +22,31 @@
         </div>
       
         <div class="row">
-          <div class="col-md-4 text-left">
+          <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
             {% trans %}<span class="level3"> 1 200 €</span> <br>
             <span class="level2"> par apprenant pour
             4 mois de formation</span>{% endtrans %}
           </div>
 
           {% if nb_students > 0 %}
-          <div class="col-md-4 text-left">
+          <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
             {% trans %}<span class="level3"> {{ nb_students }} </span> 
             <span class="level2">apprenants <br>
               pris en charge en 2016 grâce à vos dons{% endtrans %}</span>
           </div>
           {% endif %}
-
         </div>
 
-        <div class="col-md-6 text-center item">
-          <a href="{{ donation_link }}" class="btn btn-thot" target="_blank">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-heart fa-stack-2x"></i>
-              <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
-            </span>
-            <span class="btn-thot-text">{% trans %}Je veux faire un don{% endtrans %}</span>
-          </a>
+        <div class="row single-button">
+          <div class="col-md-12 col-xs-12 col-sm-12">
+            <a href="{{ donation_link }}" class="btn btn-thot btn-lg" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-heart fa-stack-2x"></i>
+                <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="btn-thot-text">{% trans %}Je veux faire un don{% endtrans %}</span>
+            </a>
+          </div>
         </div>
  
       </div>
@@ -57,147 +56,172 @@
 </div>
 
 
-    <div class="container" id="programme">
-    <div class="row programme">
-          <div class="col-md-3 text-left sub_programme0"> 
-            {% trans %}PROGRAMME{% endtrans %}</div>
+<div class="container" id="programme">
+
+  <div class="row programme">
+    <div class="col-md-12 text-left sub_programme0"> 
+      {% trans %}PROGRAMME{% endtrans %}
     </div>
-    <div class="row">
-          <div class="col-md-3 text-left sub_programme1">
-            {% trans %}Notre pédagogie{% endtrans %}</div>
-          <div class="col-md-9 text-left sub_programme2"> 
-            <p>{% trans %}Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour passer d'un niveau de langue à l'autre.{% endtrans %}<br></p>
-            <p>{% trans %}Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont toujours dispensés à des horaires hors démarches administratives (en fin de journée et le weekend).{% endtrans %}<br></p>
-            <p>{% trans %}Chaque session de formation comprend <b>160 heures</b> de cours conçus selon les besoins et niveaux des apprenants.{% endtrans %}<br></p> 
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 text-left sub_programme1">
+      {% trans %}Notre pédagogie{% endtrans %}
+    </div>
+    <div class="col-md-8 text-left sub_programme2"> 
+      <p>{% trans %}Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour passer d'un niveau de langue à l'autre.{% endtrans %}<br></p>
+      <p>{% trans %}Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont toujours dispensés à des horaires hors démarches administratives (en fin de journée et le weekend).{% endtrans %}<br></p>
+      <p>{% trans %}Chaque session de formation comprend <b>160 heures</b> de cours conçus selon les besoins et niveaux des apprenants.{% endtrans %}<br></p> 
+    </div>
+  </div>
+
+  <div class="row programme-item">
+    <div class="col-md-4 sub_programme3">
+      <img src="static/img/THOT_composants_Pour_tous.png" class="img-responsive" alt="Pour Tous">
+    </div>
+    
+    <div class="col-md-8 text-left">
+        <div class="sub_programme3">
+          {% trans %}Une offre de Français Langue Étrangère (FLE) pour tous{% endtrans %}
+        </div>
+        <div class="sub_programme2">
+          <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Nous assurons les cours pour tous les niveaux de maîtrise de langue.{% endtrans %}<br>
+          <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Le statut n'importe guère : réfugié, demandeur d'asile, dubliné ou autre sont tous pris en compte.{% endtrans %}</p>
+          <p class="vertical-dots">{% trans %}Nos cours s'adressent en priorité aux personnes n'ayant pas un niveau équivalent au Baccalauréat. Des structures d'intégration en université se mettent en place pour les diplômés du secondaire, que nous encourageons à se renseigner auprès des associations.{% endtrans %}</p>
         </div>
     </div>
+  </div>
 
-    <div class="row">
-          <div class="col-md-3 sub_programme3">
-              <img src="static/img/THOT_composants_Pour_tous.png" class="img-responsive" alt="Pour Tous">
+  <div class="row programme-item">
+    <div class="col-md-4 sub_programme3">
+        <img src="static/img/THOT_composants_Professeurs.png" class="img-responsive" alt="Professeurs">
+    </div>
+    <div class="col-md-8 text-left">
+        <div class="sub_programme3">
+          {% trans %}Des professeurs recrutés sur leur excellence{% endtrans %}
+        </div>
+        <div class="sub_programme2">
+          <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos apprenants vers le diplôme correspondant à leur objectif en France.{% endtrans %}<br>
+          <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Autant que possible, nous recrutons des professeurs parlant la langue des apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus fluide d'une langue vers l'autre.{% endtrans %}</p>
+          <p class="vertical-dots">{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p></div>
+        </div>
+  </div>
+
+  <div class="row programme-item">
+    <div class="col-md-4 sub_programme3">
+        <img src="static/img/THOT_composants_Rapide_innovante.png" class="img-responsive" alt="Rapide Innovante">
+    </div>
+
+    <div class="col-md-8 text-left">
+        <div class="sub_programme3">
+          {% trans %}Une formation rapide et innovante{% endtrans %}
+        </div>
+        <div class="sub_programme2">
+          <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
+            {% trans %}Nous construisons nos programmes autour de la réalité culturelle et plurilingue des apprenants :{% endtrans %}
+            <div class ="alinea">
+              <span class="glyphicon glyphicon-ok"></span>{% trans %}utilisation des logiques syntaxiques et lexicales des langues connues pour créer une passerelle logique vers le français{% endtrans %}<br>
+              <span class="glyphicon glyphicon-ok"></span>{% trans %}échanges interculturels.{% endtrans %}</div>
+          </p>
+          <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
+            {% trans %}Nous associons des méthodologies diversifiées dans notre pédagogie :{% endtrans %}
+            <div class ="alinea">
+              <span class="glyphicon glyphicon-ok"></span>{% trans %}programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux méthodes){% endtrans %}<br>
+              <span class="glyphicon glyphicon-ok"></span>{% trans %}mises en situation réelles des apprenants (remplissage de formulaires, démarches professionnelles ou administratives, échanges avec des interlocuteurs du quotidien){% endtrans %}<br>
+              <span class="glyphicon glyphicon-ok"></span>{% trans %}introduction à la vie culturelle (patrimoine et société), etc.{% endtrans %}<br>
             </div>
-          <div class="col-md-9 text-left">
-            <div class="sub_programme3">
-              {% trans %}Une offre de Français Langue Étrangère (FLE) pour tous{% endtrans %}</div>
-            <div class="sub_programme2">
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Nous assurons les cours pour tous les niveaux de maîtrise de langue.{% endtrans %}<br>
-              <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Le statut n'importe guère : réfugié, demandeur d'asile, dubliné ou autre sont tous pris en compte.{% endtrans %}</p>
-              <p><span class="glyphicon glyphicon-option-vertical"></span>{% trans %}Nos cours s'adressent en priorité aux personnes n'ayant pas un niveau équivalent au Baccalauréat. Des structures d'intégration en université se mettent en place pour les diplômés du secondaire, que nous encourageons à se renseigner auprès des associations.{% endtrans %}</p></div>
+          </p>
         </div>
     </div>
+  </div>
 
-    <div class="row">
-          <div class="col-md-3 sub_programme3">
-              <img src="static/img/THOT_composants_Professeurs.png" class="img-responsive" alt="Professeurs">
-          </div>
-          <div class="col-md-9 text-left">
-            <div class="sub_programme3">
-              {% trans %}Des professeurs recrutés sur leur excellence{% endtrans %}</div>
-            <div class="sub_programme2">
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos apprenants vers le diplôme correspondant à leur objectif en France.{% endtrans %}<br>
-              <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Autant que possible, nous recrutons des professeurs parlant la langue des apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus fluide d'une langue vers l'autre.{% endtrans %}</p>
-              <p><span class="glyphicon glyphicon-option-vertical"></span>{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p></div>
-          </div>
+  <div class="row programme-item">
+    <div class="col-md-4 sub_programme3">
+        <img src="static/img/THOT_composants_Diplome.png" class="img-responsive" alt="Diplome">
     </div>
+    <div class="col-md-8 text-left">
+        <div class="sub_programme3">
+          {% trans %}Un diplôme d'aptitude au français reconnu par l'Etat{% endtrans %}</div>
+        <div class="sub_programme2">
+          <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Thot s'engage à mener ses apprenants vers l'obtention du DELF Pro (qui atteste de la capacité à interagir en milieu professionnel en fonction du niveau de langue).{% endtrans %}<br>
+          <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à un diplôme international, reconnu par l'Etat français.{% endtrans %}</p>
+        </div>
+    </div>
+  </div>
 
-    <div class="row">
-          <div class="col-md-3 sub_programme3">
-              <img src="static/img/THOT_composants_Rapide_innovante.png" class="img-responsive" alt="Rapide Innovante">
-          </div>
-          <div class="col-md-9 text-left">
-            <div class="sub_programme3">
-              {% trans %}Une formation rapide et innovante{% endtrans %}</div>
-            <div class="sub_programme2">
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
-                {% trans %}Nous construisons nos programmes autour de la réalité culturelle et plurilingue des apprenants :{% endtrans %}
-                <div class ="alinea">
-                  <span class="glyphicon glyphicon-ok"></span>{% trans %}utilisation des logiques syntaxiques et lexicales des langues connues pour créer une passerelle logique vers le français{% endtrans %}<br>
-                  <span class="glyphicon glyphicon-ok"></span>{% trans %}échanges interculturels.{% endtrans %}</div>
-              </p>
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
-                {% trans %}Nous associons des méthodologies diversifiées dans notre pédagogie :{% endtrans %}
-                <div class ="alinea">
-                  <span class="glyphicon glyphicon-ok"></span>{% trans %}programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux méthodes){% endtrans %}<br>
-                  <span class="glyphicon glyphicon-ok"></span>{% trans %}mises en situation réelles des apprenants (remplissage de formulaires, démarches professionnelles ou administratives, échanges avec des interlocuteurs du quotidien){% endtrans %}<br>
-                  <span class="glyphicon glyphicon-ok"></span>{% trans %}introduction à la vie culturelle (patrimoine et société), etc.{% endtrans %}<br>
-                </div>
-              </p>
+  <hr class="benevoles">
+
+  <div class="row Benevoles">
+        <div class="col-md-4 text-left sub_benevoles0">
+          {% trans %}Bénévoles, nous avons besoin de vous!{% endtrans %}
+        </div>
+
+        <div class="col-md-8 text-left sub_benevoles1"> 
+          <p>{% trans %}La formation Thot est rendue efficace grâce la conjonction d’un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompagnants.{% endtrans %}<br></p>
+          <div class ="alinea"><p>
+            <span class="glyphicon glyphicon-ok"></span>{% trans %}Les bénévoles sont formés à la méthodologie Thot.{% endtrans %}<br>
+            <span class="glyphicon glyphicon-ok"></span>{% trans %}Leurs interventions consolident les cours des professeurs et vont du tutorat à d'autres activités inclusives (sorties culturelles, jeux, conversations...).{% endtrans %}</p>
+          </div> 
+          <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois.{% endtrans %}<br></p>
+
+          <div class="row">
+            <div class="col-md-5">
+                <a href="https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc/viewform" target="_blank" type="button" class="btn btn-thot">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-user fa-stack-2x"></i>
+                  </span>
+                  <span class="btn-thot-text">{% trans %}Je veux devenir bénévole{% endtrans %}</span>
+                </a>
             </div>
-    </div>
-    </div>
-
-    <div class="row">
-          <div class="col-md-3 sub_programme3">
-              <img src="static/img/THOT_composants_Diplome.png" class="img-responsive" alt="Diplome">
           </div>
-          <div class="col-md-9 text-left">
-            <div class="sub_programme3">
-              {% trans %}Un diplôme d'aptitude au français reconnu par l'Etat{% endtrans %}</div>
-            <div class="sub_programme2">
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Thot s'engage à mener ses apprenants vers l'obtention du DELF Pro (qui atteste de la capacité à interagir en milieu professionnel en fonction du niveau de langue).{% endtrans %}<br>
-              <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à un diplôme international, reconnu par l'Etat français.{% endtrans %}</p>
-            </div>
 
+        </div>
+      </div>
+  </div>
+
+</div>
+
+
+<div class="red_bg">
+  <div class="container container_inscriptions" id="inscription">
+    
+    <div class="row inscriptions">
+      <div class="col-md-4 text-left level0"> 
+            {% trans %}INSCRIPTION{% endtrans %}
       </div>
     </div>
-    <!-- ajouter un trait horizontal (voir DA)-->
 
-    <div class="row Benevoles">
-          <div class="col-md-3 text-left sub_benevoles0">
-            {% trans %}Bénévoles, nous avons besoin de vous!{% endtrans %}</div>
-          <div class="col-md-9 text-left sub_benevoles1"> 
-            <p>{% trans %}La formation Thot est rendue efficace grâce la conjonction d’un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompagnants.{% endtrans %}<br></p>
-            <div class ="alinea"><p>
-              <span class="glyphicon glyphicon-ok"></span>{% trans %}Les bénévoles sont formés à la méthodologie Thot.{% endtrans %}<br>
-              <span class="glyphicon glyphicon-ok"></span>{% trans %}Leurs interventions consolident les cours des professeurs et vont du tutorat à d'autres activités inclusives (sorties culturelles, jeux, conversations...).{% endtrans %}</p>
-            </div> 
-            <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois. Pour être bénévole, écrivez-nous à : benevoles@thot-fle.fr.{% endtrans %}<br></p>
-          </div>
-        </div>
-    </div>
-
-    <div class="red_bg">
-    <div class="container container_inscriptions" id="inscription">
     <div class="row inscriptions">
-          <div class="col-md-3 text-left level0"> 
-            {% trans %}INSCRIPTION{% endtrans %}</div>
+      <div class="col-md-4 text-left">
+        <div class="level1">
+        {% trans %}Réfugiés ou demandeurs d'asile :<br>
+        inscrivez-vous{% endtrans %}
         </div>
-    <div class="row inscriptions">
+      </div>
 
-        <div class="col-md-3 text-left"><div class="level1">
-          {% trans %}Réfugiés ou demandeurs d'asile :<br>
-          inscrivez-vous{% endtrans %}</div>
-        </div>
-
-        <div class="col-md-9">
-            <div class="level2">
+      <div class="col-md-8 text-left">
+        <div class="level2">
             {% trans %}En vous inscrivant chez Thot, vous vous engagez à :{% endtrans %}<br>
               <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}payer une inscription symbolique de 7 € au moment de l'adhésion finaleo{% endtrans %}<br>
               <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}suivre chaque cours sans exception{% endtrans %}
-          </div>
-
-        
-          {% if registration_open %}
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-6 text-center item">
-              <div class="inside">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-                </span>
-                {% trans %}Je veux m'inscrire{% endtrans %}
-              </div>
-            </div>
-          </div>
-          {% else %}
-            {% trans %}Les inscriptions ne sont pas encore ouvertes{% endtrans %}
-          {% endif %}
-
         </div>
+
+        {% if registration_open %}
+        <a class="btn btn-success btn-lg"  href="#" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="btn-thot-text">{% trans %}Je veux m'inscrire{% endtrans %}</span>
+        </a>
+        {% else %}
+        <div class="wait"><em>{% trans %}Les inscriptions ne sont pas encore ouvertes{% endtrans %}</em></div>
+        {% endif %}
+
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
+</div>
 
     <div class="container" id="apropos">
     <div class="row about">
