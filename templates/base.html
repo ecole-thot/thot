@@ -7,7 +7,7 @@
     <title>{% trans %}Thot, l'école diplomante de français à destination des migrants{% endtrans %}</title>
 
     <!-- Bootstrap -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/style.css" rel="stylesheet">
@@ -19,7 +19,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+<body>
+
 <div id="mobile_menu">
   <div class="row">
     <div class="col-md-10 text-left"></div>
@@ -28,7 +29,7 @@
               <i class="fa fa-close fa-stack-2x"></i>
           </span>
       </div>
-    <div class="col-md-12 text-left" id="logo_menu"><img src="static/img/logo.png" alt="Thot" class="img-responsive"></div>
+    <div class="col-md-12 text-left" id="logo_menu"><img src="static/img/logo.png" alt="Thot"></div>
 
     <div class="col-md-12 text-left"><a href="#programme">{% trans %}PROGRAMME{% endtrans %}</a></div>
     <div class="col-md-12 text-left"><a href="#inscription">{% trans %}INSCRIPTION{% endtrans %}</a></div>
@@ -39,70 +40,70 @@
   </div>
 </div>
 
-   <div class="container-fluid">
+<div class="container-fluid">
 
 	<div class="hidden-xs hidden-sm">
    		<div class="row header">
-   			<div class="col-md-4 logo">
-   				<img src="static/img/logo.png" class="img-responsive" alt="Thot">
+   			
+        <div class="col-md-4 logo">
+   				<img src="static/img/logo.png" width="260px" alt="Thot">
    			</div>
+
    			<div class="col-md-8 text-right">
           <div class="row header_buttons">
-		  		<div class="col-md-4 text-left item">
-				   <div class="donation_btn">
-                                        <a href="{{ donation_link }}" target="_blank">
-					<span class="fa-stack fa-lg">
-  						<i class="fa fa-heart fa-stack-2x"></i>
-  						<i class="fa fa-eur fa-stack-1x fa-inverse"></i>
-					</span>
+  		  		<div class="col-md-4 text-left item">
+    				  <a class="btn btn-thot"  href="{{ donation_link }}" target="_blank">
+      					<span class="fa-stack fa-lg">
+        						<i class="fa fa-heart fa-stack-2x"></i>
+        						<i class="fa fa-eur fa-stack-1x fa-inverse"></i>
+      					</span>
+                {% trans %}Je veux faire un don{% endtrans %}
+    				  </a>
+				    </div>
 
-            				{% trans %}Je veux faire un don{% endtrans %}</a>
-				   </div>
-				</div>
-                                {% if registration_open %}
-          			<div class="col-md-4 text-left item">
-				   <div class="inside">
-					<span class="fa-stack fa-lg">
-  						<i class="fa fa-circle fa-stack-2x"></i>
-  						<i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-					</span>
-            				{% trans %}Je veux m'inscrire{% endtrans %}
-				   </div>
-				</div>
-                                {% endif %}
+            {% if registration_open %}
+            <div class="col-md-4 text-left item">
+    				  <div class="inside">
+      					<span class="fa-stack fa-lg">
+        						<i class="fa fa-circle fa-stack-2x"></i>
+        						<i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+      					</span>
+                {% trans %}Je veux m'inscrire{% endtrans %}
+    				  </div>
+    				</div>
+            {% endif %}
 
-		  		<div class="col-md-4 text-left item lang">
-
-				    <select id="lang">
-				      <option value="/"{% if locale == "fr"%} selected{% endif %}>Français</option>
-				      <option value="/ar.html"{% if locale == "ar"%} selected{% endif %}>العربية</option> <!--arabe-->
-				      <option value="/ps.html"{% if locale == "ps"%} selected{% endif %}>پښتو</option> <!--pashto-->
-				      <option value="/fa.html"{% if locale == "fa"%} selected{% endif %}>Farsi</option> <!--farsi-->
-				    </select>
-				</div>
-        			</div>  
-			</div>
-      		</div>
-
-
-    <div class="row menu">
-          <div class="col-md-2 text-center item"><a href="#programme">{% trans %}PROGRAMME{% endtrans %}</a></div>
-          <div class="col-md-2 text-center item"><a href="#inscription">{% trans %}INSCRIPTION{% endtrans %}</a></div>
-          <div class="col-md-2 text-center item"><a href="#apropos">{% trans %}A PROPOS{% endtrans %}</a></div>
-          <div class="col-md-2 text-center item"><a href="#contact">{% trans %}CONTACT{% endtrans %}</a></div>
-          <div class="col-md-2 text-center item"><a href="#partenaires">{% trans %}PARTENAIRES{% endtrans %}</a></div>
-
-          <!--<div class="col-md-5 text-center item_don"><div class="don">
-          <span class="glyphicon glyphicon-play"></span>
-            Je veux faire un don</div></div>
-          <div class="col-md-4 text-center item_don"><div class="inscription">
-          <span class="glyphicon glyphicon-play"></span>
-            Je veux m'inscrire</div></div>
-        </div>-->
+    		  	<div class="col-md-4 text-left item lang">
+    				    <select id="lang">
+    				      <option value="/"{% if locale == "fr"%} selected{% endif %}>Français</option>
+    				      <option value="/ar.html"{% if locale == "ar"%} selected{% endif %}>العربية</option> <!--arabe-->
+    				      <option value="/ps.html"{% if locale == "ps"%} selected{% endif %}>پښتو</option> <!--pashto-->
+    				      <option value="/fa.html"{% if locale == "fa"%} selected{% endif %}>Farsi</option> <!--farsi-->
+    				    </select>
+    				</div>
+          </div>  
+			  </div>
       </div>
 
+
+      <div class="row menu">
+        <div class="col-md-1 text-center item"><a href="#programme">{% trans %}PROGRAMME{% endtrans %}</a></div>
+        <div class="col-md-1 text-center item"><a href="#inscription">{% trans %}INSCRIPTION{% endtrans %}</a></div>
+        <div class="col-md-1 text-center item"><a href="#apropos">{% trans %}A PROPOS{% endtrans %}</a></div>
+        <div class="col-md-1 text-center item"><a href="#contact">{% trans %}CONTACT{% endtrans %}</a></div>
+        <div class="col-md-1 text-center item"><a href="#partenaires">{% trans %}PARTENAIRES{% endtrans %}</a></div>
+
+        <!--<div class="col-md-5 text-center item_don"><div class="don">
+        <span class="glyphicon glyphicon-play"></span>
+          Je veux faire un don</div></div>
+        <div class="col-md-4 text-center item_don"><div class="inscription">
+        <span class="glyphicon glyphicon-play"></span>
+          Je veux m'inscrire</div></div>
+      </div>-->
       </div>
+
     </div>
+  </div>
 
 
 	<!-- Mobile header -->

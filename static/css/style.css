@@ -1,5 +1,5 @@
 body {
-    font-family: Calibri, "Open Sans", Arial;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 a {
@@ -12,7 +12,7 @@ a {
 
 #mobile_menu {
     display: none;
-    font-family: Calibri, "Open Sans", Arial;
+    font-family: "Open Sans", Arial, sans-serif;
     position: absolute;
     max-width: 300px;
     height: 100%;
@@ -37,7 +37,7 @@ a {
 }
 
 .header {
-	padding: 1em;
+	padding: 2em 1em;
 
 }
 
@@ -81,7 +81,7 @@ a {
 
 .menu {
 	padding: 1em;
-	font-weight: bold;
+	font-weight: 800;
 	font-size: 1.3em;
 }
 
@@ -469,24 +469,70 @@ a {
     color: white;
 }
 
-.donation_btn  {
-   background-color: #008498;
-   margin: 0.5em;
-   padding: 0.5em;
-   width: auto;
-}
-.donation_btn a {
-    color: white;
-    text-decoration: none;
-}
 
-.donation_btn .fa-stack {
-   font-size: 1em;
-}
 
-.donation_btn .fa-inverse {
+.btn-thot {
+  color: #fff;
+  background-color: #008498;
+  border-color: #007488;
+}
+.btn-thot:focus,
+.btn-thot.focus {
+  color: #fff;
+  background-color: #007488;
+  border-color: #005468;
+}
+.btn-thot:hover {
+  color: #fff;
+  background-color: #007488;
+  border-color: #006478;
+}
+.btn-thot:active,
+.btn-thot.active,
+.open > .dropdown-toggle.btn-thot {
+  color: #fff;
+  background-color: #007488;
+  border-color: #006478;
+}
+.btn-thot:active:hover,
+.btn-thot.active:hover,
+.open > .dropdown-toggle.btn-thot:hover,
+.btn-thot:active:focus,
+.btn-thot.active:focus,
+.open > .dropdown-toggle.btn-thot:focus,
+.btn-thot:active.focus,
+.btn-thot.active.focus,
+.open > .dropdown-toggle.btn-thot.focus {
+  color: #fff;
+  background-color: #006478;
+  border-color: #005468;
+}
+.btn-thot:active,
+.btn-thot.active,
+.open > .dropdown-toggle.btn-thot {
+  background-image: none;
+}
+.btn-thot.disabled:hover,
+.btn-thot[disabled]:hover,
+fieldset[disabled] .btn-thot:hover,
+.btn-thot.disabled:focus,
+.btn-thot[disabled]:focus,
+fieldset[disabled] .btn-thot:focus,
+.btn-thot.disabled.focus,
+.btn-thot[disabled].focus,
+fieldset[disabled] .btn-thot.focus {
+  background-color: #008498;
+  border-color: #007488;
+}
+.btn-thot .badge {
+  color: #008498;
+  background-color: #fff;
+}
+.btn-thot .fa-inverse {
    color: #008498;
 }
+
+
 
 .footer .donation_btn {
     margin-left: 0;
