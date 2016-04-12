@@ -9,9 +9,51 @@ a {
 .menu a {
     text-decoration: none;
 }
-
 .btn {
   border-radius: 0;
+}
+
+
+.header {
+	padding: 2em 0.5em;
+}
+
+.header_buttons .btn {
+  margin-right: 10px;
+}
+
+.header .item {
+   font-weight: bold;
+   font-size: 1.2em;
+   color: white;
+   padding: 0 5px 0 5px;
+}
+
+.header .item .glyphicon {
+    font-size: 0.9em;
+    padding-right: 0.5em;
+}
+
+.header .fake-select-wrap button {
+  width: 11.5em;
+  padding: 10px;
+  border-radius: 0;
+}
+
+/* MENU */
+
+.menu {
+	padding: 1em;
+	font-weight: 800;
+	font-size: 1.3em;
+}
+
+.menu .item {
+  padding: 1.2em;
+  font-size: 1.2em;
+}
+.menu .item:first-child {
+  padding-left: 0.5em;
 }
 
 #mobile_menu {
@@ -36,62 +78,8 @@ a {
     font-weight: bold;
 }
 
-.header {
-	padding: 2em 0.5em;
-}
 
-.header_buttons .btn {
-  margin-right: 10px;
-}
-
-.header .item {
-   font-weight: bold;
-   font-size: 1.2em;
-   color: white;
-   padding: 0 5px 0 5px;
-}
-
-
-.header .item .inside  {
-   background-color: #008498;
-   margin-top: 0.5em;
-   padding: 0.5em;
-   width: auto;
-}
-
-.header .item .inside .fa-stack {
-   font-size: 1em;
-}
-
-.header .item .inside .fa-inverse {
-   color: #008498;
-}
-
-.header .item .glyphicon {
-    font-size: 0.9em;
-    padding-right: 0.5em;
-}
-
-.header .fake-select-wrap button {
-  width: 11.5em;
-  padding: 10px;
-  border-radius: 0;
-}
-
-
-.menu {
-	padding: 1em;
-	font-weight: 800;
-	font-size: 1.3em;
-}
-
-.menu .item {
-  padding: 2em;
-}
-.menu .item:first-child {
-  padding-left: 0.5em;
-}
-
+/* Mobile header */
 
 
 #header_mobile {
