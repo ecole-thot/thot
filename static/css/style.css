@@ -13,13 +13,23 @@ a {
   border-radius: 0;
 }
 
+.explication {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  font-size: 2em;
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.7);
+}
 
 .header {
 	padding: 2em 0.5em;
 }
 
 .header_buttons .btn {
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .header .item {
@@ -65,22 +75,27 @@ a {
     background-color:white;
     position: fixed;
     z-index: 9999;
+    padding: 0 20px;
+    box-shadow: 0 0 10px #555;
 }
 
-
-#mobile_menu .row  div {
-   padding: 10px 20px;
+#mobile_menu  div {
+   padding: 5px 0px;
+}
+#mobile_menu  div:first-child {
+   margin-bottom: 30px;
 }
 
-#mobile_menu .row div img {
+#mobile_menu div img {
    width: 100%;
-   padding-right: 60px;
+   padding-right: 50px;
 }
 
-#mobile_menu .row a {
-    color: black;
+#mobile_menu div a {
+    color: #555;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 1.5em;
 }
 
 #mobile_menu .close_menu {
@@ -88,35 +103,56 @@ a {
   top: 10px;
   display: block;
   right: 20px;
+  cursor: pointer;
 }
-
+#mobile_menu hr.mobile  {
+  border-color: #555;
+  width: 100%;
+}
+#mobile_menu .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
 
 /* Mobile header */
 
 
 #header_mobile {
     font-size: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 120;
+    padding: 10px;
+    box-shadow: 0 0 10px #555;
 }
 
 #header_mobile .burger {
-   padding: 0.5em 0.5em 0em 1em;
    font-size: 1em;
+   display: inline-block;
+   margin-top: 3px;
+   cursor: pointer;
 }
 
 #header_mobile img {
-   max-height: 60px;
-   padding: 10px 5px;
+  vertical-align: top;
 }
 
-#header_mobile .item {
-	padding: 0;
+#header_mobile .cta {
+  float: right;
+   padding: 0.2em 0.3em 0.2em 0.3em;
+   font-size: 0.5em;
+}
+#header_mobile .cta.left {
+  margin-right: 8px;
 }
 
-#header_mobile .blue {
-   padding: 0.3em 0.3em 0em 0.3em;
-   font-size: 0.7em;
+#header_mobile .lang_mobile .fake-select-wrap, 
+#header_mobile .lang_mobile .fake-select-wrap .dropdown-menu,
+#header_mobile .lang_mobile button {
+  width: 100%;
 }
-
 
 
 /*
@@ -143,21 +179,6 @@ MAIN STUFF
 .sub_menu .item {
 	padding: 1em;
 	font-weight: bold;
-}
-
-.sub_menu .item .inside  {
-   background-color: #008498;
-   margin-top: 0.5em;
-   padding: 0.5em;
-   width: auto;
-}
-
-.sub_menu .item .inside .fa-stack {
-   font-size: 1em;
-}
-
-.sub_menu .item .inside .fa-inverse {
-   color: #008498;
 }
 
 .sub_menu .item .glyphicon {
@@ -224,12 +245,12 @@ MAIN STUFF
 .sub_programme0 {
   font-weight: bold;
 	color: #424242;
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 .sub_programme1 {
 	color: #ec695c;
-	font-size: 3em;
+	font-size: 2.5em;
   margin-bottom: 20px;
 }
 
@@ -281,9 +302,11 @@ MAIN STUFF
   padding-left: 10px;
 }
 
-hr.benevoles {
-  margin-top: 70px;
-  border-color: black;
+hr.benevoles,
+hr.partenaires,
+hr.contact {
+  margin-top: 40px;
+  border-color: #555;
 }
 
 .Benevoles {
@@ -304,7 +327,6 @@ hr.benevoles {
 	padding: 0.5em 1em 0em 1em;
 	color: black;
 	font-weight: normal;
-	font-family: "Open Sans";
 	font-size: 1em;
 	line-height:1.5em;
 }
@@ -377,11 +399,8 @@ hr.benevoles {
   margin-top: 30px;
 }
 
-
-.about {
-	padding: 1em 0em 1em 0em;
-	background-color: white;
-
+.row.about:first-child{
+  padding-top: 3em;
 }
 
 .about .item {
@@ -390,20 +409,10 @@ hr.benevoles {
 	color: white;
 	font-size: 1.5em;
 }
-
-.about .item .inside  {
-   background-color: #008498;
-   margin: 0.5em;
-   padding: 0.5em;
-   width: auto;
-}
-
-.about .item .inside .fa-stack {
-   font-size: 1em;
-}
-
-.about .item .inside .fa-inverse {
-   color: #008498;
+.about .title {
+    border-bottom: 1px solid #eee;
+    color: #ec695c;
+    margin-bottom: 15px;
 }
 
 .about .item .glyphicon {
@@ -411,37 +420,33 @@ hr.benevoles {
     padding-right: 0.5em;
 }
 
+.about .btn {
+  margin-bottom: 10px;
+}
+
 .sub_about0 {
 	padding: 0em 1em 0em 1em;
-	color: gray;
-	font-size: 1.75em;
-
+	font-size: 1.5em;
+  font-weight: bold;
 }
 
 .sub_about1 {
-	padding: 0em 1em 0em 1em;
 	color: #ec695c;
 	font-weight: normal;
-	font-family: "Open Sans";
-	font-size: 2em;
+	font-size: 2.5em;
 
 }
-
 
 .sub_about2 {
 	color: black;
 	font-weight: normal;
-	font-family: "Open Sans";
 	font-size: 1em;
 	line-height:1.5em;
 }
 
-
 .sub_about2 .glyphicon {
 	font-size: 0.75em;
-	padding-right: 0.5em;
 	color: #008498;
-
 }
 
 .sub_about2 .liens {
@@ -450,28 +455,24 @@ hr.benevoles {
 	font-weight: bold;
 }
 
-
 .sub_about3 {
 	padding: 1em 0em 1em 0em;
 	color: #ec695c;
 	font-weight: bold;
-	font-size: 1em;
-	line-height:1.5em;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 
+.about .partners {
+  margin-bottom: 20px;
+}
 .padding_bottom {
     padding-bottom: 10px;
 }
 
-.email {
-    padding-left: 15px;
+#contact, #partenaires {
+  margin-top: 30px;
 }
-
-.footer {
-    background-color: #333;
-    color: white;
-}
-
 
 
 .btn-thot {
@@ -543,18 +544,52 @@ fieldset[disabled] .btn-thot.focus {
 .btn-success .fa-inverse {
    color: #5cb85c;
 }
+.btn-info .fa-inverse {
+  color: #5bc0de;
+}
 
 
-.footer .donation_btn {
-    margin-left: 0;
-    font-size: 1.5em;
-    font-weight: bold;
+/* FOOTER */
+
+.email {
+    padding-left: 15px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    margin-top: 70px;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer .logo {
+    padding: 2em 0em 2em 0em;
 }
 
 .footer .logo img {
     max-width: 150px;
 }
 
-.footer .logo {
-    padding: 2em 0em 2em 0em;
+.footer .btn {
+  margin-bottom: 20px;
+}
+
+
+/* Media queries */
+
+
+@media (max-width: 992px) {
+  .big-header {
+    margin-top: 100px;
+  }
+  .explication {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    background-color:rgba(255, 255, 255, 0.85);
+  }
 }
