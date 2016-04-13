@@ -37,6 +37,12 @@ def homepage_fr():
     return render_home()
 
 
+@app.route('/en.html')
+def homepage_en():
+    request.locale = 'en'
+    return render_home()
+
+
 @app.route('/ar.html')
 def homepage_ar():
     request.locale = 'ar'

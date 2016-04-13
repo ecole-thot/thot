@@ -10,14 +10,14 @@
    	     <div class="col-md-3 text-left"><div class="level0">
    				{% trans %}Amis, donateurs,<br>
           nous avons<br>
-          besoin de vous!{% endtrans %}</div>
+          besoin de vous !{% endtrans %}</div>
         </div>
 
 	<div class="col-md-9 text-left">
             <div class="level1">
             <p>{% trans %}L'association est entièrement prise en charge par des
             bénévoles, seuls les professeurs sont rémunérés.<br>
-            La richesse de l'association, c'est vous!{% endtrans %}</p>
+            La richesse de l'association, c'est vous !{% endtrans %}</p>
             </div>
               
             <div class="row">
@@ -36,18 +36,16 @@
               {% endif %}
 
           </div>
-        
-                <div class="col-md-6 text-center item">
-                  <div class="donation_btn">
-                    <a href="{{ donation_link }}" target="_blank">
+
+        <div class="padding_top"></div>
+
+                    <a href="{{ donation_link }}" target="_blank" type="button" class="btn donation_btn">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-heart fa-stack-2x"></i>
                       <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
                     </span>
                     {% trans %}Je veux faire un don{% endtrans %}
                     </a>
-                  </div>
-                </div>
          
 </div></div>
 </div>
@@ -56,8 +54,8 @@
 
 
     <div class="container" id="programme">
-    <div class="row programme">
-          <div class="col-md-3 text-left sub_programme0"> 
+    <div class="row padding_top_20">
+          <div class="col-md-3 text-left chapo black"> 
             {% trans %}PROGRAMME{% endtrans %}</div>
     </div>
     <div class="row">
@@ -94,7 +92,7 @@
             <div class="sub_programme2">
               <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos apprenants vers le diplôme correspondant à leur objectif en France.{% endtrans %}<br>
               <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Autant que possible, nous recrutons des professeurs parlant la langue des apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus fluide d'une langue vers l'autre.{% endtrans %}</p>
-              <p><span class="glyphicon glyphicon-option-vertical"></span>{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p></div>
+              <p><span class="glyphicon glyphicon-option-vertical"></span>{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant rejoindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p></div>
           </div>
     </div>
 
@@ -106,13 +104,13 @@
             <div class="sub_programme3">
               {% trans %}Une formation rapide et innovante{% endtrans %}</div>
             <div class="sub_programme2">
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
+              <p class="nomargin"><span class="glyphicon glyphicon-circle-arrow-right"></span>
                 {% trans %}Nous construisons nos programmes autour de la réalité culturelle et plurilingue des apprenants :{% endtrans %}
                 <div class ="alinea">
                   <span class="glyphicon glyphicon-ok"></span>{% trans %}utilisation des logiques syntaxiques et lexicales des langues connues pour créer une passerelle logique vers le français{% endtrans %}<br>
                   <span class="glyphicon glyphicon-ok"></span>{% trans %}échanges interculturels.{% endtrans %}</div>
               </p>
-              <p><span class="glyphicon glyphicon-circle-arrow-right"></span>
+              <p class="nomargin"><span class="glyphicon glyphicon-circle-arrow-right"></span>
                 {% trans %}Nous associons des méthodologies diversifiées dans notre pédagogie :{% endtrans %}
                 <div class ="alinea">
                   <span class="glyphicon glyphicon-ok"></span>{% trans %}programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux méthodes){% endtrans %}<br>
@@ -143,14 +141,29 @@
 
     <div class="row Benevoles">
           <div class="col-md-3 text-left sub_benevoles0">
-            {% trans %}Bénévoles, nous avons besoin de vous!{% endtrans %}</div>
+            {% trans %}Bénévoles, nous avons besoin de vous{% endtrans %}</div>
           <div class="col-md-9 text-left sub_benevoles1"> 
             <p>{% trans %}La formation Thot est rendue efficace grâce la conjonction d’un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompagnants.{% endtrans %}<br></p>
             <div class ="alinea"><p>
               <span class="glyphicon glyphicon-ok"></span>{% trans %}Les bénévoles sont formés à la méthodologie Thot.{% endtrans %}<br>
               <span class="glyphicon glyphicon-ok"></span>{% trans %}Leurs interventions consolident les cours des professeurs et vont du tutorat à d'autres activités inclusives (sorties culturelles, jeux, conversations...).{% endtrans %}</p>
             </div> 
-            <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois. Pour être bénévole, écrivez-nous à : benevoles@thot-fle.fr.{% endtrans %}<br></p>
+            <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois.{% endtrans %}<br></p>
+
+            <div class="row">
+          <div class="col-md-5">
+                        <a href="https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc/viewform" target="_blank" type="button" class="btn donation_btn">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-user fa-stack-2x"></i>
+                        </span>
+                        {% trans %}Je veux devenir bénévole{% endtrans %}
+                        </a>
+                      </div>
+            </div>
+            </div>
+
+
+
           </div>
         </div>
     </div>
@@ -171,7 +184,7 @@
         <div class="col-md-9">
             <div class="level2">
             {% trans %}En vous inscrivant chez Thot, vous vous engagez à :{% endtrans %}<br>
-              <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}payer une inscription symbolique de 7 € au moment de l'adhésion finaleo{% endtrans %}<br>
+              <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}payer une inscription symbolique de 7 € au moment de l'adhésion finale{% endtrans %}<br>
               <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}suivre chaque cours sans exception{% endtrans %}
           </div>
 
@@ -243,16 +256,14 @@
 
             <div class="row">
 
-              <div class="col-md-6 text-center item">
-                  <div class="donation_btn">
-                    <a href="{{ donation_link }}" target="_blank">
+              <div class="col-md-4 text-left">
+                    <a href="{{ donation_link }}" target="_blank" type="button" class="btn donation_btn">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-heart fa-stack-2x"></i>
                       <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
                     </span>
                     {% trans %}Je veux faire un don{% endtrans %}
                     </a>
-                  </div>
               </div>
 
               <!--
@@ -272,6 +283,7 @@
           </div>
         </div>
 
+    <hr>
     <div class="row" id="contact">
           <div class="col-md-3 text-left chapo black"> 
             {% trans %}CONTACT{% endtrans %}</div>
@@ -306,12 +318,13 @@
     <div class="sub_about3">{% trans %}Réhabiliter la missive traditionnelle{% endtrans %}</div>
 
    <div>Association Thot
-    <br>83 rue du faubourg Poissonnière
-     <br>75009 Paris, France</div>
+    <br>c/o Maison des Associations du 2e
+    <br>23 rue Greneta
+     <br>75002 Paris, France</div>
 
       <div class="sub_about3">{% trans %}Nous suivre et parler de nous sur les réseaux{% endtrans %}</div>
 
-    <div class="row">
+    <div class="row follow_us">
         <div class="col-xs-1">
                 <a href="https://www.facebook.com/thot.fle/" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -326,22 +339,44 @@
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                 </span></a>
         </div>
+        <div class="col-xs-2">
+            <a href="https://fr.ulule.com/ecole-thot/" target="_blank">
+            <img src="/static/img/ulule.png" class="img-responsive">
+            </a>
+        </div>
     </div>
 
           </div> 
 
         </div>
-
+    <hr>
     <div class="row" id="partenaires">
           <div class="col-md-3 text-left chapo black"> 
-            {% trans %}PARTENAIRES{% endtrans %}</div>
+            {% trans %}SOUTIENS{% endtrans %}</div>
     </div>
 
         <div class="row about">
           <div class="col-md-3 text-left sub_about1">
             {% trans %}Ils croient en nous, merci à eux !{% endtrans %}</div>
           <div class="col-md-9 text-left">
-            <img src="/static/img/partenaires.png" class="img-responsive">
+            <div class="title">{% trans %}Partenaires{% endtrans %}</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="http://apprendre.tv5monde.com/" target="_blank">
+                    <img src="/static/img/tv5monde.png" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://savoirs.rfi.fr/" target="_blank">
+                    <img src="/static/img/rfi.png" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="title padding_top">{% trans %}Remerciements{% endtrans %}</div>
+            <div>
+                Laurent Rivelaygue &middot; Laure Dubuc &middot; Thomas Grange &middot; Javed &middot; Ershad &middot; Tina Bouffet &middot; Axel Dreyfus &middot;
+                Louis Nordon &middot;  Thibaut Sardier
+            </div>
         </div>
         </div>
 </div>
