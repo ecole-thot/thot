@@ -257,7 +257,7 @@ MAIN STUFF
 
 #programme .col-md-4 img {
     max-width: 180px;
-    float: right !important;
+    float: right;
     margin-right: 30px;
     margin-top: 10px;
 }
@@ -601,6 +601,21 @@ fieldset[disabled] .btn-thot.focus {
   }
   .btn-lg {
     font-size: 0.85em;
+  }
+  #partnersCarousel {
+    display: block !important;
+  }
+  #partnersNormal {
+    display: none;
+  }
+  .col-md-4.sub_programme3 {
+    text-align: center;
+    margin-bottom: 10px;  
+  }
+  #programme .col-md-4 img {
+    float: none !important;
+    margin: auto;
+    max-width: 120px;
   }
 }
 

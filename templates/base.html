@@ -209,7 +209,15 @@
 	});
 
   $('.burger').bind('click', function(e) { $("#mobile_menu").show(); });
-  $('.close_menu, .mobile-item').bind('click', function(e) { $("#mobile_menu").hide(); });
+  $('.close_menu').bind('click', function(e) { $("#mobile_menu").hide(); });
+  $('.mobile-item').bind('click', function(e) {
+      var target = $(this).find("a").attr('href')
+      // Override scroll due to sticky header
+      $('html, body').animate({
+          scrollTop: $(target).offset().top - 130
+      }, 500);
+      $("#mobile_menu").hide();
+  });
 
   $('#lang').bind('change', function(e) { window.location.href = $("#lang option:selected").val(); });
   $('#lang_bis').bind('change', function(e) { window.location.href = $("#lang_bis option:selected").val(); });
