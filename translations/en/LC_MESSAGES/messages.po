@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 15:00+0200\n"
+"POT-Creation-Date: 2016-04-13 15:52+0200\n"
 "PO-Revision-Date: 2016-04-12 00:48+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -82,14 +82,14 @@ msgid "l'école diplômante de français pour les réfugiés et demandeurs d’a
 msgstr ""
 
 #: templates/home.html:16
-msgid "Amis, donateurs, nous avons besoin de vous!"
+msgid "Amis, donateurs, nous avons besoin de vous&nbsp;!"
 msgstr ""
 
 #: templates/home.html:22
 msgid ""
 "L'association est entièrement prise en charge par des\n"
 "          bénévoles, seuls les professeurs sont rémunérés.<br>\n"
-"          La richesse de l'association, c'est vous!"
+"          La richesse de l'association, c'est vous&nbsp;!"
 msgstr ""
 
 #: templates/home.html:29
@@ -268,7 +268,7 @@ msgstr ""
 " by the French government."
 
 #: templates/home.html:159
-msgid "Bénévoles, nous avons besoin de vous!"
+msgid "Bénévoles, venez chez Thot&nbsp;!"
 msgstr ""
 
 #: templates/home.html:163
@@ -481,15 +481,21 @@ msgstr ""
 #~ msgid "Crédits et mentions légales"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "<span class=\"level3\"> 1 200 €</span> <br>\n"
-#~ "            <span class=\"level2\"> par apprenant pour\n"
-#~ "            4 mois de formation</span>"
-#~ msgstr ""
-
 #~ msgid "Qui sommes nous ?"
 #~ msgstr "Who Are We?"
 
 #~ msgid "Ils croient en nous, merci à eux !"
 #~ msgstr "They trust us, Thanks a lot to them"
+
+#~ msgid "Amis, donateurs, nous avons besoin de vous!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'association est entièrement prise en charge par des\n"
+#~ "          bénévoles, seuls les professeurs sont rémunérés.<br>\n"
+#~ "          La richesse de l'association, c'est vous!"
+#~ msgstr ""
+
+#~ msgid "Bénévoles, nous avons besoin de vous!"
+#~ msgstr ""
 
