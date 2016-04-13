@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 15:52+0200\n"
+"POT-Creation-Date: 2016-04-13 18:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: templates/base.html:9
 msgid ""
-"Bienvenue chez Thot, la première école diplômante de français pour "
-"les réfugiés et demandeurs d’asile"
+"Bienvenue chez Thot, école diplômante de français pour les réfugiés "
+"et demandeurs d’asile"
 msgstr ""
 
 #: templates/base.html:10
@@ -62,7 +62,7 @@ msgstr ""
 
 #: templates/base.html:190
 msgid ""
-"Pour transmettre un horizon à tous, nous avons créé la première école "
+"Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
 msgstr ""
 
