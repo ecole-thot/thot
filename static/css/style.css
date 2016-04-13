@@ -75,7 +75,7 @@ a {
     background-color:white;
     position: fixed;
     z-index: 9999;
-    padding: 0 20px;
+    padding: 10px 20px 0 20px;
     box-shadow: 0 0 10px #555;
 }
 
@@ -137,6 +137,7 @@ a {
 
 #header_mobile img {
   vertical-align: top;
+  padding-top: 5px;
 }
 
 #header_mobile .cta {
@@ -144,8 +145,8 @@ a {
    padding: 0.2em 0.3em 0.2em 0.3em;
    font-size: 0.5em;
 }
-#header_mobile .cta.left {
-  margin-right: 8px;
+#header_mobile .cta.right {
+  margin-left: 8px;
 }
 
 #header_mobile .lang_mobile .fake-select-wrap, 
@@ -548,6 +549,12 @@ fieldset[disabled] .btn-thot.focus {
   color: #5bc0de;
 }
 
+.social {
+  color: #008498;
+}
+.social:hover {
+  color: #007488;
+}
 
 /* FOOTER */
 
@@ -583,7 +590,7 @@ fieldset[disabled] .btn-thot.focus {
 
 @media (max-width: 992px) {
   .big-header {
-    margin-top: 100px;
+    margin-top: 105px;
   }
   .explication {
     font-size: 1.2em;
@@ -591,5 +598,21 @@ fieldset[disabled] .btn-thot.focus {
     margin: 0;
     left: 0;
     background-color:rgba(255, 255, 255, 0.85);
+  }
+  .btn-lg {
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn-thot:not(.cta) {
+    font-size: 1em;
+    width: 100%;
+  }
+  .btn-thot.btn-lg {
+    font-size: 0.75em !important;
+  }
+  .explication {
+    position: relative;
   }
 }

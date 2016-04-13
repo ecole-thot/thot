@@ -9,7 +9,7 @@ babel = Babel(app)
 
 
 DONATION_LINK = "https://fr.ulule.com/ecole-thot/"
-REGISTRATION_OPEN = False
+REGISTRATION_OPEN = True
 REGISTRATION_LINK = "##"
 BUDGET_AVAILABLE = False
 NB_STUDENTS = 0

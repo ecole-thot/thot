@@ -3,8 +3,8 @@
 {% block content %}
   
 <div style="position:relative">
-  <h1 class="explication"><strong>{% trans %}Bienvenue chez Thot{% endtrans %}</strong>,<br>{% trans %}l'école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}</h1>
   <img src="static/img/header.jpg" width="100%" class="img-responsive big-header">
+  <h1 class="explication"><strong>{% trans %}Bienvenue chez Thot{% endtrans %}</strong>,<br>{% trans %}l'école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}</h1>
 </div>
 
 <div class="red_bg">
@@ -26,7 +26,7 @@
       
         <div class="row">
           <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
-            {% trans %}<span class="level3"> 1 200 €</span> <br>
+            {% trans %}<span class="level3"> 1&nbsp;200&nbsp;€</span> <br>
             <span class="level2"> par apprenant pour
             4 mois de formation</span>{% endtrans %}
           </div>
@@ -249,7 +249,7 @@
       </div>
 
        <div class="sub_about3">
-        {% trans %}Qui sommes nous ?{% endtrans %}
+        {% trans %}Qui sommes-nous ?{% endtrans %}
       </div>
             
       <div class="sub_about2">
@@ -269,6 +269,7 @@
         </p>
       </div>
 
+      {% if budget_available %}
       <div class="sub_about3">
         {% trans %}Comment gérons-nous notre budget ?{% endtrans %}
       </div>
@@ -276,6 +277,7 @@
       <div class="sub_about2">
         <p>{% trans %}Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour.{% endtrans %}</p>
       </div>
+      {% endif %}
 
       <div class="row">
 
@@ -345,30 +347,31 @@
 
       <div>
         Association Thot
-        <br>83 rue du faubourg Poissonnière
-        <br>75009 Paris, France
+        <br>c/o Maison des Associations du 2e
+        <br>23 rue Greneta
+        <br>75002 Paris, France
       </div>
 
       <div class="sub_about3">{% trans %}Nous suivre et parler de nous sur les réseaux{% endtrans %}</div>
 
       <div class="row">
-        <div class="col-xs-1">
-                <a href="https://www.facebook.com/thot.fle/" target="_blank">
+        <div class="col-xs-2 col-md-1">
+                <a href="https://www.facebook.com/thot.fle/" class="social" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                 </span></a>
         </div>
-        <div class="col-xs-1">
-                <a href="https://twitter.com/Thot_fle" target="_blank">
+        <div class="col-xs-2 col-md-1">
+                <a href="https://twitter.com/Thot_fle" class="social" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                 </span></a>
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-4 col-md-2">
             <a href="https://fr.ulule.com/ecole-thot/" target="_blank">
-            <img src="static/img/ulule.png" height="32px">
+              <img src="static/img/ulule.png" height="32px">
             </a>
         </div>
       </div>
@@ -387,7 +390,7 @@
 
   <div class="row about">
     <div class="col-md-4 text-left sub_about1">
-      {% trans %}Ils croient en nous, merci à eux !{% endtrans %}
+      {% trans %}Ils croient en nous, merci à eux&nbsp;!{% endtrans %}
     </div>
     
     <div class="col-md-8 text-left">
