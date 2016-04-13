@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 00:32+0200\n"
+"POT-Creation-Date: 2016-04-13 15:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,21 @@ msgstr ""
 msgid "Thot, l'école diplomante de français à destination des migrants"
 msgstr ""
 
+#: templates/base.html:9
+msgid ""
+"Bienvenue chez Thot, la première école diplômante de français pour "
+"les réfugiés et demandeurs d’asile"
+msgstr ""
+
+#: templates/base.html:10
+msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
+msgstr ""
+
 #: templates/base.html:36 templates/base.html:108 templates/home.html:66
 msgid "PROGRAMME"
 msgstr ""
 
-#: templates/base.html:37 templates/base.html:109 templates/home.html:193
+#: templates/base.html:37 templates/base.html:109 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr ""
 
@@ -33,7 +43,7 @@ msgstr ""
 msgid "À PROPOS"
 msgstr ""
 
-#: templates/base.html:39 templates/base.html:111 templates/home.html:312
+#: templates/base.html:39 templates/base.html:111 templates/home.html:311
 msgid "CONTACT"
 msgstr ""
 
@@ -42,11 +52,11 @@ msgid "PARTENAIRES"
 msgstr ""
 
 #: templates/base.html:49 templates/base.html:82 templates/base.html:184
-#: templates/home.html:50 templates/home.html:288
+#: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr ""
 
-#: templates/base.html:58 templates/base.html:91 templates/home.html:218
+#: templates/base.html:58 templates/base.html:91 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr ""
 
@@ -57,14 +67,16 @@ msgid ""
 msgstr ""
 
 #: templates/base.html:195
-msgid "Crédits et mentions légales"
+msgid ""
+"2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
+"Dubuc"
 msgstr ""
 
-#: templates/home.html:6
+#: templates/home.html:7
 msgid "Bienvenue chez Thot"
 msgstr ""
 
-#: templates/home.html:6
+#: templates/home.html:7
 msgid "l'école diplômante de français pour les réfugiés et demandeurs d’asile"
 msgstr ""
 
@@ -81,7 +93,7 @@ msgstr ""
 
 #: templates/home.html:29
 msgid ""
-"<span class=\"level3\"> 1 200 €</span> <br>\n"
+"<span class=\"level3\"> 1&nbsp;200&nbsp;€</span> <br>\n"
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
 msgstr ""
@@ -249,45 +261,45 @@ msgid ""
 " hebdomadaires sur 4 mois."
 msgstr ""
 
-#: templates/home.html:176
+#: templates/home.html:174
 msgid "Je veux devenir bénévole"
 msgstr ""
 
-#: templates/home.html:200
+#: templates/home.html:196
 msgid ""
 "Réfugiés ou demandeurs d'asile :<br>\n"
 "        inscrivez-vous"
 msgstr ""
 
-#: templates/home.html:207
+#: templates/home.html:203
 msgid "En vous inscrivant chez Thot, vous vous engagez à :"
 msgstr ""
 
-#: templates/home.html:208
+#: templates/home.html:204
 msgid "payer une inscription symbolique de 7 € au moment de l'adhésion finale"
 msgstr ""
 
-#: templates/home.html:209
+#: templates/home.html:205
 msgid "suivre chaque cours sans exception"
 msgstr ""
 
-#: templates/home.html:221
+#: templates/home.html:217
 msgid "Les inscriptions ne sont pas encore ouvertes"
 msgstr ""
 
-#: templates/home.html:233
+#: templates/home.html:229
 msgid "A PROPOS"
 msgstr ""
 
-#: templates/home.html:239
+#: templates/home.html:235
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr ""
 
-#: templates/home.html:244
+#: templates/home.html:240
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr ""
 
-#: templates/home.html:248
+#: templates/home.html:244
 msgid ""
 "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
 "mission étant de disséminer ses connaissances, il inventa le langage. Ce "
@@ -296,11 +308,11 @@ msgid ""
 "s'épanouir ici, en France."
 msgstr ""
 
-#: templates/home.html:252
-msgid "Qui sommes nous ?"
+#: templates/home.html:248
+msgid "Qui sommes-nous ?"
 msgstr ""
 
-#: templates/home.html:256
+#: templates/home.html:252
 msgid ""
 "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
 "demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
@@ -313,67 +325,71 @@ msgid ""
 "destination des réfugiés et demandeurs d’asile."
 msgstr ""
 
-#: templates/home.html:260
+#: templates/home.html:256
 msgid "présidente"
 msgstr ""
 
-#: templates/home.html:262
+#: templates/home.html:258
 msgid "vice-présidente"
 msgstr ""
 
-#: templates/home.html:264
+#: templates/home.html:260
 msgid "trésorière"
 msgstr ""
 
-#: templates/home.html:266
+#: templates/home.html:262
 msgid "directeur pédagogique"
 msgstr ""
 
-#: templates/home.html:268
+#: templates/home.html:264
 msgid "responsable de l'enseignement et de la formation"
 msgstr ""
 
-#: templates/home.html:273
+#: templates/home.html:270
 msgid "Comment gérons-nous notre budget ?"
 msgstr ""
 
-#: templates/home.html:277
+#: templates/home.html:274
 msgid ""
 "Nous croyons en la transparence, d'autant plus que les fonds dont nous "
 "disposons viennent du grand public autant que d'institutions privées et "
 "publiques. C'est pourquoi nous publions notre budget à jour."
 msgstr ""
 
-#: templates/home.html:298
+#: templates/home.html:297
 msgid "Je veux consulter le budget"
 msgstr ""
 
-#: templates/home.html:318
+#: templates/home.html:317
 msgid "Nous serons ravis de vous répondre"
 msgstr ""
 
-#: templates/home.html:322
+#: templates/home.html:321
 msgid "Nous écrire par voie électronique"
 msgstr ""
 
-#: templates/home.html:325
+#: templates/home.html:324
 msgid "Pour être recruté en tant que professeur de FLE :"
 msgstr ""
 
-#: templates/home.html:330
+#: templates/home.html:329
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr ""
 
-#: templates/home.html:335
+#: templates/home.html:334
 msgid "Pour des partenariats :"
 msgstr ""
 
-#: templates/home.html:340
+#: templates/home.html:339
 msgid "Pour tout autre renseignement :"
 msgstr ""
 
-#: templates/home.html:344
+#: templates/home.html:343
 msgid "Réhabiliter la missive traditionnelle"
+msgstr ""
+
+#: templates/home.html:346
+msgid "Association Thot"
 msgstr ""
 
 #: templates/home.html:352
@@ -381,18 +397,18 @@ msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr ""
 
 #: templates/home.html:390
-msgid "Ils croient en nous, merci à eux !"
+msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
 #: templates/home.html:394
 msgid "Partenaires"
 msgstr ""
 
-#: templates/home.html:407
+#: templates/home.html:432
 msgid "Remerciements"
 msgstr ""
 
-#: templates/home.html:409
+#: templates/home.html:434
 msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"

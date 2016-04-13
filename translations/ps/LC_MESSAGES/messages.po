@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 00:32+0200\n"
+"POT-Creation-Date: 2016-04-13 15:00+0200\n"
 "PO-Revision-Date: 2016-04-09 18:57+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ps\n"
@@ -22,11 +22,21 @@ msgstr ""
 msgid "Thot, l'école diplomante de français à destination des migrants"
 msgstr "ټي اچ اوو ټي د فرانسوى ژبي ډيپلوم ورکوونکى ښوونځى د مهاجرينو لپاره "
 
+#: templates/base.html:9
+msgid ""
+"Bienvenue chez Thot, la première école diplômante de français pour "
+"les réfugiés et demandeurs d’asile"
+msgstr ""
+
+#: templates/base.html:10
+msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
+msgstr ""
+
 #: templates/base.html:36 templates/base.html:108 templates/home.html:66
 msgid "PROGRAMME"
 msgstr "پروګرام"
 
-#: templates/base.html:37 templates/base.html:109 templates/home.html:193
+#: templates/base.html:37 templates/base.html:109 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr "نوم ليکنه  "
 
@@ -34,7 +44,7 @@ msgstr "نوم ليکنه  "
 msgid "À PROPOS"
 msgstr "په اړه معلومات "
 
-#: templates/base.html:39 templates/base.html:111 templates/home.html:312
+#: templates/base.html:39 templates/base.html:111 templates/home.html:311
 msgid "CONTACT"
 msgstr "اړيکه "
 
@@ -43,11 +53,11 @@ msgid "PARTENAIRES"
 msgstr "همکاران"
 
 #: templates/base.html:49 templates/base.html:82 templates/base.html:184
-#: templates/home.html:50 templates/home.html:288
+#: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr "زه غواړم مرسته وکړم  "
 
-#: templates/base.html:58 templates/base.html:91 templates/home.html:218
+#: templates/base.html:58 templates/base.html:91 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr "زه غواړم مرسته وکړم"
 
@@ -58,14 +68,16 @@ msgid ""
 msgstr ""
 
 #: templates/base.html:195
-msgid "Crédits et mentions légales"
+msgid ""
+"2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
+"Dubuc"
 msgstr ""
 
-#: templates/home.html:6
+#: templates/home.html:7
 msgid "Bienvenue chez Thot"
 msgstr ""
 
-#: templates/home.html:6
+#: templates/home.html:7
 msgid "l'école diplômante de français pour les réfugiés et demandeurs d’asile"
 msgstr ""
 
@@ -82,7 +94,7 @@ msgstr ""
 
 #: templates/home.html:29
 msgid ""
-"<span class=\"level3\"> 1 200 €</span> <br>\n"
+"<span class=\"level3\"> 1&nbsp;200&nbsp;€</span> <br>\n"
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
 msgstr ""
@@ -286,46 +298,46 @@ msgstr ""
 "که تاسو غواړی چې موږ سره  د یوه رضاکار په توګه  یوځای شي، نو موږ ته "
 "ایمیل\" \"واستوي benevoles@thot-fle.fr"
 
-#: templates/home.html:176
+#: templates/home.html:174
 msgid "Je veux devenir bénévole"
 msgstr ""
 
-#: templates/home.html:200
+#: templates/home.html:196
 msgid ""
 "Réfugiés ou demandeurs d'asile :<br>\n"
 "        inscrivez-vous"
 msgstr ""
 
-#: templates/home.html:207
+#: templates/home.html:203
 msgid "En vous inscrivant chez Thot, vous vous engagez à :"
 msgstr "د سوت د نوم لیکلو کړنلاره"
 
-#: templates/home.html:208
+#: templates/home.html:204
 #, fuzzy
 msgid "payer une inscription symbolique de 7 € au moment de l'adhésion finale"
 msgstr "تاسو باید د  نوم لیکلو لپاره تر 7 يورو ورکړي چې یو سمبولیک فیس ورکړي"
 
-#: templates/home.html:209
+#: templates/home.html:205
 msgid "suivre chaque cours sans exception"
 msgstr "هر يو صنف ته چى وغواړى اخستلى يى شى"
 
-#: templates/home.html:221
+#: templates/home.html:217
 msgid "Les inscriptions ne sont pas encore ouvertes"
 msgstr ""
 
-#: templates/home.html:233
+#: templates/home.html:229
 msgid "A PROPOS"
 msgstr "په اړه معلومات"
 
-#: templates/home.html:239
+#: templates/home.html:235
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr ""
 
-#: templates/home.html:244
+#: templates/home.html:240
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "مونږ ولى دى مکتب ټى اچ اوړ آى ورکړ"
 
-#: templates/home.html:248
+#: templates/home.html:244
 msgid ""
 "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
 "mission étant de disséminer ses connaissances, il inventa le langage. Ce "
@@ -337,11 +349,11 @@ msgstr ""
 "علم ورسوى نو ددى په وجهه هغى ژبه جوړه کړه چى دا سمبول د هغى مقصد افادهکوى"
 " نو زمونږ حدف په فرانسه کى هم دادى"
 
-#: templates/home.html:252
-msgid "Qui sommes nous ?"
-msgstr "مونږ څوک يو"
+#: templates/home.html:248
+msgid "Qui sommes-nous ?"
+msgstr ""
 
-#: templates/home.html:256
+#: templates/home.html:252
 msgid ""
 "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
 "demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
@@ -354,31 +366,31 @@ msgid ""
 "destination des réfugiés et demandeurs d’asile."
 msgstr ""
 
-#: templates/home.html:260
+#: templates/home.html:256
 msgid "présidente"
 msgstr ""
 
-#: templates/home.html:262
+#: templates/home.html:258
 msgid "vice-présidente"
 msgstr ""
 
-#: templates/home.html:264
+#: templates/home.html:260
 msgid "trésorière"
 msgstr ""
 
-#: templates/home.html:266
+#: templates/home.html:262
 msgid "directeur pédagogique"
 msgstr ""
 
-#: templates/home.html:268
+#: templates/home.html:264
 msgid "responsable de l'enseignement et de la formation"
 msgstr ""
 
-#: templates/home.html:273
+#: templates/home.html:270
 msgid "Comment gérons-nous notre budget ?"
 msgstr "بوديجه څرنګه برابريږى"
 
-#: templates/home.html:277
+#: templates/home.html:274
 msgid ""
 "Nous croyons en la transparence, d'autant plus que les fonds dont nous "
 "disposons viennent du grand public autant que d'institutions privées et "
@@ -387,55 +399,59 @@ msgstr ""
 "مونږ په شفافيت باور لرو په خاصه توګه ستاسو د مرستو څخه د اتباعو په توګه "
 "\" \"که دولتى وى که شخصى, نو له دې امله موږ خپله بودجه تازه خپره کړه:"
 
-#: templates/home.html:298
+#: templates/home.html:297
 msgid "Je veux consulter le budget"
 msgstr "( پى ډى اف) تاسو کولاى شى دلته زمونږ مالى امکانات وګورى"
 
-#: templates/home.html:318
+#: templates/home.html:317
 msgid "Nous serons ravis de vous répondre"
 msgstr "مونږ سره اړيکه ونيسى"
 
-#: templates/home.html:322
+#: templates/home.html:321
 msgid "Nous écrire par voie électronique"
 msgstr "د ايميل په واسطه اړيکه ونيسى"
 
-#: templates/home.html:325
+#: templates/home.html:324
 msgid "Pour être recruté en tant que professeur de FLE :"
 msgstr "که غواړى چى د فرانسوي ژبى د استاد په توګه مونږ سره کار وکړى"
 
-#: templates/home.html:330
+#: templates/home.html:329
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr "د داوطلب په توګه"
 
-#: templates/home.html:335
+#: templates/home.html:334
 msgid "Pour des partenariats :"
 msgstr "د مشارکت په توګه"
 
-#: templates/home.html:340
+#: templates/home.html:339
 msgid "Pour tout autre renseignement :"
 msgstr "د عامه معلوماتو له پاره"
 
-#: templates/home.html:344
+#: templates/home.html:343
 msgid "Réhabiliter la missive traditionnelle"
 msgstr "مونږ خپل ادرس بدل کړيدى"
+
+#: templates/home.html:346
+msgid "Association Thot"
+msgstr ""
 
 #: templates/home.html:352
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr "که غواړى انلاين اړيکه ټينګه کړى"
 
 #: templates/home.html:390
-msgid "Ils croient en nous, merci à eux !"
+msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
 #: templates/home.html:394
 msgid "Partenaires"
 msgstr ""
 
-#: templates/home.html:407
+#: templates/home.html:432
 msgid "Remerciements"
 msgstr ""
 
-#: templates/home.html:409
+#: templates/home.html:434
 msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"
@@ -452,5 +468,20 @@ msgstr ""
 #~ msgstr "په اړه معلومات "
 
 #~ msgid "SOUTIENS"
+#~ msgstr ""
+
+#~ msgid "Crédits et mentions légales"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<span class=\"level3\"> 1 200 €</span> <br>\n"
+#~ "            <span class=\"level2\"> par apprenant pour\n"
+#~ "            4 mois de formation</span>"
+#~ msgstr ""
+
+#~ msgid "Qui sommes nous ?"
+#~ msgstr "مونږ څوک يو"
+
+#~ msgid "Ils croient en nous, merci à eux !"
 #~ msgstr ""
 
