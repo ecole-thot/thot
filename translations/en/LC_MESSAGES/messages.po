@@ -118,7 +118,7 @@ msgstr <span class=\"level3\"> %(nb_students)s </span> \n"
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
-msgstr "Our teaching procgram"
+msgstr "Our teaching program"
 
 #: templates/home.html:75
 msgid ""
@@ -320,7 +320,7 @@ msgstr "I want to be volunteer"
 msgid ""
 "Réfugiés ou demandeurs d'asile :<br>\n"
 "        inscrivez-vous"
-msgstr ""
+msgstr "Refugees and Asylum seekers:<br>\n Register at Thot"
 
 #: templates/home.html:203
 msgid "En vous inscrivant chez Thot, vous vous engagez à :"
@@ -344,7 +344,7 @@ msgstr "ABOUT"
 
 #: templates/home.html:235
 msgid "Notre mission, transmettre un horizon à tous"
-msgstr ""
+msgstr "Our Mission: Expanding Horizons Everywhere"
 
 #: templates/home.html:240
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
@@ -366,7 +366,7 @@ msgstr ""
 
 #: templates/home.html:248
 msgid "Qui sommes-nous ?"
-msgstr ""
+msgstr "Who Are We?"
 
 #: templates/home.html:252
 msgid ""
@@ -379,7 +379,9 @@ msgid ""
 " par des professeurs diplômés, ne leur est pourtant proposée. Nous créons"
 " donc l'école Thot pour pallier l’absence de formation diplômante à "
 "destination des réfugiés et demandeurs d’asile."
-msgstr ""
+msgstr "The Thot team was created over the course of various support and advocacy campaigns for refugees and " "asylum seekers. In spite of their diverse nationalities, their coequally harrowing stories,"
+" and their disparate social backgrounds, one, same question seemed to be on everyone's lips: "Where can we learn French?" </p>"
+"<p>To this day, not a single recognised degree, free of charge and taught by qualified professors, has been offered to them. Our creation of the Thot school aims to fill this gap, putting an end to the absence of available language training for refugees and asylum seekers."
 
 #: templates/home.html:256
 msgid "présidente"
@@ -450,7 +452,7 @@ msgstr "To contact us the old-school way:"
 
 #: templates/home.html:346
 msgid "Association Thot"
-msgstr ""
+msgstr "Thot Association"
 
 #: templates/home.html:352
 msgid "Nous suivre et parler de nous sur les réseaux"
@@ -458,7 +460,7 @@ msgstr "To follow us online:"
 
 #: templates/home.html:390
 msgid "Ils croient en nous, merci à eux&nbsp;!"
-msgstr ""
+msgstr "A great thanks for trusting us!"
 
 #: templates/home.html:394
 msgid "Partenaires"
@@ -473,7 +475,10 @@ msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon ·  Thibaut Sardier"
-msgstr ""
+msgstr "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Hind · Tina "
+"Bouffet · Axel Dreyfus ·\n"
+"                Louis Nordon ·  Thibaut Sardier
+"
 
 #~ msgid ""
 #~ msgstr ""
