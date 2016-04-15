@@ -26,11 +26,11 @@ msgstr "Thot, the french language awarding school for refugees and asylum seeker
 msgid ""
 "Bienvenue chez Thot, école diplômante de français pour les réfugiés "
 "et demandeurs d’asile"
-msgstr ""
+msgstr "Welcome to THOT, the French language awarding school for refugees and asylum-seekers."
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
-msgstr ""
+msgstr "thot, school, diploma, refugees, awarding, volunteers"
 
 #: templates/base.html:36 templates/base.html:108 templates/home.html:66
 msgid "PROGRAMME"
@@ -65,39 +65,46 @@ msgstr "I want to register"
 msgid ""
 "Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
-msgstr ""
+msgstr "To expand the horizon of migrants, we created Thot, a french language awarding school for refugees and asylum seekers"
 
 #: templates/base.html:195
 msgid ""
 "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
 "Dubuc"
 msgstr ""
+"2016 - THOT <br>Logo : Laurent Rivelaygue · Artistic direction : Laure "
+"Dubuc"
 
 #: templates/home.html:7
 msgid "Bienvenue chez Thot"
-msgstr ""
+msgstr "Welcome to Thot"
 
 #: templates/home.html:7
 msgid "l'école diplômante de français pour les réfugiés et demandeurs d’asile"
-msgstr ""
+msgstr "Thot, the french language awarding school for refugees and asylum seekers"
 
 #: templates/home.html:16
 msgid "Amis, donateurs, nous avons besoin de vous&nbsp;!"
-msgstr ""
+msgstr "Friends, funders,<br>"
+"We need you !"
 
 #: templates/home.html:22
 msgid ""
 "L'association est entièrement prise en charge par des\n"
 "          bénévoles, seuls les professeurs sont rémunérés.<br>\n"
 "          La richesse de l'association, c'est vous&nbsp;!"
-msgstr ""
+msgstr "The association is entirely managed by volunteers"
+"only teachers and teaching managing team are paid"
+"The greatness of the association is you!"
 
 #: templates/home.html:29
 msgid ""
 "<span class=\"level3\"> 1&nbsp;200&nbsp;€</span> <br>\n"
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
-msgstr ""
+msgstr "1 200€</span> <br>"
+"<span class=\"level2\"> per learner is needed\n"
+"                for 4 months training</span>"
 
 #: templates/home.html:36
 #, python-format
@@ -105,7 +112,9 @@ msgid ""
 "<span class=\"level3\"> %(nb_students)s </span> \n"
 "            <span class=\"level2\">apprenants <br>\n"
 "              pris en charge en 2016 grâce à vos dons"
-msgstr ""
+msgstr <span class=\"level3\"> %(nb_students)s </span> \n"
+"                <span class=\"level2\">learners <br>\n"
+"                  started the training in 2016 thanks to your donations""
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
@@ -193,7 +202,7 @@ msgid ""
 "Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre"
 " Thot sont invités à envoyer un mail avec CV et lettre de motivation à "
 "professeurs@thot-fle.fr. Les postes sont rémunérés."
-msgstr ""
+msgstr "FFL teachers wishing to work with Thot are invited to send an e-mail with their CV and a cover letter to professeurs@thot-fle.fr. All positions are compensated."
 
 #: templates/home.html:120
 msgid "Une formation rapide et innovante"
@@ -269,7 +278,7 @@ msgstr ""
 
 #: templates/home.html:159
 msgid "Bénévoles, venez chez Thot&nbsp;!"
-msgstr ""
+msgstr "Volunteers, we need you!"
 
 #: templates/home.html:163
 msgid ""
