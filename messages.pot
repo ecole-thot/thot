@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 18:06+0200\n"
+"POT-Creation-Date: 2016-04-18 00:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,42 +31,46 @@ msgstr ""
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr ""
 
-#: templates/base.html:36 templates/base.html:108 templates/home.html:66
+#: templates/base.html:54 templates/base.html:127 templates/home.html:66
 msgid "PROGRAMME"
 msgstr ""
 
-#: templates/base.html:37 templates/base.html:109 templates/home.html:189
+#: templates/base.html:55 templates/base.html:128 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr ""
 
-#: templates/base.html:38 templates/base.html:110
+#: templates/base.html:56 templates/base.html:129
 msgid "À PROPOS"
 msgstr ""
 
-#: templates/base.html:39 templates/base.html:111 templates/home.html:311
+#: templates/base.html:57 templates/base.html:130 templates/home.html:311
 msgid "CONTACT"
 msgstr ""
 
-#: templates/base.html:40 templates/base.html:112 templates/home.html:384
+#: templates/base.html:58 templates/base.html:131 templates/home.html:384
 msgid "PARTENAIRES"
 msgstr ""
 
-#: templates/base.html:49 templates/base.html:82 templates/base.html:184
+#: templates/base.html:59 templates/base.html:132 templates/home.html:445
+msgid "PRESSE"
+msgstr ""
+
+#: templates/base.html:68 templates/base.html:101 templates/base.html:204
 #: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr ""
 
-#: templates/base.html:58 templates/base.html:91 templates/home.html:214
+#: templates/base.html:77 templates/base.html:110 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr ""
 
-#: templates/base.html:190
+#: templates/base.html:210
 msgid ""
 "Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
 msgstr ""
 
-#: templates/base.html:195
+#: templates/base.html:215
 msgid ""
 "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
 "Dubuc"
@@ -413,5 +417,29 @@ msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon ·  Thibaut Sardier"
+msgstr ""
+
+#: templates/home.html:451
+msgid "Ils parlent de nous"
+msgstr ""
+
+#: templates/home.html:456
+msgid "Parutions dans la presse"
+msgstr ""
+
+#: templates/home.html:461
+msgid "Voir"
+msgstr ""
+
+#: templates/home.html:462
+msgid "Bientôt d'autres liens"
+msgstr ""
+
+#: templates/home.html:467
+msgid "Communiqué de Presse"
+msgstr ""
+
+#: templates/home.html:472
+msgid "Télécharger"
 msgstr ""
 

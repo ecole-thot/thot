@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 18:06+0200\n"
+"POT-Creation-Date: 2016-04-18 00:23+0200\n"
 "PO-Revision-Date: 2016-04-12 00:48+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -26,48 +26,56 @@ msgstr "Thot, the french language awarding school for refugees and asylum seeker
 msgid ""
 "Bienvenue chez Thot, école diplômante de français pour les réfugiés "
 "et demandeurs d’asile"
-msgstr "Welcome to THOT, the French language awarding school for refugees and asylum-seekers."
+msgstr ""
+"Welcome to THOT, the French language awarding school for refugees and "
+"asylum-seekers."
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr "thot, school, diploma, refugees, awarding, volunteers"
 
-#: templates/base.html:36 templates/base.html:108 templates/home.html:66
+#: templates/base.html:54 templates/base.html:127 templates/home.html:66
 msgid "PROGRAMME"
 msgstr "PROGRAM"
 
-#: templates/base.html:37 templates/base.html:109 templates/home.html:189
+#: templates/base.html:55 templates/base.html:128 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr "SIGN UP"
 
-#: templates/base.html:38 templates/base.html:110
+#: templates/base.html:56 templates/base.html:129
 msgid "À PROPOS"
 msgstr "ABOUT"
 
-#: templates/base.html:39 templates/base.html:111 templates/home.html:311
+#: templates/base.html:57 templates/base.html:130 templates/home.html:311
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: templates/base.html:40 templates/base.html:112 templates/home.html:384
+#: templates/base.html:58 templates/base.html:131 templates/home.html:384
 msgid "PARTENAIRES"
 msgstr "PARTNERS"
 
-#: templates/base.html:49 templates/base.html:82 templates/base.html:184
+#: templates/base.html:59 templates/base.html:132 templates/home.html:445
+msgid "PRESSE"
+msgstr ""
+
+#: templates/base.html:68 templates/base.html:101 templates/base.html:204
 #: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr "I want to donate"
 
-#: templates/base.html:58 templates/base.html:91 templates/home.html:214
+#: templates/base.html:77 templates/base.html:110 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr "I want to register"
 
-#: templates/base.html:190
+#: templates/base.html:210
 msgid ""
 "Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
-msgstr "To expand the horizon of migrants, we created Thot, a french language awarding school for refugees and asylum seekers"
+msgstr ""
+"To expand the horizon of migrants, we created Thot, a french language "
+"awarding school for refugees and asylum seekers"
 
-#: templates/base.html:195
+#: templates/base.html:215
 msgid ""
 "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
 "Dubuc"
@@ -85,25 +93,24 @@ msgstr "Thot, the french language awarding school for refugees and asylum seeker
 
 #: templates/home.html:16
 msgid "Amis, donateurs, nous avons besoin de vous&nbsp;!"
-msgstr "Friends, funders,<br>"
-"We need you !"
+msgstr "Friends, funders,<br>We need you !"
 
 #: templates/home.html:22
 msgid ""
 "L'association est entièrement prise en charge par des\n"
 "          bénévoles, seuls les professeurs sont rémunérés.<br>\n"
 "          La richesse de l'association, c'est vous&nbsp;!"
-msgstr "The association is entirely managed by volunteers"
-"only teachers and teaching managing team are paid"
-"The greatness of the association is you!"
+msgstr ""
+"The association is entirely managed by volunteersonly teachers and "
+"teaching managing team are paidThe greatness of the association is you!"
 
 #: templates/home.html:29
 msgid ""
 "<span class=\"level3\"> 1&nbsp;200&nbsp;€</span> <br>\n"
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
-msgstr "1 200€</span> <br>"
-"<span class=\"level2\"> per learner is needed\n"
+msgstr ""
+"1 200€</span> <br><span class=\"level2\"> per learner is needed\n"
 "                for 4 months training</span>"
 
 #: templates/home.html:36
@@ -112,9 +119,10 @@ msgid ""
 "<span class=\"level3\"> %(nb_students)s </span> \n"
 "            <span class=\"level2\">apprenants <br>\n"
 "              pris en charge en 2016 grâce à vos dons"
-msgstr <span class=\"level3\"> %(nb_students)s </span> \n"
+msgstr ""
+"span class=\"level3\"> %(nb_students)s </span> \n"
 "                <span class=\"level2\">learners <br>\n"
-"                  started the training in 2016 thanks to your donations""
+"                  started the training in 2016 thanks to your donations\""
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
@@ -202,7 +210,10 @@ msgid ""
 "Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre"
 " Thot sont invités à envoyer un mail avec CV et lettre de motivation à "
 "professeurs@thot-fle.fr. Les postes sont rémunérés."
-msgstr "FFL teachers wishing to work with Thot are invited to send an e-mail with their CV and a cover letter to professeurs@thot-fle.fr. All positions are compensated."
+msgstr ""
+"FFL teachers wishing to work with Thot are invited to send an e-mail with"
+" their CV and a cover letter to professeurs@thot-fle.fr. All positions "
+"are compensated."
 
 #: templates/home.html:120
 msgid "Une formation rapide et innovante"
@@ -320,7 +331,9 @@ msgstr "I want to be volunteer"
 msgid ""
 "Réfugiés ou demandeurs d'asile :<br>\n"
 "        inscrivez-vous"
-msgstr "Refugees and Asylum seekers:<br>\n Register at Thot"
+msgstr ""
+"Refugees and Asylum seekers:<br>\n"
+" Register at Thot"
 
 #: templates/home.html:203
 msgid "En vous inscrivant chez Thot, vous vous engagez à :"
@@ -379,9 +392,16 @@ msgid ""
 " par des professeurs diplômés, ne leur est pourtant proposée. Nous créons"
 " donc l'école Thot pour pallier l’absence de formation diplômante à "
 "destination des réfugiés et demandeurs d’asile."
-msgstr "The Thot team was created over the course of various support and advocacy campaigns for refugees and " "asylum seekers. In spite of their diverse nationalities, their coequally harrowing stories,"
-" and their disparate social backgrounds, one, same question seemed to be on everyone's lips: "Where can we learn French?" </p>"
-"<p>To this day, not a single recognised degree, free of charge and taught by qualified professors, has been offered to them. Our creation of the Thot school aims to fill this gap, putting an end to the absence of available language training for refugees and asylum seekers."
+msgstr ""
+"The Thot team was created over the course of various support and advocacy"
+" campaigns for refugees and \" \"asylum seekers. In spite of their "
+"diverse nationalities, their coequally harrowing stories, and their "
+"disparate social backgrounds, one, same question seemed to be on "
+"everyone's lips: \"Where can we learn French?\" </p><p>To this day, not a"
+" single recognised degree, free of charge and taught by qualified "
+"professors, has been offered to them. Our creation of the Thot school "
+"aims to fill this gap, putting an end to the absence of available "
+"language training for refugees and asylum seekers."
 
 #: templates/home.html:256
 msgid "présidente"
@@ -475,10 +495,34 @@ msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon ·  Thibaut Sardier"
-msgstr "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Hind · Tina "
-"Bouffet · Axel Dreyfus ·\n"
-"                Louis Nordon ·  Thibaut Sardier
-"
+msgstr ""
+"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Hind "
+"· Tina Bouffet · Axel Dreyfus ·\n"
+"                Louis Nordon ·  Thibaut Sardie"
+
+#: templates/home.html:451
+msgid "Ils parlent de nous"
+msgstr ""
+
+#: templates/home.html:456
+msgid "Parutions dans la presse"
+msgstr ""
+
+#: templates/home.html:461
+msgid "Voir"
+msgstr ""
+
+#: templates/home.html:462
+msgid "Bientôt d'autres liens"
+msgstr ""
+
+#: templates/home.html:467
+msgid "Communiqué de Presse"
+msgstr ""
+
+#: templates/home.html:472
+msgid "Télécharger"
+msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
@@ -505,18 +549,5 @@ msgstr "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad ·
 #~ msgstr ""
 
 #~ msgid "Bénévoles, nous avons besoin de vous!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Bienvenue chez Thot, la première école"
-#~ " diplômante de français pour les "
-#~ "réfugiés et demandeurs d’asile"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Pour transmettre un horizon à tous, "
-#~ "nous avons créé la première école "
-#~ "diplômante de français pour les réfugiés"
-#~ " et demandeurs d’asile."
 #~ msgstr ""
 

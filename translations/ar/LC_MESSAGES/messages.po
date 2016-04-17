@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-13 18:06+0200\n"
+"POT-Creation-Date: 2016-04-18 00:23+0200\n"
 "PO-Revision-Date: 2016-04-09 18:31+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -29,55 +29,60 @@ msgstr ""
 msgid ""
 "Bienvenue chez Thot, école diplômante de français pour les réfugiés "
 "et demandeurs d’asile"
-msgstr "مرحبا بكم في طوط ، المدرسة التي منح اللغة الأجنبية الفرنسية للاجئين وطالبي اللجوء"
+msgstr ""
+"مرحبا بكم في طوط ، المدرسة التي منح اللغة الأجنبية الفرنسية للاجئين "
+"وطالبي اللجوء"
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr "طوط, مدرسة, التلميد المتخرج, لاجىء, الدراسة تمنح دبلوم, متطوع"
 
-#: templates/base.html:36 templates/base.html:108 templates/home.html:66
+#: templates/base.html:54 templates/base.html:127 templates/home.html:66
 msgid "PROGRAMME"
 msgstr "البرنامج"
 
-#: templates/base.html:37 templates/base.html:109 templates/home.html:189
+#: templates/base.html:55 templates/base.html:128 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr " التسجيل "
 
-#: templates/base.html:38 templates/base.html:110
+#: templates/base.html:56 templates/base.html:129
 msgid "À PROPOS"
 msgstr " المهمة "
 
-#: templates/base.html:39 templates/base.html:111 templates/home.html:311
+#: templates/base.html:57 templates/base.html:130 templates/home.html:311
 msgid "CONTACT"
 msgstr "التواصل"
 
-#: templates/base.html:40 templates/base.html:112 templates/home.html:384
+#: templates/base.html:58 templates/base.html:131 templates/home.html:384
 msgid "PARTENAIRES"
 msgstr "الشركاء"
 
-#: templates/base.html:49 templates/base.html:82 templates/base.html:184
+#: templates/base.html:59 templates/base.html:132 templates/home.html:445
+msgid "PRESSE"
+msgstr ""
+
+#: templates/base.html:68 templates/base.html:101 templates/base.html:204
 #: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr "تبرع"
 
-#: templates/base.html:58 templates/base.html:91 templates/home.html:214
+#: templates/base.html:77 templates/base.html:110 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr "التسجيل اءريد "
 
-#: templates/base.html:190
+#: templates/base.html:210
 msgid ""
 "Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
-msgstr " "،للجميع فرسةا اعطاء اجل من مرحبا بكم في تحوت ،المدرسة الأولى التي تمنع الدبلوم لتعلم اللغة الفرنسية  
-للاجئين وطالبي اللجوء في باريس و إيل- دو-فرانس.
-"
+msgstr ""
+" \"،للجميع فرسةا اعطاء اجل من مرحبا بكم في تحوت ،المدرسة الأولى التي تمنع"
+" الدبلوم لتعلم اللغة الفرنسي"
 
-#: templates/base.html:195
+#: templates/base.html:215
 msgid ""
 "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
 "Dubuc"
-msgstr 2016 - طوط <br> الشعار : Laurent Rivelaygue · إخراج فني : Laure "
-"Dubuc"
+msgstr "016 - طوط <br> الشعار : Laurent Rivelaygue · إخراج فني : Laure Dubuc"
 
 #: templates/home.html:7
 msgid "Bienvenue chez Thot"
@@ -96,9 +101,7 @@ msgid ""
 "L'association est entièrement prise en charge par des\n"
 "          bénévoles, seuls les professeurs sont rémunérés.<br>\n"
 "          La richesse de l'association, c'est vous&nbsp;!"
-msgstr "نحن جميع متبرع 
-انكم مستقبل الجمعية "
-
+msgstr "نحن جميع متبر"
 
 #: templates/home.html:29
 msgid ""
@@ -113,9 +116,7 @@ msgid ""
 "<span class=\"level3\"> %(nb_students)s </span> \n"
 "            <span class=\"level2\">apprenants <br>\n"
 "              pris en charge en 2016 grâce à vos dons"
-msgstr " التلاميد"
-"   المتعلمين "  
-"   في عام 2016 بفظل تبرعكم "  
+msgstr " التلاميد   المتعلمين    في عام 2016 بفظل تبرعكم "
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
@@ -170,7 +171,9 @@ msgid ""
 "équivalent au Baccalauréat. Des structures d'intégration en université se"
 " mettent en place pour les diplômés du secondaire, que nous encourageons "
 "à se renseigner auprès des associations."
-msgstr "هناك مساعدات لمن لهم مستوا التعليم التناوي، و نحن نساعدهم لتعليم في الجمعيات"
+msgstr ""
+"هناك مساعدات لمن لهم مستوا التعليم التناوي، و نحن نساعدهم لتعليم في "
+"الجمعيات"
 
 #: templates/home.html:104
 msgid "Des professeurs recrutés sur leur excellence"
@@ -202,7 +205,6 @@ msgstr ""
 "يمكن امعلمي اللغة الفرسية ( FLE ) الراغبين بالإلثحاق بمدرسة تحوت إرسال "
 "بريد إلكتروني مرفق بالسيرة الذاتية و رسالة تغطية ل professeurs@thot-"
 "fle.fr .الوظائف مدفوعة"
-
 
 #: templates/home.html:120
 msgid "Une formation rapide et innovante"
@@ -377,7 +379,6 @@ msgstr ""
 "الفرنسية، وفي الوقت نفسه،لإنشاء رابط إجتماعي و **** مع اللاجئين. في الوقت"
 " نفسه تم إنشاء برنامج دمج جامعي للاجئين وطالبي اللجوء من حملة البكالوريا."
 
-
 #: templates/home.html:256
 msgid "présidente"
 msgstr " الرئيس"
@@ -468,12 +469,40 @@ msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Ershad · Tina "
 "Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon ·  Thibaut Sardier"
-msgstr "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad · Tina "
-"Bouffet · Axel Dreyfus ·\n"
+msgstr ""
+"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad "
+"· Tina Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon ·  Thibaut Sardier"
+
+#: templates/home.html:451
+msgid "Ils parlent de nous"
+msgstr ""
+
+#: templates/home.html:456
+msgid "Parutions dans la presse"
+msgstr ""
+
+#: templates/home.html:461
+msgid "Voir"
+msgstr ""
+
+#: templates/home.html:462
+msgid "Bientôt d'autres liens"
+msgstr ""
+
+#: templates/home.html:467
+msgid "Communiqué de Presse"
+msgstr ""
+
+#: templates/home.html:472
+msgid "Télécharger"
+msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
+#~ " \"،للجميع فرسةا اعطاء اجل من "
+#~ "مرحبا بكم في تحوت ،المدرسة الأولى "
+#~ "التي تمنع الدبلوم لتعلم اللغة الفرنسي"
 
 #~ msgid "Bénévoles, nous avons besoin de vous"
 #~ msgstr "المتطوعين ، نحن بحاجة لكم!"
@@ -498,20 +527,4 @@ msgstr "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · E
 
 #~ msgid "Bénévoles, nous avons besoin de vous!"
 #~ msgstr "المتطوعين ، نحن بحاجة لكم!"
-
-#~ msgid ""
-#~ "Bienvenue chez Thot, la première école"
-#~ " diplômante de français pour les "
-#~ "réfugiés et demandeurs d’asile"
-#~ msgstr "مرحبا بكم في طوط ، المدرسة التي منح اللغة الأجنبية الفرنسية للاجئين وطالبي اللجوء"
-
-#~ msgid ""
-#~ "Pour transmettre un horizon à tous, "
-#~ "nous avons créé la première école "
-#~ "diplômante de français pour les réfugiés"
-#~ " et demandeurs d’asile."
-#~ msgstr " "،للجميع فرسةا اعطاء اجل من مرحبا بكم في تحوت ،المدرسة الأولى التي تمنع الدبلوم لتعلم اللغة الفرنسية  
-للاجئين وطالبي اللجوء في باريس و إيل- دو-فرانس.
-"
-
 
