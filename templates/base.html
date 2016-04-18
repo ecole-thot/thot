@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}">
+<html lang="{{ locale }}" itemscope itemtype="http://ogp.me/ns/website#"> 
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,30 @@
     <meta name="description" content="{% trans %}Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}">
     <meta name="keywords" content="{% trans %}thot, ecole, diplome, réfugiés, diplomant, bénévoles{% endtrans %}">
     <meta name="author" content="THOT">
+
+    <!-- OG -->
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Thot">
+    <meta itemprop="description" content="{% trans %}Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}">
+    <meta itemprop="image" content="http://thot-fle.fr/static/img/thot-og.png">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="http://thot-fle.fr/static/img/thot-og.png">
+    <meta name="twitter:site" content="http://thot-fle.fr/">
+    <meta name="twitter:title" content="Thot">
+    <meta name="twitter:description" content="{% trans %}Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}">
+    <meta name="twitter:creator" content="@judaquien">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="http://thot-fle.fr/static/img/thot-og.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Thot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://thot-fle.fr/" />
+    <meta property="og:image" content="http://thot-fle.fr/static/img/thot-og.png" />
+    <meta property="og:description" content="{% trans %}Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}" />
+    <meta property="og:site_name" content="Thot" />
+    <meta property="fb:admins" content="judith.aquien" />
 
     <!-- Bootstrap -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
