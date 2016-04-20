@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-04-18 01:17+0200\n"
+"POT-Creation-Date: 2016-04-20 23:27+0200\n"
 "PO-Revision-Date: 2016-04-09 18:56+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fa\n"
@@ -22,7 +22,8 @@ msgstr ""
 msgid "Thot, l'école diplomante de français à destination des migrants"
 msgstr ""
 
-#: templates/base.html:9
+#: templates/base.html:9 templates/base.html:16 templates/base.html:23
+#: templates/base.html:33
 msgid ""
 "Bienvenue chez Thot, école diplômante de français pour les réfugiés "
 "et demandeurs d’asile"
@@ -32,46 +33,46 @@ msgstr ""
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr ""
 
-#: templates/base.html:54 templates/base.html:127 templates/home.html:66
+#: templates/base.html:78 templates/base.html:151 templates/home.html:66
 msgid "PROGRAMME"
 msgstr "برنامه"
 
-#: templates/base.html:55 templates/base.html:128 templates/home.html:189
+#: templates/base.html:79 templates/base.html:152 templates/home.html:189
 msgid "INSCRIPTION"
 msgstr "ثبت نام در «سوت»"
 
-#: templates/base.html:56 templates/base.html:129
+#: templates/base.html:80 templates/base.html:153
 msgid "À PROPOS"
 msgstr "فعالیتها"
 
-#: templates/base.html:57 templates/base.html:130 templates/home.html:311
+#: templates/base.html:81 templates/base.html:154 templates/home.html:311
 msgid "CONTACT"
 msgstr "ارتباط با ما"
 
-#: templates/base.html:58 templates/base.html:131 templates/home.html:384
+#: templates/base.html:82 templates/base.html:155 templates/home.html:384
 msgid "PARTENAIRES"
 msgstr ""
 
-#: templates/base.html:59 templates/base.html:132 templates/home.html:445
+#: templates/base.html:83 templates/base.html:156 templates/home.html:445
 msgid "PRESSE"
 msgstr ""
 
-#: templates/base.html:68 templates/base.html:101 templates/base.html:204
+#: templates/base.html:92 templates/base.html:125 templates/base.html:228
 #: templates/home.html:50 templates/home.html:286
 msgid "Je veux faire un don"
 msgstr "کمک به «سوت»"
 
-#: templates/base.html:77 templates/base.html:110 templates/home.html:214
+#: templates/base.html:101 templates/base.html:134 templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr ""
 
-#: templates/base.html:210
+#: templates/base.html:234
 msgid ""
 "Pour transmettre un horizon à tous, nous avons créé Thot, école "
 "diplômante de français pour les réfugiés et demandeurs d’asile."
 msgstr ""
 
-#: templates/base.html:215
+#: templates/base.html:239
 msgid ""
 "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
 "Dubuc"
@@ -471,19 +472,19 @@ msgstr ""
 msgid "Parutions dans la presse"
 msgstr ""
 
-#: templates/home.html:461
+#: templates/home.html:461 templates/home.html:462
 msgid "Voir"
 msgstr ""
 
-#: templates/home.html:462
+#: templates/home.html:463
 msgid "Bientôt d'autres liens"
 msgstr ""
 
-#: templates/home.html:467
+#: templates/home.html:468
 msgid "Communiqué de Presse"
 msgstr ""
 
-#: templates/home.html:472
+#: templates/home.html:473
 msgid "Télécharger"
 msgstr ""
 
@@ -512,13 +513,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Bénévoles, nous avons besoin de vous!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Laurent Rivelaygue · Laure Dubuc · "
-#~ "Thomas Grange · Javed · Ershad ·"
-#~ " Tina Bouffet · Axel Dreyfus ·\n"
-#~ ""
-#~ "                Louis Nordon ·  Thibaut Sardier"
 #~ msgstr ""
 
