@@ -16,6 +16,10 @@ a:focus, a:hover {
   border-radius: 0;
 }
 
+.fa-globe.muted{
+  color: #777;
+}
+
 .explication {
   position: absolute;
   bottom: 0px;
