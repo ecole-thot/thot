@@ -627,6 +627,9 @@ ul.press li {
   #partnersCarousel {
     display: block !important;
   }
+  .carousel-inner .item img {
+    margin: auto;
+  }
   #partnersNormal {
     display: none;
   }
