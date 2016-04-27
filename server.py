@@ -1,3 +1,8 @@
+# encoding=utf8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 from flask import Flask, render_template, request
 from flask.ext.babel import Babel
 
@@ -14,6 +19,24 @@ REGISTRATION_LINK = "##"
 BUDGET_AVAILABLE = False
 NB_STUDENTS = 0
 
+PRESS = [
+    { "link": "https://savoirs.rfi.fr/fr/communaute/langue-francaise/ma-parole-on-vous-presente-thot",
+      "title": "RFI — Émission « Danse avec les mots »",
+      "text": "Chronique « Ma Parole » : on vous présente Thot"
+    },
+    { "link": "http://www.liberation.fr/direct/element/une-ecole-pour-migrants-gratuite-et-diplomante-pourrait-voir-le-jour-en-france_35401/",
+      "title": "Libération",
+      "text": "Une école pour migrants gratuite et diplômante pourrait voir le jour en France (18/04/2016)"
+    },
+    { "link": "http://agi.to/agitox-actualite-fle-edu-76/",
+      "title": "Agito", 
+      "text": "Thot FLE, une école diplômante pour migrants"
+    },
+    { "link": "http://consocollaborative.com/article/elles-lancent-une-ecole-de-francais-pour-les-refugies-grace-au-crowdfunding/",
+      "title": "Conso Collaborative",
+      "text": "Elles lancent une école de français pour les réfugiés"
+    }
+]
 
 @babel.localeselector
 def get_locale():
@@ -32,6 +55,7 @@ def render_home():
         registration_open=REGISTRATION_OPEN,
         budget_available=BUDGET_AVAILABLE,
         nb_students=NB_STUDENTS,
+        press=PRESS,
         locale=request.locale)
 
 
