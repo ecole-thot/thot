@@ -40,7 +40,7 @@ PRESS = [
     },
     { "link": "http://www.lecourrier-du-soir.com/articles/h%C3%A9lo%C3%AFse-%C2%AB-le-de-l%E2%80%99association-thot-est-que-les-r%C3%A9fugi%C3%A9s-fassent-partie-de-la-france-%C2%BB",
       "title": "Le Courrier du Soir", 
-      "text": "le but de l’association Thot est que les réfugiés fassent partie de la France"
+      "text": "Le but de l’association Thot est que les réfugiés fassent partie de la France"
     },
     { "link": "https://rcf.fr/actualite/journal-regional-du-mardi-26-avril",
       "title": "RCF",
