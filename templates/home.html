@@ -167,12 +167,14 @@
           </div> 
           <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois.{% endtrans %}</p>
 
-          <a href="https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc/viewform" target="_blank" type="button" class="btn btn-thot">
+          {% if volunteer_open %}
+          <a href="{{ volunteer_link }}" target="_blank" type="button" class="btn btn-thot">
             <span class="fa-stack fa-lg">
               <i class="fa fa-user fa-stack-2x"></i>
             </span>
             <span class="btn-thot-text">{% trans %}Je veux devenir bénévole{% endtrans %}</span>
           </a>
+          {% endif %}
 
         </div>
       </div>

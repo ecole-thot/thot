@@ -16,6 +16,8 @@ babel = Babel(app)
 DONATION_LINK = "https://fr.ulule.com/ecole-thot/"
 REGISTRATION_OPEN = False
 REGISTRATION_LINK = "##"
+VOLUNTEER_OPEN = False
+VOLUNTEER_LINK = "https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc/viewform"
 BUDGET_AVAILABLE = False
 NB_STUDENTS = 0
 
@@ -43,6 +45,34 @@ PRESS = [
     { "link": "https://rcf.fr/actualite/journal-regional-du-mardi-26-avril",
       "title": "RCF",
       "text": "Journal Régional — 1'36\""
+    },
+    { "link": "http://cheekmagazine.fr/societe/thot-judith-aquien-ecole-francais-refugies/",
+      "title": "Cheek Magazine",
+      "text": "Elle a quitté son job pour créer Thot, une école de français destinée aux réfugiés (29/04/2016)"
+    },
+    { "link": "http://bit.ly/1QPVrPj",
+      "title": "One Heart",
+      "text": "Thot, une école pour les réfugiés à soutenir sur Ulule (29/04/2016)"
+    },
+    { "link": "http://www.integrales-productions.com/2016/04/30/thot-lecole-diplomante-de-francais-pour-eleves-en-migration/",
+      "title": "Intégrales Mag",
+      "text": "Thot, l’école diplomante de français pour élèves en migration (30/04/2016)"
+    },
+    { "link": "http://www.novaplanet.com/radionova/60626/episode-projet-thot",
+      "title": "Le futur c'est maintenant, Nova",
+      "text": "Chronique de Côme Bastin sur Thot (30/04/2016)"
+    },
+    { "link": "http://bit.ly/1SVONvB",
+      "title": "Cosmopolitaine, France Inter",
+      "text": "Chronique de Marie-Madeleine Rigopoulos sur Thot - 26'30\" (01/05/2016)"
+    },
+    { "link": "http://annieallmusic.blogspot.fr/2016/05/thot-un-grand-pas-vers-lintegration.html",
+      "title": "Annie All Music",
+      "text": "Thot, un grand pas vers l'intégration (02/05/2016)"
+    },
+    { "link": "http://2016.wetalk-community.org/modeles-feminins/",
+      "title": "W(e) Talk",
+      "text": "Judith Aquien, Présidente de Thot, sélectionnée parmi les 8 modèles féminins 2016, à la conférence \"Artisanes du commun, qui forment ensemble pour un autre demain\" du 21 mai 2016"
     }
 ]
 
@@ -61,6 +91,8 @@ def render_home():
         donation_link=DONATION_LINK,
         registration_link=REGISTRATION_LINK,
         registration_open=REGISTRATION_OPEN,
+        volunteer_link=VOLUNTEER_LINK,
+        volunteer_open=VOLUNTEER_OPEN,
         budget_available=BUDGET_AVAILABLE,
         nb_students=NB_STUDENTS,
         press=PRESS,
