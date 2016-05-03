@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-04-18 01:17+0200\n"
-"PO-Revision-Date: 2016-04-19 15:05+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-05-03 16:53+0100\n"
+"Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: fa\n"
 "Language-Team: fa <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -31,36 +31,52 @@ msgstr "به تهت خوش آمدید،مدرسه دیپلمی برای  پنا�
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr "تهت, مدرسه، دیپلم، پناهندگان، دیپلم، داوطلبان"
 
-#: templates/base.html:54 templates/base.html:127 templates/home.html:66
+#: templates/base.html:54
+#: templates/base.html:127
+#: templates/home.html:66
 msgid "PROGRAMME"
 msgstr "برنامه"
 
-#: templates/base.html:55 templates/base.html:128 templates/home.html:189
+#: templates/base.html:55
+#: templates/base.html:128
+#: templates/home.html:189
 msgid "INSCRIPTION"
 msgstr "ثبت نام در «سوت»"
 
-#: templates/base.html:56 templates/base.html:129
+#: templates/base.html:56
+#: templates/base.html:129
 msgid "À PROPOS"
 msgstr "فعالیتها"
 
-#: templates/base.html:57 templates/base.html:130 templates/home.html:311
+#: templates/base.html:57
+#: templates/base.html:130
+#: templates/home.html:311
 msgid "CONTACT"
 msgstr "ارتباط با ما"
 
-#: templates/base.html:58 templates/base.html:131 templates/home.html:384
+#: templates/base.html:58
+#: templates/base.html:131
+#: templates/home.html:384
 msgid "PARTENAIRES"
 msgstr "همکاران"
 
-#: templates/base.html:59 templates/base.html:132 templates/home.html:445
+#: templates/base.html:59
+#: templates/base.html:132
+#: templates/home.html:445
 msgid "PRESSE"
-msgstr ""
+msgstr "رسانه"
 
-#: templates/base.html:68 templates/base.html:101 templates/base.html:204
-#: templates/home.html:50 templates/home.html:286
+#: templates/base.html:68
+#: templates/base.html:101
+#: templates/base.html:204
+#: templates/home.html:50
+#: templates/home.html:286
 msgid "Je veux faire un don"
 msgstr "کمک به «سوت»"
 
-#: templates/base.html:77 templates/base.html:110 templates/home.html:214
+#: templates/base.html:77
+#: templates/base.html:110
+#: templates/home.html:214
 msgid "Je veux m'inscrire"
 msgstr "من میخوام ثابت نام کنم "
 
@@ -70,11 +86,11 @@ msgstr "برای ارسال یک آینده، ما توث، مدرسه را سا
 
 #: templates/base.html:215
 msgid "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure Dubuc"
-msgstr ""
+msgstr "2016 - THOT <br>علامت اختصاری : Laurent Rivelaygue · مدیر هنری : Laure Dubuc"
 
 #: templates/home.html:7
 msgid "Bienvenue chez Thot"
-msgstr ""
+msgstr " به \"توت\" خوش آمدید"
 
 #: templates/home.html:7
 msgid "l'école diplômante de français pour les réfugiés et demandeurs d’asile"
@@ -97,6 +113,9 @@ msgid ""
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
 msgstr ""
+"<span class=\"level3\"> 1&nbsp;200&nbsp;€</span> <br>\n"
+"            <span class=\"level2\"> par apprenant pour\n"
+"            آموزش ۴ ماهه</span>"
 
 #: templates/home.html:36
 #, python-format
@@ -105,6 +124,9 @@ msgid ""
 "            <span class=\"level2\">apprenants <br>\n"
 "              pris en charge en 2016 grâce à vos dons"
 msgstr ""
+"<span class=\"level3\"> %(nb_students)s </span> \n"
+"            <span class=\"level2\">apprenants <br>\n"
+"   لطف کمک های شما موارد زیر را به عهده می گیرد"
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
@@ -152,7 +174,7 @@ msgstr "ما تلاش می‌کنیم در حد امکان از اساتید ز�
 
 #: templates/home.html:109
 msgid "Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés."
-msgstr ""
+msgstr "از استادان رشته زبان فرانسه به غیر فرانسوی ها ( FLE ) که می خواهند به توت بپیوندند، دعوت می شود که آدرس ایمیل خود را به همراه رزومه و انگیزه نامه به آدرس زیر ارسال نمایندprofesseurs@thot-fle.frضمنا افراد انتخاب شده از حقوق و مزایا برخوردار خواهند بود"
 
 #: templates/home.html:120
 msgid "Une formation rapide et innovante"
@@ -362,11 +384,11 @@ msgstr ""
 
 #: templates/home.html:451
 msgid "Ils parlent de nous"
-msgstr ""
+msgstr "در باره‌ ما حرف می‌زنند"
 
 #: templates/home.html:456
 msgid "Parutions dans la presse"
-msgstr ""
+msgstr "‌انتشار در مطبوعات"
 
 #: templates/home.html:461
 msgid "Voir"
@@ -374,15 +396,15 @@ msgstr ""
 
 #: templates/home.html:462
 msgid "Bientôt d'autres liens"
-msgstr ""
+msgstr "لینک های آینده"
 
 #: templates/home.html:467
 msgid "Communiqué de Presse"
-msgstr ""
+msgstr "اعلامیه مطبوعاتی"
 
 #: templates/home.html:472
 msgid "Télécharger"
-msgstr ""
+msgstr "دانلود"
 
 #~ msgid ""
 #~ msgstr ""
