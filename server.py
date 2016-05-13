@@ -101,6 +101,14 @@ PRESS = [
     { "link": "https://savoir.actualitte.com/article/scolarite/1798/du-crowdfunding-pour-creer-une-ecole-apprenant-le-francais-aux-refugies",
       "title": "Actualitté",
       "text": "Du crowdfunding pour créer une école apprenant le français aux réfugiés (13/05/2016)"
+    },
+    { "link": "http://www.liberation.fr/debats/2016/05/02/ils-ferment-les-frontieres-ouvrons-nos-ecoles_1450031",
+      "title": "Libération",
+      "text": "\"Ils ferment les frontières, ouvrons nos écoles\" - tribune du Résome dans Libération 2/05/2016"
+    },
+    { "link": "http://www.rfi.fr/emission/20160418-institut-francais-bucarest",
+      "title": "RFI",
+      "text": "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55 RFI 18/04/16"
     }
 ]
 
