@@ -73,6 +73,34 @@ PRESS = [
     { "link": "http://2016.wetalk-community.org/modeles-feminins/",
       "title": "W(e) Talk",
       "text": "Judith Aquien, Présidente de Thot, sélectionnée parmi les 8 modèles féminins 2016, à la conférence \"Artisanes du commun, qui forment ensemble pour un autre demain\" du 21 mai 2016"
+    },
+    { "link": "http://issuu.com/lcf-magazine/docs/lcff_magazine_n__40-_issuu/43?e=6017579/35344828",
+      "title": "Langue et culture françaises & francophones",
+      "text": "Le magazine LCFF nous offre une page de publicité (numéro 40, mai 2016)"
+    },
+    { "link": "http://www.france4.fr/emissions/l-autre-jt/videos/replay_-_lautre_jt_05-05-2016_1142885",
+      "title": "L'Autre JT",
+      "text": "Sarah Constantin met 20/20 à Thot - 20'24'' (05/05/2016)"
+    },
+    { "link": "https://www.youtube.com/watch?v=KqqYWuFPRpE&feature=youtu.be",
+      "title": "LCI",
+      "text": "Thot invité au journal de midi (5/05/2016)"
+    },
+    { "link": "http://www.novaplanet.com/radionova/bientot-2h-14-avant-la-fin-du-monde-thot-la-formation-qui-apprend-le-francais-aux-refugies",
+      "title": "Nova - 2h 1/4 avant la fin du monde",
+      "text": "Judith Aquien invitée de Marie Misset et Armel Hemme (09/05/2016)"
+    },
+    { "link": "http://www.clique.tv/thot-lecole-diplomante-pour-les-refugies/",
+      "title": "Clique.tv",
+      "text": "Thot, l’école diplômante pour les réfugiés qui veulent apprendre le français (11/05/2016)"
+    },
+    { "link": "http://pressee.fr/judith-aquien-il-faut-transmettre-un-horizon-aux-refugies/#more-898",
+      "title": "Pressée",
+      "text": "« Avec Thot, on transmet un horizon aux réfugiés. » (11/05/2016) "
+    },
+    { "link": "https://savoir.actualitte.com/article/scolarite/1798/du-crowdfunding-pour-creer-une-ecole-apprenant-le-francais-aux-refugies",
+      "title": "Actualitté",
+      "text": "Du crowdfunding pour créer une école apprenant le français aux réfugiés (13/05/2016)"
     }
 ]
 
