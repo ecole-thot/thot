@@ -606,6 +606,10 @@ ul.press li {
 .pressmore {
   color: #777;
 }
+.benevolecom {
+  color: #008498;
+  margin-left: 10px;
+}
 
 /* Media queries */
 
