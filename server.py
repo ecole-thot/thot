@@ -64,7 +64,7 @@ PRESS = [
       "title": "Intégrales Mag",
       "text": "Thot, l’école diplomante de français pour élèves en migration (30/04/2016)"
     },
-    { "link": "http://www.novaplanet.com/radionova/60626/episode-projet-thot",
+    { "link": "http://www.novaplanet.com/radionova/61238/episode-thot-la-formation-qui-apprend-le-francais-aux-refugies",
       "title": "Le futur c'est maintenant, Nova",
       "text": "Chronique de Côme Bastin sur Thot (30/04/2016)"
     },
@@ -115,6 +115,18 @@ PRESS = [
     { "link": "http://www.rfi.fr/emission/20160418-institut-francais-bucarest",
       "title": "RFI",
       "text": "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55 RFI 18/04/16"
+    },
+    { "link": "http://www.leparisien.fr/montreuil-93100/montreuil-elles-veulent-creer-une-ecole-de-francais-pour-les-refugies-19-05-2016-5810251.php",
+      "title": "Le Parisien",
+      "text": "Elles veulent créer une école de français pour les réfugiés (19/05/2016)"
+    },
+    { "link": "http://www.lepoint.fr/societe/thot-l-ecole-qui-apprend-le-francais-aux-refugies-20-05-2016-2040741_23.php",
+      "title": "Le Point",
+      "text": "Thot, l'école qui apprend le français aux réfugiés (20/05/2016)"
+    },
+    { "link": "http://www.lexpress.fr/actualites/1/styles/a-paris-une-ecole-des-refugies-pour-apprendre-le-francais_1794126.html",
+      "title": "L’Express via l’AFP",
+      "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
     }
 ]
 
