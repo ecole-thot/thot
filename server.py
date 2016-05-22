@@ -116,6 +116,10 @@ PRESS = [
       "title": "RFI",
       "text": "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55 RFI 18/04/16"
     },
+    { "link": "http://www.letudiant.fr/jobsstages/creation-entreprise/heloise-nio-25-ans-cofondatrice-d-une-ecole-pour-former-les-exiles-a-la-langue-francaise.html",
+      "title": "L'Etudiant",
+      "text": "Héloïse a cofondé une école pour former les exilés à la langue française (19/05/2016)"
+    },
     { "link": "http://www.leparisien.fr/montreuil-93100/montreuil-elles-veulent-creer-une-ecole-de-francais-pour-les-refugies-19-05-2016-5810251.php",
       "title": "Le Parisien",
       "text": "Elles veulent créer une école de français pour les réfugiés (19/05/2016)"
