@@ -13,7 +13,7 @@ app.config.update(
 babel = Babel(app)
 
 
-DONATION_LINK = "https://fr.ulule.com/ecole-thot/"
+DONATION_LINK = "https://thot-transmettre-un-horizon-a-tous.donnerenligne.fr/"
 REGISTRATION_OPEN = False
 REGISTRATION_LINKS = {
   "fr" : "https://docs.google.com/forms/d/1guNbmsJMf5zuIfXOI29gk2PAZW4Q7jN_AMakHbQWuNY",
@@ -131,6 +131,14 @@ PRESS = [
     { "link": "http://www.lexpress.fr/actualites/1/styles/a-paris-une-ecole-des-refugies-pour-apprendre-le-francais_1794126.html",
       "title": "L’Express via l’AFP",
       "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
+    },
+    { "link": "http://tempsreel.nouvelobs.com/societe/20160520.AFP5837/a-paris-une-ecole-des-refugies-pour-apprendre-le-francais.html",
+      "title": "L'Obs - 20/05 ",
+      "text": "A Paris, une \"école des réfugiés\" pour apprendre le français"
+    },
+    { "link": "http://www.telerama.fr/monde/le-resome-pour-que-l-ecole-accueille-les-refugies-dans-la-dignite,141947.php",
+      "title": "Télérama",
+      "text": "Le Resome, pour que l’école accueille les réfugiés dans la dignité "
     }
 ]
 
