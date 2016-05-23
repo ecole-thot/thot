@@ -14,10 +14,10 @@ babel = Babel(app)
 
 
 DONATION_LINK = "https://thot-transmettre-un-horizon-a-tous.donnerenligne.fr/"
-REGISTRATION_OPEN = False
+REGISTRATION_OPEN = True
 REGISTRATION_LINKS = {
   "fr" : "https://docs.google.com/forms/d/1guNbmsJMf5zuIfXOI29gk2PAZW4Q7jN_AMakHbQWuNY",
-  "en" : "https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc",
+  "en" : "https://docs.google.com/forms/d/1cSZY4Cx4j_DysueON7yER2GGxn1HpQov52tjEOudCqo",
   "ar" : "https://docs.google.com/forms/d/1qlQXouDwlkJ5JRzouFPW5MTRqf8_XWjSMtHOj6MrlXA",
   "ps" : "https://docs.google.com/forms/d/1u1p4ECm6yTmwISX_2e3Os5K3TretWZFEtKMFjUbOwrU",
   "fa" : "https://docs.google.com/forms/d/1IyexQfwISQn5uezndVyHWYNR4gqUQe3lsuv3Iqts6Pg"
