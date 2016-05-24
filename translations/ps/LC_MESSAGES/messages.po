@@ -62,7 +62,7 @@ msgstr "زه غواړم مرسته وکړم  "
 
 #: templates/base.html:77 templates/base.html:110 templates/home.html:214
 msgid "Je veux m'inscrire"
-msgstr "زه غواړم مرسته وکړم"
+msgstr "زه غواړم نوم ليکنه وکړم"
 
 #: templates/base.html:210
 msgid "Pour transmettre un horizon à tous, nous avons créé Thot, école diplômante de français pour les réfugiés et demandeurs d’asile."
