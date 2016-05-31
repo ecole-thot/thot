@@ -50,7 +50,7 @@ PRESS = [
     },
     { "link": "https://rcf.fr/actualite/journal-regional-du-mardi-26-avril",
       "title": "RCF",
-      "text": "Journal Régional — 1'36\""
+      "text": "Journal Régional — 1'36\" (26/04/2016)"
     },
     { "link": "http://cheekmagazine.fr/societe/thot-judith-aquien-ecole-francais-refugies/",
       "title": "Cheek Magazine",
@@ -78,7 +78,7 @@ PRESS = [
     },
     { "link": "http://2016.wetalk-community.org/modeles-feminins/",
       "title": "W(e) Talk",
-      "text": "Judith Aquien, Présidente de Thot, sélectionnée parmi les 8 modèles féminins 2016, à la conférence \"Artisanes du commun, qui forment ensemble pour un autre demain\" du 21 mai 2016"
+      "text": "Judith Aquien, Présidente de Thot, sélectionnée parmi les 8 modèles féminins 2016, à la conférence \"Artisanes du commun, qui forment ensemble pour un autre demain\" (21/05/2016)"
     },
     { "link": "http://issuu.com/lcf-magazine/docs/lcff_magazine_n__40-_issuu/43?e=6017579/35344828",
       "title": "Langue et culture françaises & francophones",
@@ -90,7 +90,7 @@ PRESS = [
     },
     { "link": "https://www.youtube.com/watch?v=KqqYWuFPRpE&feature=youtu.be",
       "title": "LCI",
-      "text": "Thot invité au journal de midi (5/05/2016)"
+      "text": "Thot invité au journal de midi (05/05/2016)"
     },
     { "link": "http://www.novaplanet.com/radionova/bientot-2h-14-avant-la-fin-du-monde-thot-la-formation-qui-apprend-le-francais-aux-refugies",
       "title": "Nova - 2h 1/4 avant la fin du monde",
@@ -102,7 +102,7 @@ PRESS = [
     },
     { "link": "http://pressee.fr/judith-aquien-il-faut-transmettre-un-horizon-aux-refugies/#more-898",
       "title": "Pressée",
-      "text": "« Avec Thot, on transmet un horizon aux réfugiés. » (11/05/2016) "
+      "text": "« Avec Thot, on transmet un horizon aux réfugiés. » (11/05/2016)"
     },
     { "link": "https://savoir.actualitte.com/article/scolarite/1798/du-crowdfunding-pour-creer-une-ecole-apprenant-le-francais-aux-refugies",
       "title": "Actualitté",
@@ -110,11 +110,15 @@ PRESS = [
     },
     { "link": "http://www.liberation.fr/debats/2016/05/02/ils-ferment-les-frontieres-ouvrons-nos-ecoles_1450031",
       "title": "Libération",
-      "text": "\"Ils ferment les frontières, ouvrons nos écoles\" - tribune du Résome dans Libération 2/05/2016"
+      "text": "\"Ils ferment les frontières, ouvrons nos écoles\" - tribune du Résome dans Libération (02/05/2016)"
     },
     { "link": "http://www.rfi.fr/emission/20160418-institut-francais-bucarest",
       "title": "RFI",
-      "text": "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55 RFI 18/04/16"
+      "text": "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55 (18/04/16)"
+    },
+    { "link": "http://www.lecourrierdelatlas.com/1138518052016Une-ecole-pour-apprendre-le-francais-aux-refugies.html",
+      "title": "Le Courrier de l'Atlas",
+      "text": "\"Une école pour apprendre le français aux réfugiés\" (18/05/2016)"
     },
     { "link": "http://www.letudiant.fr/jobsstages/creation-entreprise/heloise-nio-25-ans-cofondatrice-d-une-ecole-pour-former-les-exiles-a-la-langue-francaise.html",
       "title": "L'Etudiant",
@@ -133,12 +137,20 @@ PRESS = [
       "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
     },
     { "link": "http://tempsreel.nouvelobs.com/societe/20160520.AFP5837/a-paris-une-ecole-des-refugies-pour-apprendre-le-francais.html",
-      "title": "L'Obs - 20/05 ",
-      "text": "A Paris, une \"école des réfugiés\" pour apprendre le français"
+      "title": "L'Obs",
+      "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
     },
     { "link": "http://www.telerama.fr/monde/le-resome-pour-que-l-ecole-accueille-les-refugies-dans-la-dignite,141947.php",
       "title": "Télérama",
       "text": "Le Resome, pour que l’école accueille les réfugiés dans la dignité "
+    },
+    { "link": "http://lapartducolibri.fr/?p=837",
+      "title": "La Part du colibri",
+      "text": "Une école diplômante pour apprendre le français aux réfugiés (23/05/2016)"
+    },
+    { "link": "http://www.franceculture.fr/emissions/rue-des-ecoles/rue-des-ecoles-dimanche-29-mai-2016",
+      "title": "France Culture (\"Rue des écoles\")",
+      "text": "Focus : \"Thot, une école pour les migrants\", avec Judith Aquien, présidente de Thot à 48' (29/05/2016)"
     }
 ]
 
