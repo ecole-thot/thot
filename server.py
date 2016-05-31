@@ -22,10 +22,10 @@ REGISTRATION_LINKS = {
   "ps" : "https://docs.google.com/forms/d/1u1p4ECm6yTmwISX_2e3Os5K3TretWZFEtKMFjUbOwrU",
   "fa" : "https://docs.google.com/forms/d/1IyexQfwISQn5uezndVyHWYNR4gqUQe3lsuv3Iqts6Pg"
 }
-VOLUNTEER_OPEN = True
+VOLUNTEER_OPEN = False
 VOLUNTEER_LINK = "https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc"
 BUDGET_AVAILABLE = False
-NB_STUDENTS = 0
+NB_STUDENTS = 40
 
 PRESS = [
     { "link": "https://savoirs.rfi.fr/fr/communaute/langue-francaise/ma-parole-on-vous-presente-thot",
