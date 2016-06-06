@@ -144,6 +144,10 @@ PRESS = [
       "title": "L'Obs",
       "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
     },
+    { "link": "http://www.rtl.be/info/monde/international/a-paris-une-ecole-des-refugies-pour-apprendre-le-francais-819890.aspx",
+      "title": "RTL",
+      "text": "A Paris, une \"école des réfugiés\" pour apprendre le français (20/05/2016)"
+    },
     { "link": "http://2016.wetalk-community.org/modeles-feminins/",
       "title": "W(e) Talk",
       "text": "Judith Aquien, Présidente de Thot, sélectionnée parmi les 8 modèles féminins 2016, à la conférence \"Artisanes du commun, qui forment ensemble pour un autre demain\" (21/05/2016)"
@@ -156,6 +160,10 @@ PRESS = [
       "title": "Mediapart",
       "text": "Migrants: comment aider? (26/05/2016)"
     },
+    { "link": "http://www.goodmorningcrowdfunding.com/international-refugies-leducation-problematique-preoccupante-02260516/",
+      "title": "Good Morning Crowdfunding",
+      "text": "Les réfugiés et l’éducation, une problématique préoccupante (26/05/2016)"
+    },
     { "link": "http://www.franceculture.fr/emissions/rue-des-ecoles/rue-des-ecoles-dimanche-29-mai-2016",
       "title": "France Culture (\"Rue des écoles\")",
       "text": "Focus : \"Thot, une école pour les migrants\", avec Judith Aquien, présidente de Thot à 48' (29/05/2016)"
@@ -163,6 +171,18 @@ PRESS = [
     { "link": "http://www.lesinrocks.com/2016/05/31/actualite/12-femmes-bousculer-quotidien-11826880/",
       "title": "Les Inrocks",
       "text": "12 femmes qui vont bousculer votre quotidien (31/05/2016)"
+    },
+    { "link": "http://www.leparisien.fr/montreuil-93100/montreuil-elles-ont-monte-une-ecole-de-francais-pour-refugies-02-06-2016-5851387.php",
+      "title": "Le Parisien",
+      "text": "Montreuil : elles ont monté une école de français pour réfugiés (02/06/2016)"
+    },
+    { "link": "http://www.lefigaro.fr/actualite-france/2016/06/02/01016-20160602ARTFIG00161-paris-une-association-lance-une-ecole-de-langue-francaise-pour-les-refugies.php",
+      "title": "Le Figaro",
+      "text": "Paris : une association lance une école de langue française pour les réfugiés (02/06/2016)"
+    },
+    { "link": "http://www.carenews.com/fr/news/5337-thot-une-ecole-de-francais-pour-transmettre-un-horizon-aux-migrants",
+      "title": "Carenews",
+      "text": "THOT, UNE ÉCOLE DE FRANÇAIS POUR TRANSMETTRE UN HORIZON AUX MIGRANTS (06/06/2016)"
     }
 ]
 
