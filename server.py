@@ -183,6 +183,26 @@ PRESS = [
     { "link": "http://www.carenews.com/fr/news/5337-thot-une-ecole-de-francais-pour-transmettre-un-horizon-aux-migrants",
       "title": "Carenews",
       "text": "THOT, UNE ÉCOLE DE FRANÇAIS POUR TRANSMETTRE UN HORIZON AUX MIGRANTS (06/06/2016)"
+    },
+    { "link": "http://www.leparisien.fr/societe/paris-c-est-la-rentree-des-classes-pour-40-refugies-09-06-2016-5869837.php",
+      "title": "Le Parisien",
+      "text": "Paris : c'est la rentrée des classes pour 40 réfugiés (13/06/2016)"
+    },
+    { "link": "http://www.la-croix.com/Famille/Education/A-Paris-une-ecole-pour-l-insertion-des-migrants-2016-06-13-1200768298",
+      "title": "La Croix",
+      "text": "À Paris, une école pour l'insertion des migrants (13/06/2016)"
+    },
+    { "link": "http://www.lemonde.fr/immigration-et-diversite/article/2016/06/13/l-association-thot-ouvre-a-paris-une-ecole-de-francais-pour-les-migrants_4949471_1654200.html",
+      "title": "Le Monde",
+      "text": "L’association Thot ouvre à Paris une école de français pour les migrants (13/06/2016)"
+    },
+    { "link": "http://www.faiseursdeboite.fr/thot-association-ecole-langue-francaise",
+      "title": "Faiseurs de boîte",
+      "text": "Thot, une école diplômante pour les demandeurs d’asile et les réfugiés (13/062016)"
+    },
+    { "link": "http://up-conferences.fr/fest/",
+      "title": "UP Fest 'Le temps des héros'",
+      "text": "Judith Aquien parle de Thot (18/06/2016)"
     }
 ]
 
