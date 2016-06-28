@@ -88,7 +88,7 @@ PRESS = [
       "title": "Libération",
       "text": "\"Ils ferment les frontières, ouvrons nos écoles\" - tribune du Résome dans Libération (02/05/2016)"
     },
-    { "link": "http://www.france4.fr/emissions/l-autre-jt/videos/replay_-_lautre_jt_05-05-2016_1142885",
+    { "link": "https://youtu.be/eWT6qQ79b-g?t=1m34s",
       "title": "L'Autre JT",
       "text": "Sarah Constantin met 20/20 à Thot - 20'24'' (05/05/2016)"
     },
@@ -182,7 +182,7 @@ PRESS = [
     },
     { "link": "http://www.carenews.com/fr/news/5337-thot-une-ecole-de-francais-pour-transmettre-un-horizon-aux-migrants",
       "title": "Carenews",
-      "text": "THOT, UNE ÉCOLE DE FRANÇAIS POUR TRANSMETTRE UN HORIZON AUX MIGRANTS (06/06/2016)"
+      "text": "Thot, une école de français pour transmettre un horizon aux migrants (06/06/2016)"
     },
     { "link": "http://www.leparisien.fr/societe/paris-c-est-la-rentree-des-classes-pour-40-refugies-09-06-2016-5869837.php",
       "title": "Le Parisien",
@@ -203,6 +203,22 @@ PRESS = [
     { "link": "http://up-conferences.fr/fest/",
       "title": "UP Fest 'Le temps des héros'",
       "text": "Judith Aquien parle de Thot (18/06/2016)"
+    },
+    { "link": "http://www.huffingtonpost.fr/jennifer-leblond/journee-mondiale-des-refugies-video_b_10522138.html",
+      "title": "Huffington Post",
+      "text": "Où apprendre le français et être diplômé quand on est réfugié ? (20/06/2016)"
+    },
+    { "link": "http://www.20minutes.fr/paris/1867675-20160620-ecole-thot-cours-francais-redonner-voix-refugies",
+      "title": "20 Minutes",
+      "text": "Ecole Thot : Des cours de français, pour redonner une voix aux réfugiés (20/06/2016)"
+    },
+    { "link": "http://www.up-inspirer.fr/26826-thot-une-ecole-de-francais-au-service-des-refugies",
+      "title": "UP Le Mag",
+      "text": "Thot : Une école de français au service des réfugiés (24/062016)"
+    },
+    { "link": "http://tedxchampselyseesed.com/articles/en-exil-leducation-pour-se-reconnecter-avec-les-autres-et-avec-son-avenir-10/",
+      "title": "TedX Champs-Elysées",
+      "text": "TedX Champs-Elysées Salon En exil : l’éducation pour se reconnecter avec les autres et avec son avenir (24/06/2016)"
     }
 ]
 
