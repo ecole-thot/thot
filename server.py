@@ -28,7 +28,7 @@ BUDGET_AVAILABLE = False
 NB_STUDENTS = 40
 
 PRESS = [
-    { "link": "http://pvgpsla5.immanens.com/fr/pvPageH5B.asp?puc=003229&nu=100",
+    { "link": "http://www.marianne.net/ecole-les-migrants-100244200.html",
       "title": "Marianne",
       "text": "Une école pour les migrants (numéro du 1er au 7 juillet 2016)"
     },
