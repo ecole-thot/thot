@@ -13,7 +13,7 @@ app.config.update(
 babel = Babel(app)
 
 
-DONATION_LINK = "https://thot-transmettre-un-horizon-a-tous.donnerenligne.fr/"
+DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
 REGISTRATION_OPEN = False
 REGISTRATION_LINKS = {
   "fr" : "https://docs.google.com/forms/d/1guNbmsJMf5zuIfXOI29gk2PAZW4Q7jN_AMakHbQWuNY",
@@ -28,6 +28,18 @@ BUDGET_AVAILABLE = False
 NB_STUDENTS = 40
 
 PRESS = [
+    { "link": "http://weareup.com/des-solutions-pour-une-integration-reussie-des-refugies/?utm_campaign=IntegrationRefugies&utm_medium=newsletterdirex7&utm_source=NewsletterDirex7&utm_content=postdu30082016&utm_term=VF",
+      "title": "We Are Up",
+      "text": "Des solutions pour une intégration réussie des réfugiés (30/08/2016) "
+    },
+    { "link": "https://www.youtube.com/watch?v=zIvNMosII0g",
+      "title": "BBC Afrique",
+      "text": "Thot dans le Grand Reportage de BBC Afrique (27/08/2016)"
+    },
+    { "link": "http://www.happyproject.world/single-post/2016/07/06/Judith-Aquien-elle-a-cr%C3%A9%C3%A9-une-%C3%A9cole-de-fran%C3%A7ais-pour-les-r%C3%A9fugi%C3%A9s",
+      "title": "Happy Project",
+      "text": "Judith Aquien a créé Thot, une école de français pour les réfugiés (06/07/2016)"
+    },
     { "link": "http://www.marianne.net/ecole-les-migrants-100244200.html",
       "title": "Marianne",
       "text": "Une école pour les migrants (numéro du 1er au 7 juillet 2016)"
