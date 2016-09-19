@@ -28,9 +28,21 @@ BUDGET_AVAILABLE = False
 NB_STUDENTS = 40
 
 PRESS = [
+    { "link": "http://www.psychologies.com/Planete/Societe/Interviews/Des-seances-psy-pour-les-migrants",
+      "title": "Psychologies",
+      "text": "Des séances psy pour les migrants (09/2016)"
+    },
+    { "link": "http://www.psychologies.com/Planete/Societe/Articles-et-Dossiers/Ali-demandeur-d-asile-tente-de-construire-sa-vie-loin-de-sa-famille",
+      "title": "Psychologies",
+      "text": "Ali, demandeur d’asile, tente de construire sa vie loin de sa famille (09/2016)"
+    },
+    { "link": "http://www.kiyoblog.com/single-post/2016/09/08/Thot-l%C3%A9cole-de-langue-pour-les-r%C3%A9fugi%C3%A9s",
+      "title": "Kiyo",
+      "text": "Thot, une école diplômante pour les réfugiés (08/09/2016)"
+    },
     { "link": "http://weareup.com/des-solutions-pour-une-integration-reussie-des-refugies/?utm_campaign=IntegrationRefugies&utm_medium=newsletterdirex7&utm_source=NewsletterDirex7&utm_content=postdu30082016&utm_term=VF",
       "title": "We Are Up",
-      "text": "Des solutions pour une intégration réussie des réfugiés (30/08/2016) "
+      "text": "Des solutions pour une intégration réussie des réfugiés (30/08/2016)"
     },
     { "link": "https://www.youtube.com/watch?v=zIvNMosII0g",
       "title": "BBC Afrique",
