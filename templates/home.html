@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+  {% extends "base.html" %}
 
 {% block content %}
   
@@ -175,6 +175,8 @@
             </span>
             <span class="btn-thot-text">{% trans %}Je veux devenir bénévole{% endtrans %}</span>
           </a>
+          {% else %}
+            <em>Les candidatures pour le bénévolat sont terminées pour la session démarrant en novembre</em>
           {% endif %}
 
         </div>
