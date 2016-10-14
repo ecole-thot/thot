@@ -330,10 +330,12 @@
       <br><span class="email"><a href="mailto:professeurs@thot-fle.fr">professeurs@thot-fle.fr</a></span>
       </div>
 
+      {% if volunteer_open %}
       <div class="padding_bottom">
       <span class="glyphicon glyphicon-circle-arrow-right"></span> {% trans %}Pour proposer votre aide en tant que bénévole :{% endtrans %}
       <br><span class="email"><a href="mailto:benevoles@thot-fle.fr">benevoles@thot-fle.fr</a></span>
       </div>
+      {% endif %}
 
       <div class="padding_bottom">
       <span class="glyphicon glyphicon-circle-arrow-right"></span> {% trans %}Pour des partenariats :{% endtrans %}
