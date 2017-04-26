@@ -35,7 +35,7 @@
           <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
             {% trans %}<span class="level3"> {{ nb_students }} </span> 
             <span class="level2">apprenants <br>
-              pris en charge en 2016 grâce à vos dons{% endtrans %}</span>
+              pris en charge en 2016 grâce à vos dons</span>{% endtrans %}
           </div>
           {% endif %}
         </div>
@@ -105,8 +105,9 @@
         </div>
         <div class="sub_programme2">
           <p><span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos apprenants vers le diplôme correspondant à leur objectif en France.{% endtrans %}<br>
+          <em>{% trans %}Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas. Merci.{% endtrans %}</em><br>
           <span class="glyphicon glyphicon-circle-arrow-right"></span>{% trans %}Autant que possible, nous recrutons des professeurs parlant la langue des apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus fluide d'une langue vers l'autre.{% endtrans %}</p>
-          <p class="vertical-dots">{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p></div>
+          <!-- <p class="vertical-dots">{% trans %}Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés.{% endtrans %}</p> --></div>
         </div>
   </div>
 
@@ -326,8 +327,9 @@
       <div class="sub_about3">{% trans %}Nous écrire par voie électronique{% endtrans %}</div>
 
       <div class="padding_bottom">
-      <span class="glyphicon glyphicon-circle-arrow-right"></span> {% trans %}Pour être recruté en tant que professeur de FLE :{% endtrans %}
+      <span class="glyphicon glyphicon-circle-arrow-right"></span> {% trans %}Pour un renseignement concernant les postes des professeurs de FLE à Thot :{% endtrans %}
       <br><span class="email"><a href="mailto:professeurs@thot-fle.fr">professeurs@thot-fle.fr</a></span>
+      <em>({% trans %}Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas.{% endtrans %})</em>
       </div>
 
       {% if volunteer_open %}
