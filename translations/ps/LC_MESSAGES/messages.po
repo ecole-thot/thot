@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-04-26 09:26+0200\n"
+"POT-Creation-Date: 2017-07-09 22:41+0200\n"
 "PO-Revision-Date: 2016-04-19 14:08+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ps\n"
@@ -47,24 +47,24 @@ msgstr "نوم ليکنه  "
 msgid "À PROPOS"
 msgstr "په اړه معلومات "
 
-#: templates/base.html:81 templates/base.html:154 templates/home.html:317
+#: templates/base.html:81 templates/base.html:154 templates/home.html:320
 msgid "CONTACT"
 msgstr "اړيکه "
 
-#: templates/base.html:82 templates/base.html:155 templates/home.html:389
+#: templates/base.html:82 templates/base.html:155 templates/home.html:392
 msgid "PARTENAIRES"
 msgstr "همکاران"
 
-#: templates/base.html:83 templates/base.html:156 templates/home.html:469
+#: templates/base.html:83 templates/base.html:156 templates/home.html:472
 msgid "PRESSE"
 msgstr "مطبوعات"
 
 #: templates/base.html:92 templates/base.html:125 templates/base.html:228
-#: templates/home.html:50 templates/home.html:292
+#: templates/home.html:50 templates/home.html:295
 msgid "Je veux faire un don"
 msgstr "زه غواړم مرسته وکړم  "
 
-#: templates/base.html:101 templates/base.html:134 templates/home.html:220
+#: templates/base.html:101 templates/base.html:134 templates/home.html:222
 msgid "Je veux m'inscrire"
 msgstr "زه غواړم نوم ليکنه وکړم"
 
@@ -319,7 +319,7 @@ msgstr ""
 "که تاسو غواړی چې موږ سره  د یوه رضاکار په توګه  یوځای شي، نو موږ ته "
 "ایمیل\" \"واستوي benevoles@thot-fle.fr"
 
-#: templates/home.html:172 templates/home.html:497
+#: templates/home.html:172 templates/home.html:500
 msgid "Télécharger"
 msgstr "ډونلوډ"
 
@@ -345,26 +345,40 @@ msgstr "تاسو باید د  نوم لیکلو لپاره تر 7 يورو ور�
 msgid "suivre chaque cours sans exception"
 msgstr "هر يو صنف ته چى وغواړى اخستلى يى شى"
 
-#: templates/home.html:223
+#: templates/home.html:216
 msgid ""
-"Les inscriptions pour la session d'avril à juillet sont fermées. Elles ne"
-" sont malheureusement restées ouvertes que quelques heures. Les "
-"prochaines inscriptions auront lieu en août 2017."
+"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 "
+"août à 11h."
 msgstr ""
 
-#: templates/home.html:235
+#: templates/home.html:226
+msgid ""
+"La prochaine session d'inscription sera ouverte, sur notre site internet "
+"du 7 août à 11h au 9 août à 11h. Un bouton \"Je veux m'inscrire\" sera "
+"visible sur ce site, et vous mènera au formulaire d'inscription. Pour "
+"accéder au formulaire dans une autre langue, changez la langue du site "
+"internet en haut à droite de la page."
+msgstr ""
+
+#: templates/home.html:227
+msgid ""
+"Les inscriptions pour la session de septembre à janvier sont fermées. La "
+"prochaine session d'inscription aura lieu an janvier 2018"
+msgstr ""
+
+#: templates/home.html:240
 msgid "A PROPOS"
 msgstr "په اړه معلومات"
 
-#: templates/home.html:241
+#: templates/home.html:246
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr "زمونږ ماموريت: هر چا ته خدمت کول دى"
 
-#: templates/home.html:246
+#: templates/home.html:251
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "مونږ ولى دغه مکتب ته ټى اچ اوو ټى نوم ورکړ"
 
-#: templates/home.html:250
+#: templates/home.html:255
 msgid ""
 "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
 "mission étant de disséminer ses connaissances, il inventa le langage. Ce "
@@ -376,11 +390,11 @@ msgstr ""
 "علم ورسوى نو ددى په وجه هغى ژبه جوړه کړه چى دا سمبول د هغى مقصد افاده کوى"
 " نو زمونږ حدف په فرانسه کى همدا دى"
 
-#: templates/home.html:254
+#: templates/home.html:259
 msgid "Qui sommes-nous ?"
 msgstr "مونږ څوک يو"
 
-#: templates/home.html:258
+#: templates/home.html:263
 msgid ""
 "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
 "demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
@@ -400,31 +414,27 @@ msgstr ""
 "کډوالو ته د فرانسوي ژبې ذده کړه د با تجربه استاذانو د اسانتياوو سره سره د"
 " يو منل شوى تصديق زمينه هم ور کړو "
 
-#: templates/home.html:262
+#: templates/home.html:267
 msgid "présidente"
 msgstr "رئيس"
 
-#: templates/home.html:264
+#: templates/home.html:269
 msgid "vice-présidente"
 msgstr "معاون"
 
-#: templates/home.html:266
+#: templates/home.html:271
 msgid "trésorière"
 msgstr "خذانه دار"
 
-#: templates/home.html:268
-msgid "directeur pédagogique"
-msgstr "تدريسى مدير"
+#: templates/home.html:273
+msgid "directrice pédagogique"
+msgstr ""
 
-#: templates/home.html:270
-msgid "responsable de l'enseignement et de la formation"
-msgstr "د تعليمى او تدريسى چارو نګران"
-
-#: templates/home.html:276
+#: templates/home.html:279
 msgid "Comment gérons-nous notre budget ?"
 msgstr "مونږ خپله بديجه څنګه برابرو"
 
-#: templates/home.html:280
+#: templates/home.html:283
 msgid ""
 "Nous croyons en la transparence, d'autant plus que les fonds dont nous "
 "disposons viennent du grand public autant que d'institutions privées et "
@@ -433,67 +443,67 @@ msgstr ""
 "مونږ په شفافيت باور لرو په خاصه توګه ستاسو د مرستو څخه د اتباعو په توګه "
 "\" \"که دولتى وى که شخصى, نو له دې امله موږ خپله بوديجه تازه خپره کړه:"
 
-#: templates/home.html:303
+#: templates/home.html:306
 msgid "Je veux consulter le budget"
 msgstr "( پى ډى اف) تاسو کولاى شى دلته زمونږ مالى امکانات وګورى"
 
-#: templates/home.html:323
+#: templates/home.html:326
 msgid "Nous serons ravis de vous répondre"
 msgstr "مونږ سره اړيکه ونيسى"
 
-#: templates/home.html:327
+#: templates/home.html:330
 msgid "Nous écrire par voie électronique"
 msgstr "د ايميل په واسطه اړيکه ونيسى"
 
-#: templates/home.html:330
+#: templates/home.html:333
 msgid ""
 "Pour un renseignement concernant les postes des professeurs de FLE à Thot"
 " :"
 msgstr ""
 
-#: templates/home.html:332
+#: templates/home.html:335
 msgid ""
 "Notre équipe de professeurs est actuellement au complet, nous ne "
 "recrutons pas."
 msgstr ""
 
-#: templates/home.html:337
+#: templates/home.html:340
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr "د داوطلب په توګه"
 
-#: templates/home.html:343
+#: templates/home.html:346
 msgid "Pour des partenariats :"
 msgstr "د مشارکت په توګه"
 
-#: templates/home.html:348
+#: templates/home.html:351
 msgid "Pour tout autre renseignement :"
 msgstr "د عامه معلوماتو له پاره"
 
-#: templates/home.html:353
+#: templates/home.html:356
 msgid "Réhabiliter la missive traditionnelle"
 msgstr "مونږ خپل ادرس بدل کړيدى"
 
-#: templates/home.html:356
+#: templates/home.html:359
 msgid "Association Thot"
 msgstr "Association Thot"
 
-#: templates/home.html:362
+#: templates/home.html:365
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr "که غواړى انلاين اړيکه ټينګه کړى"
 
-#: templates/home.html:395
+#: templates/home.html:398
 msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr "ډيره زياته مننه چى په مونږ مو باور وکړ"
 
-#: templates/home.html:399
+#: templates/home.html:402
 msgid "Partenaires"
 msgstr "همکاران"
 
-#: templates/home.html:456
+#: templates/home.html:459
 msgid "Remerciements"
 msgstr "د ټولو نه خاصه مننه"
 
-#: templates/home.html:458
+#: templates/home.html:461
 msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad "
 "· Tina Bouffet · Axel Dreyfus ·\n"
@@ -503,19 +513,19 @@ msgstr ""
 "· Tina Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon · Thibaut Sardier"
 
-#: templates/home.html:475
+#: templates/home.html:478
 msgid "Ils parlent de nous"
 msgstr "دوى زمونږ په اړه خبرى کوى"
 
-#: templates/home.html:480
+#: templates/home.html:483
 msgid "Parutions dans la presse"
 msgstr "په رسنيو کى ښکارى"
 
-#: templates/home.html:486
+#: templates/home.html:489
 msgid "Voir"
 msgstr "ليدل"
 
-#: templates/home.html:492
+#: templates/home.html:495
 msgid "Communiqué de Presse"
 msgstr "مطبوعاتى اعلاميه"
 
@@ -554,4 +564,10 @@ msgstr "مطبوعاتى اعلاميه"
 
 #~ msgid "Pour être recruté en tant que professeur de FLE :"
 #~ msgstr "که غواړى چى د فرانسوي ژبى د استاد په توګه مونږ سره کار وکړى"
+
+#~ msgid "directeur pédagogique"
+#~ msgstr "تدريسى مدير"
+
+#~ msgid "responsable de l'enseignement et de la formation"
+#~ msgstr "د تعليمى او تدريسى چارو نګران"
 

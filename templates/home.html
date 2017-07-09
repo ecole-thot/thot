@@ -212,15 +212,20 @@
         </div>
 
         {% if registration_open %}
-        <a class="btn btn-success btn-lg"  href="{{ registration_links[locale] }}" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-          </span>
-          <span class="btn-thot-text">{% trans %}Je veux m'inscrire{% endtrans %}</span>
-        </a>
+        <br>
+          <div>{% trans %}Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 août à 11h.{% endtrans %}</div>
+          <a class="btn btn-success btn-lg"  href="{{ registration_links[locale] }}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="btn-thot-text">{% trans %}Je veux m'inscrire{% endtrans %}</span>
+          </a>
         {% else %}
-        <div class="wait"><em>{% trans %}Les inscriptions pour la session d'avril à juillet sont fermées. Elles ne sont malheureusement restées ouvertes que quelques heures. Les prochaines inscriptions auront lieu en août 2017.{% endtrans %}</em></div>
+          <div class="wait"><em>
+            {% trans %}La prochaine session d'inscription sera ouverte, sur notre site internet du 7 août à 11h au 9 août à 11h. Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %}
+            {# Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu an janvier 2018 #}
+          </em></div>
         {% endif %}
 
       </div>
@@ -265,9 +270,7 @@
           <span class="glyphicon glyphicon-circle-arrow-right"></span>
             <span class="liens">Jennifer Leblond</span>, {% trans %}trésorière{% endtrans %}<br>
           <span class="glyphicon glyphicon-circle-arrow-right"></span>
-            <span class="liens">Imaad Ali</span>, {% trans %}directeur pédagogique{% endtrans %}<br>
-          <span class="glyphicon glyphicon-circle-arrow-right"></span>
-            <span class="liens">Mariame Camara</span>, {% trans %}responsable de l'enseignement et de la formation{% endtrans %}
+            <span class="liens">Mariame Camara</span>, {% trans %}directrice pédagogique{% endtrans %}
         </p>
       </div>
 

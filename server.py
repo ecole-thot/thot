@@ -12,9 +12,9 @@ app.config.update(
     BABEL_DEFAULT_TIMEZONE='Europe/Paris')
 babel = Babel(app)
 
+REGISTRATION_OPEN = False
 
 DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
-REGISTRATION_OPEN = False
 REGISTRATION_LINKS = {
   "fr" : "https://docs.google.com/forms/d/e/1FAIpQLSdCWtnIMP5pXiv6Ubd2sF1AJxAE4qRYymVcMTiD-FJKsYLUmQ/viewform?usp=sf_link",
   "en" : "https://docs.google.com/forms/d/e/1FAIpQLSe8U-wFoP4cDa5IFu1gLvwFmaYOa413qLkVXvFj_QWogfqjuw/viewform?usp=sf_link",
@@ -80,8 +80,6 @@ PRESS = [
       "title": "Arte (28 Minutes)",
       "text": "Abd Al Malik parle de Thot (26/01/2017)",
     },
-
-
     { "link": "http://www.carenews.com/fr/news/6961-la-france-s-engage-pour-l-enseignement-du-francais-aux-refugies",
       "title": "Carenews",
       "text": "'La France s'engage' pour l’enseignement du français aux réfugiés (23/01/2017)",
