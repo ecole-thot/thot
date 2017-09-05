@@ -286,7 +286,7 @@ msgid "La prochaine session d'inscription sera ouverte, sur notre site internet 
 msgstr "The next registration session will be opened on our website from August 7th at 11am to 9th August at 11am. A \"I want to register\" button will be visible on this site, and will take you to the registration form. To access the form in another language, change the language of the website to the top right of the page."
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu an janvier 2018"
+msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu en janvier 2018"
 msgstr "Registration for the September to January session is closed. The next registration session will take place in January 2018."
 
 #: templates/home.html:240

@@ -284,7 +284,7 @@ msgid "La prochaine session d'inscription sera ouverte, sur notre site internet 
 msgstr " ثبت نام برای مرحله بعدی از مورخ هفت اګست ساعت یازده صبح الی مورخ نه اګست ساعت یازده صبح صورت میګرد ، ''میخواهم خودرا راجستر نمایم'' اين کليد به صفحه انترنیت فعال خواهد شد و شما به استفاده از آن میتوانید خودرا راجستر نماید، اګر میخواهید زبان خودرا تغير نمايد در صفحه بالا رافته به طرف راست زبان مورد پسند خویشرا انتخاب نماید. "
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu an janvier 2018"
+msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu en janvier 2018"
 msgstr "ثبت نام از ماه سپتمبر الی ماه جنوری مسدود میباشد ، مرحله بعدی در ماه جنوری سال 2018 اغاز میشود."
 
 #: templates/home.html:240

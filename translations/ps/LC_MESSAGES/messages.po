@@ -278,7 +278,7 @@ msgid "La prochaine session d'inscription sera ouverte, sur notre site internet 
 msgstr " د نوم لیکنی راتلونکی مرحله به د اګست د اوم تاریخ د یوولسو بجو څخه تر د اګست د نهم تاریخ دیوولسو بجو پوری وی، ''زه غواړم ځان راجستر کړم'' بټنه به په د انټرنټ په صفحه کی فعاله وی، او هغه به تاسو د نوم لیکنی اصلى صفحی ته داخلوی، که چیرته غواړی دا صفحه په بله ژبه کی خلاصه کړی نو د ویب پاڼی په سر کی ښی خوا ته خپله ژبه انتخاب کړی."
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu an janvier 2018"
+msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu en janvier 2018"
 msgstr " نوم لیکنه د سپټمبر نه تر جنوری پوری بنده ده، د نوم لیکنی بله مرحله به د 2018 کال د جنوری په میاشت کی شروع کیږی."
 
 #: templates/home.html:240
