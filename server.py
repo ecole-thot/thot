@@ -12,7 +12,7 @@ app.config.update(
     BABEL_DEFAULT_TIMEZONE='Europe/Paris')
 babel = Babel(app)
 
-REGISTRATION_OPEN = True
+REGISTRATION_OPEN = False
 
 DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
 REGISTRATION_LINKS = {
