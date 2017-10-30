@@ -474,6 +474,11 @@ hr.contact {
 .about .partners {
   margin-bottom: 20px;
 }
+
+.about .partners  a {
+  display: block;
+  padding: 10px;
+}
 .padding_bottom {
     padding-bottom: 10px;
 }

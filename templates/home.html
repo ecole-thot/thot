@@ -1,7 +1,7 @@
   {% extends "base.html" %}
 
 {% block content %}
-  
+
 <div style="position:relative">
   <img src="static/img/header.jpg" width="100%" class="img-responsive big-header">
   <h1 class="explication"><strong>{% trans %}Bienvenue chez Thot{% endtrans %}</strong>,<br>{% trans %}l'école diplômante de français pour les réfugiés et demandeurs d’asile{% endtrans %}</h1>
@@ -23,7 +23,7 @@
           bénévoles, seuls les professeurs sont rémunérés.<br>
           La richesse de l'association, c'est vous&nbsp;!{% endtrans %}</p>
         </div>
-      
+
         <div class="row">
           <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
             {% trans %}<span class="level3"> 1&nbsp;200&nbsp;€</span> <br>
@@ -33,7 +33,7 @@
 
           {% if nb_students > 0 %}
           <div class="col-md-4 cols-sm-6 col-xs-6 text-left">
-            {% trans %}<span class="level3"> {{ nb_students }} </span> 
+            {% trans %}<span class="level3"> {{ nb_students }} </span>
             <span class="level2">apprenants <br>
               pris en charge en 2016 grâce à vos dons</span>{% endtrans %}
           </div>
@@ -51,7 +51,7 @@
             </a>
           </div>
         </div>
- 
+
       </div>
     </div>
   </div>
@@ -62,19 +62,19 @@
 <div class="container" id="programme">
 
   <div class="row programme">
-    <div class="col-md-12 text-left sub_programme0"> 
+    <div class="col-md-12 text-left sub_programme0">
       {% trans %}PROGRAMME{% endtrans %}
     </div>
   </div>
-  
+
   <div class="row">
     <div class="col-md-4 text-left sub_programme1">
       {% trans %}Notre pédagogie{% endtrans %}
     </div>
-    <div class="col-md-8 text-left sub_programme2"> 
+    <div class="col-md-8 text-left sub_programme2">
       <p>{% trans %}Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour passer d'un niveau de langue à l'autre.{% endtrans %}<br></p>
       <p>{% trans %}Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont toujours dispensés à des horaires hors démarches administratives (en fin de journée et le weekend).{% endtrans %}<br></p>
-      <p>{% trans %}Chaque session de formation comprend <b>160 heures</b> de cours conçus selon les besoins et niveaux des apprenants.{% endtrans %}<br></p> 
+      <p>{% trans %}Chaque session de formation comprend <b>160 heures</b> de cours conçus selon les besoins et niveaux des apprenants.{% endtrans %}<br></p>
     </div>
   </div>
 
@@ -82,7 +82,7 @@
     <div class="col-md-4 sub_programme3">
       <img src="static/img/THOT_composants_Pour_tous.png" class="img-responsive" alt="Pour Tous">
     </div>
-    
+
     <div class="col-md-8 text-left">
         <div class="sub_programme3">
           {% trans %}Une offre de Français Langue Étrangère (FLE) pour tous{% endtrans %}
@@ -160,12 +160,12 @@
           {% trans %}Bénévoles, venez chez Thot&nbsp;!{% endtrans %}
         </div>
 
-        <div class="col-md-8 text-left sub_benevoles1"> 
+        <div class="col-md-8 text-left sub_benevoles1">
           <p>{% trans %}La formation Thot est rendue efficace grâce la conjonction d’un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompagnants.{% endtrans %}</p>
           <div class ="alinea"><p>
             <span class="glyphicon glyphicon-ok"></span>{% trans %}Les bénévoles sont formés à la méthodologie Thot.{% endtrans %}<br>
             <span class="glyphicon glyphicon-ok"></span>{% trans %}Leurs interventions consolident les cours des professeurs et vont du tutorat à d'autres activités inclusives (sorties culturelles, jeux, conversations...).{% endtrans %}</p>
-          </div> 
+          </div>
           <p>{% trans %}Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois.{% endtrans %}</p>
 
           {% if volunteer_open %}
@@ -189,9 +189,9 @@
 
 <div class="red_bg">
   <div class="container container_inscriptions" id="inscription">
-    
+
     <div class="row inscriptions">
-      <div class="col-md-4 text-left level0"> 
+      <div class="col-md-4 text-left level0">
             {% trans %}INSCRIPTION{% endtrans %}
       </div>
     </div>
@@ -236,7 +236,7 @@
 
 <div class="container" id="apropos">
   <div class="row about">
-    <div class="col-md-4 text-left sub_about0"> 
+    <div class="col-md-4 text-left sub_about0">
       {% trans %}A PROPOS{% endtrans %}
     </div>
   </div>
@@ -245,12 +245,12 @@
     <div class="col-md-4 text-left sub_about1">
       {% trans %}Notre mission, transmettre un horizon à tous{% endtrans %}
     </div>
-        
+
     <div class="col-md-8 text-left">
       <div class="sub_about3">
         {% trans %}Pourquoi avoir nommé l'école "Thot" ?{% endtrans %}
       </div>
-      
+
       <div class="sub_about2">
         <p>{% trans %}Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.{% endtrans %}</p>
       </div>
@@ -258,7 +258,7 @@
        <div class="sub_about3">
         {% trans %}Qui sommes-nous ?{% endtrans %}
       </div>
-            
+
       <div class="sub_about2">
         <p>{% trans %}L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires toutes dramatiques, et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</p>
         <p>A ce jour, aucune formation gratuite et qualifiante, dispensée par des professeurs diplômés, ne leur est pourtant proposée. Nous créons donc l'école Thot pour pallier l’absence de formation diplômante à destination des réfugiés et demandeurs d’asile.{% endtrans %}</p>
@@ -278,7 +278,7 @@
       <div class="sub_about3">
         {% trans %}Comment gérons-nous notre budget ?{% endtrans %}
       </div>
-      
+
       <div class="sub_about2">
         <p>{% trans %}Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour.{% endtrans %}</p>
       </div>
@@ -309,14 +309,14 @@
         {% endif %}
 
       </div>
-              
+
     </div>
   </div>
 
   <hr class="contact">
 
   <div class="row about" id="contact">
-    <div class="col-md-4 text-left sub_about0"> 
+    <div class="col-md-4 text-left sub_about0">
       {% trans %}CONTACT{% endtrans %}
     </div>
   </div>
@@ -325,7 +325,7 @@
     <div class="col-md-4 text-left sub_about1">
       {% trans %}Nous serons ravis de vous répondre{% endtrans %}
     </div>
-    
+
     <div class="col-md-8 text-left">
       <div class="sub_about3">{% trans %}Nous écrire par voie électronique{% endtrans %}</div>
 
@@ -381,14 +381,14 @@
         </div>
       </div>
 
-    </div> 
+    </div>
 
   </div>
 
   <hr class="partenaires">
 
   <div class="row about" id="partenaires">
-    <div class="col-md-3 text-left sub_about0"> 
+    <div class="col-md-3 text-left sub_about0">
           {% trans %}PARTENAIRES{% endtrans %}
     </div>
   </div>
@@ -397,51 +397,157 @@
     <div class="col-md-4 text-left sub_about1">
       {% trans %}Ils croient en nous, merci à eux&nbsp;!{% endtrans %}
     </div>
-    
+
     <div class="col-md-8 text-left">
             <div class="title">{% trans %}Partenaires{% endtrans %}</div>
             <div class="row partners" id="partnersNormal">
                 <div class="col-md-4">
-                    <a href="http://apprendre.tv5monde.com/" target="_blank">
-                    <img src="static/img/tv5monde.png" class="img-responsive">
+                    <a href="http://fondationlafrancesengage.org/" target="_blank">
+                    <img src="static/img/partenaires/la_france_sengage.png" height="44px">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://savoirs.rfi.fr/" target="_blank">
-                    <img src="static/img/rfi.png" class="img-responsive">
+                    <a href="http://ulule.fr/" target="_blank">
+                    <img src="static/img/partenaires/ulule.png" height="44px">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="http://www.pionnieres.paris/" target="_blank">
-                    <img src="static/img/ppionieres.png" height="44px">
+                    <a href="https://www.ac-paris.fr/portail/jcms/j_6/accueil" target="_blank">
+                    <img src="static/img/partenaires/academie_de_paris.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-2">
+                    <a href="https://www.immigration.interieur.gouv.fr/La-Direction-generale/Directions-et-services" target="_blank">
+                    <img src="static/img/partenaires/daaen.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://www.paris.fr/" target="_blank">
+                    <img src="static/img/partenaires/mairie_de_paris.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://www.cci-paris-idf.fr/" target="_blank">
+                    <img src="static/img/partenaires/ccip.png" height="44px">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <a href="http://www.alliancefr.org" target="_blank">
+                    <img src="static/img/partenaires/alliance_francaise.png" height="44px">
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a href="https://singa.fr/" target="_blank">
-                    <img src="static/img/singa.png" style="max-height: 100px">
+                    <a href="https://gaite-lyrique.net/" target="_blank">
+                    <img src="static/img/partenaires/gaite_lyrique.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.cite-sciences.fr/fr/au-programme/lieux-ressources/cite-des-metiers/" target="_blank">
+                    <img src="static/img/partenaires/cite_des_metiers.png" height="44px">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://www.forumdesimages.fr/" target="_blank">
+                    <img src="static/img/partenaires/forum_des_images.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <a href="https://savoirs.rfi.fr/" target="_blank">
+                    <img src="static/img/partenaires/rfi.png" height="38px">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <a href="http://apprendre.tv5monde.com/" target="_blank">
+                    <img src="static/img/partenaires/tv5monde.png" height="44px">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://social-factory.org/" target="_blank">
+                    <img src="static/img/partenaires/social_factory.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <a href="http://www.pionnieres.paris/" target="_blank">
+                    <img src="static/img/partenaires/ppionieres.png" height="44px">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="http://www.alliancefr.org" target="_blank" style="padding: 20px 0;display: block;">
-                    <img src="static/img/af.jpeg">
+                    <a href="https://group.bnpparibas/en/" target="_blank">
+                    <img src="static/img/partenaires/bnp.png" height="44px">
                     </a>
                 </div>
-
+                <div class="col-md-4">
+                    <a href="http://www.groupegalerieslafayette.fr/" target="_blank">
+                    <img src="static/img/partenaires/groupe_lafayette.jpg" height="44px">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <a href="https://www.fondationdefrance.org/en" target="_blank">
+                    <img src="static/img/partenaires/fondation_de_france.png" height="44px">
+                    </a>
+                </div>
             </div>
 
             <div id="partnersCarousel" class="carousel slide" data-ride="carousel" style="display: none">
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="static/img/tv5monde.png" alt="TV5Monde">
-                </div>
 
-                <div class="item">
-                  <img src="static/img/rfi.png" alt="RFI">
+                <div class="item active">
+                    <img src="static/img/partenaires/la_france_sengage.png">
                 </div>
                 <div class="item">
-                  <img src="static/img/singa.png" alt="Singa">
+                    <img src="static/img/partenaires/ulule.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/academie_de_paris.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/daaen.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/mairie_de_paris.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/ccip.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/alliance_francaise.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/gaite_lyrique.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/cite_des_metiers.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/forum_des_images.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/rfi.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/tv5monde.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/social_factory.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/ppionieres.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/bnp.png">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/groupe_lafayette.jpg">
+                </div>
+                <div class="item">
+                    <img src="static/img/partenaires/fondation_de_france.png">
                 </div>
               </div>
 
@@ -468,7 +574,7 @@
   <hr class="partenaires">
 
   <div class="row about" id="presse">
-    <div class="col-md-3 text-left sub_about0"> 
+    <div class="col-md-3 text-left sub_about0">
           {% trans %}PRESSE{% endtrans %}
     </div>
   </div>
@@ -477,12 +583,12 @@
     <div class="col-md-4 text-left sub_about1">
       {% trans %}Ils parlent de nous{% endtrans %}
     </div>
-    
+
     <div class="col-md-8 text-left">
       <div class="sub_about3">
         {% trans %}Parutions dans la presse{% endtrans %}
       </div>
-      
+
       <div class="sub_presse2">
         <ul class="press">
         {% for p in press %}
@@ -494,14 +600,14 @@
       <div class="sub_about3">
         {% trans %}Communiqué de Presse{% endtrans %}
       </div>
-            
+
       <div class="sub_presse2">
         <ul class="press">
           <li><span class="glyphicon glyphicon-circle-arrow-right"></span> Notre Communiqué de Presse du 18 Avril 2016 <a href="static/pdf/CommuniquePresse18042016.pdf" class="presscom"><i class="fa fa-download"></i> {% trans %}Télécharger{% endtrans %} <em>(PDF — 455 Ko)</em></a></li>
         </ul>
       </div>
     </div>
-    
+
   </div>
 
 </div>
