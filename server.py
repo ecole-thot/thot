@@ -16,11 +16,11 @@ REGISTRATION_OPEN = False
 
 DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
 REGISTRATION_LINKS = {
-  "fr" : "https://docs.google.com/forms/d/e/1FAIpQLSfh5MsoW63uX__o1mvKIkstA5FgvyMi4Dpr29Xf_6hXlekJcg/viewform",
-  "en" : "https://docs.google.com/forms/d/e/1FAIpQLSc5sx8-Gbn2FkqEe5adV7IXJxpg7RU_wZjGeX4KSK9rxnHd9Q/viewform",
-  "ar" : "https://docs.google.com/forms/d/e/1FAIpQLSe6vFtCFKMIOhrqMm2WySO6_qTXwCi6C8o_10BX-GjXjGuDpw/viewform",
-  "ps" : "https://docs.google.com/forms/d/e/1FAIpQLSdIJjtoWJ7VsUwI5f9a3x4m-VZ16K_xxHzv2g8pyFr9i80Iog/viewform",
-  "fa" : "https://docs.google.com/forms/d/e/1FAIpQLSfCYWKSsDaezoXAXCuA3tk90qd4FFptlf2YHj_ZEAofNWgxqg/viewform"
+  "fr": "https://docs.google.com/forms/d/e/1FAIpQLSeTdZofJkmIv6LYaX_90H-QfovX_r0arHdr6a5bVa5DJUPfbQ/viewform",
+  "en": "https://docs.google.com/forms/d/e/1FAIpQLSdC_1CmwxlcpnqsWpxxitIuFePZvTt5OFaRCPmEIx74o3fI4A/viewform",
+  "ar": "https://docs.google.com/forms/d/e/1FAIpQLSfNEe29Red2i5ZX-DC3mcTHfXmn6p5oqJj756YkpP6ajcGIeQ/viewform",
+  "ps": "https://docs.google.com/forms/d/e/1FAIpQLSfVDZtN5BmtaWPRnXA58hnSBi8qB0s3RSSwhRrMqVp07bY7uw/viewform",
+  "fa": "https://docs.google.com/forms/d/e/1FAIpQLScel6CoGtm796dgMGHm8oufh9ojfyaUgx6y5_dIzd1bg_uDJQ/viewform"
 }
 VOLUNTEER_OPEN = False
 VOLUNTEER_LINK = "https://docs.google.com/forms/d/1wiG256MUSOQWaz9sO-3xdVXoLdnNRVqZD4kUZQnO3Zc"

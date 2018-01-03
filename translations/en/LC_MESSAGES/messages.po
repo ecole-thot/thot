@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-09 22:41+0200\n"
+"POT-Creation-Date: 2018-01-03 17:55+0100\n"
 "PO-Revision-Date: 2017-07-31 10:52+0100\n"
 "Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: en\n"
@@ -16,79 +16,73 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.3\n"
+"Generated-By: Babel 2.5.1\n"
 
 #: templates/base.html:7
 msgid "Thot, l'école diplomante de français à destination des migrants"
 msgstr "Thot, the french language awarding school for refugees and asylum seekers"
 
-#: templates/base.html:9
-#: templates/base.html:16
-#: templates/base.html:23
+#: templates/base.html:9 templates/base.html:16 templates/base.html:23
 #: templates/base.html:33
-msgid "Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile"
-msgstr "Welcome to THOT, the French language awarding school for refugees and asylum-seekers."
+msgid ""
+"Bienvenue chez Thot, école diplômante de français pour les réfugiés "
+"et demandeurs d’asile"
+msgstr ""
+"Welcome to THOT, the French language awarding school for refugees and "
+"asylum-seekers."
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
 msgstr "thot, school, diploma, refugees, awarding, volunteers"
 
-#: templates/base.html:78
-#: templates/base.html:151
-#: templates/home.html:66
+#: templates/base.html:78 templates/base.html:151 templates/home.html:66
 msgid "PROGRAMME"
 msgstr "PROGRAM"
 
-#: templates/base.html:79
-#: templates/base.html:152
-#: templates/home.html:195
+#: templates/base.html:79 templates/base.html:152 templates/home.html:195
 msgid "INSCRIPTION"
 msgstr "SIGN UP"
 
-#: templates/base.html:80
-#: templates/base.html:153
+#: templates/base.html:80 templates/base.html:153
 msgid "À PROPOS"
 msgstr "ABOUT"
 
-#: templates/base.html:81
-#: templates/base.html:154
-#: templates/home.html:320
+#: templates/base.html:81 templates/base.html:154 templates/home.html:320
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: templates/base.html:82
-#: templates/base.html:155
-#: templates/home.html:392
+#: templates/base.html:82 templates/base.html:155 templates/home.html:392
 msgid "PARTENAIRES"
 msgstr "PARTNERS"
 
-#: templates/base.html:83
-#: templates/base.html:156
-#: templates/home.html:472
+#: templates/base.html:83 templates/base.html:156 templates/home.html:578
 msgid "PRESSE"
 msgstr "PRESS"
 
-#: templates/base.html:92
-#: templates/base.html:125
-#: templates/base.html:228
-#: templates/home.html:50
-#: templates/home.html:295
+#: templates/base.html:92 templates/base.html:125 templates/base.html:228
+#: templates/home.html:50 templates/home.html:295
 msgid "Je veux faire un don"
 msgstr "I want to donate"
 
-#: templates/base.html:101
-#: templates/base.html:134
-#: templates/home.html:222
+#: templates/base.html:101 templates/base.html:134 templates/home.html:222
 msgid "Je veux m'inscrire"
 msgstr "I want to register"
 
 #: templates/base.html:234
-msgid "Pour transmettre un horizon à tous, nous avons créé Thot, école diplômante de français pour les réfugiés et demandeurs d’asile."
-msgstr "To expand the horizon of migrants, we created Thot, a french language awarding school for refugees and asylum seekers"
+msgid ""
+"Pour transmettre un horizon à tous, nous avons créé Thot, école "
+"diplômante de français pour les réfugiés et demandeurs d’asile."
+msgstr ""
+"To expand the horizon of migrants, we created Thot, a french language "
+"awarding school for refugees and asylum seekers"
 
 #: templates/base.html:239
-msgid "2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure Dubuc"
-msgstr "2016 - THOT <br>Logo : Laurent Rivelaygue · Artistic direction : Laure Dubuc"
+msgid ""
+"2016 - THOT <br>Logo : Laurent Rivelaygue · Direction artistique : Laure "
+"Dubuc"
+msgstr ""
+"2016 - THOT <br>Logo : Laurent Rivelaygue · Artistic direction : Laure "
+"Dubuc"
 
 #: templates/home.html:7
 msgid "Bienvenue chez Thot"
@@ -118,35 +112,47 @@ msgid ""
 "            <span class=\"level2\"> par apprenant pour\n"
 "            4 mois de formation</span>"
 msgstr ""
-"<span class=\"level3\"> 1 200€</span> <br><span class=\"level2\"> per learner is needed\n"
+"<span class=\"level3\"> 1 200€</span> <br><span class=\"level2\"> per "
+"learner is needed\n"
 "                for 4 months training</span>"
 
 #: templates/home.html:36
 #, python-format
 msgid ""
-"<span class=\"level3\"> %(nb_students)s </span> \n"
+"<span class=\"level3\"> %(nb_students)s </span>\n"
 "            <span class=\"level2\">apprenants <br>\n"
 "              pris en charge en 2016 grâce à vos dons</span>"
 msgstr ""
-"<span class=\"level3\"> %(nb_students)s </span> \n"
-"                <span class=\"level2\">learners <br>\n"
-"                  started the training in 2016 thanks to your donations</span>"
 
 #: templates/home.html:72
 msgid "Notre pédagogie"
 msgstr "Our teaching program"
 
 #: templates/home.html:75
-msgid "Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour passer d'un niveau de langue à l'autre."
-msgstr "Learning sessions last 4 months, which is the amount of time deemed necessary to pass from one level to the next."
+msgid ""
+"Les sessions d'apprentissage durent <b>4 mois</b>, temps évalué pour "
+"passer d'un niveau de langue à l'autre."
+msgstr ""
+"Learning sessions last 4 months, which is the amount of time deemed "
+"necessary to pass from one level to the next."
 
 #: templates/home.html:76
-msgid "Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont toujours dispensés à des horaires hors démarches administratives (en fin de journée et le weekend)."
-msgstr "In order to ensure continuous attendance, sessions are always scheduled during times where adminstrative offices are closed (on weeknights and weekends). "
+msgid ""
+"Pour que les cours soient suivis avec l'assiduité nécessaire, ils sont "
+"toujours dispensés à des horaires hors démarches administratives (en fin "
+"de journée et le weekend)."
+msgstr ""
+"In order to ensure continuous attendance, sessions are always scheduled "
+"during times where adminstrative offices are closed (on weeknights and "
+"weekends). "
 
 #: templates/home.html:77
-msgid "Chaque session de formation comprend <b>160 heures</b> de cours conçus selon les besoins et niveaux des apprenants."
-msgstr " Each learning session is comprised of 160 hours of class, tailored to suit the needs and levels of students."
+msgid ""
+"Chaque session de formation comprend <b>160 heures</b> de cours conçus "
+"selon les besoins et niveaux des apprenants."
+msgstr ""
+" Each learning session is comprised of 160 hours of class, tailored to "
+"suit the needs and levels of students."
 
 #: templates/home.html:88
 msgid "Une offre de Français Langue Étrangère (FLE) pour tous"
@@ -157,44 +163,83 @@ msgid "Nous assurons les cours pour tous les niveaux de maîtrise de langue."
 msgstr "We offer classes suited to every possible level of french."
 
 #: templates/home.html:92
-msgid "Le statut n'importe guère : réfugié, demandeur d'asile, dubliné ou autre sont tous pris en compte."
-msgstr "We accept all-status learners : refugees, asylum-seekers, people placed under the Dublin procedure and others are all welcome."
+msgid ""
+"Le statut n'importe guère : réfugié, demandeur d'asile, dubliné ou autre "
+"sont tous pris en compte."
+msgstr ""
+"We accept all-status learners : refugees, asylum-seekers, people placed "
+"under the Dublin procedure and others are all welcome."
 
 #: templates/home.html:93
-msgid "Nos cours s'adressent en priorité aux personnes n'ayant pas un niveau équivalent au Baccalauréat. Des structures d'intégration en université se mettent en place pour les diplômés du secondaire, que nous encourageons à se renseigner auprès des associations."
-msgstr "Thot's classes are primarily aimed at those who have yet to reach the baccalaureate level. Integration structures are currently working to register post-secondary certificated people in universities and schools, we encourage them to contact the relevant charities."
+msgid ""
+"Nos cours s'adressent en priorité aux personnes n'ayant pas un niveau "
+"équivalent au Baccalauréat. Des structures d'intégration en université se"
+" mettent en place pour les diplômés du secondaire, que nous encourageons "
+"à se renseigner auprès des associations."
+msgstr ""
+"Thot's classes are primarily aimed at those who have yet to reach the "
+"baccalaureate level. Integration structures are currently working to "
+"register post-secondary certificated people in universities and schools, "
+"we encourage them to contact the relevant charities."
 
 #: templates/home.html:104
 msgid "Des professeurs recrutés sur leur excellence"
 msgstr "An Excellent Standard of Teaching"
 
 #: templates/home.html:107
-msgid "Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos apprenants vers le diplôme correspondant à leur objectif en France."
-msgstr "All teachers at Thot possess an FFL degree and are therefore perfectly equipped to point our students towards the degree best suited to their projected level of language proficiency."
+msgid ""
+"Les professeurs de Thot sont tous diplômés en FLE et habilités à mener "
+"nos apprenants vers le diplôme correspondant à leur objectif en France."
+msgstr ""
+"All teachers at Thot possess an FFL degree and are therefore perfectly "
+"equipped to point our students towards the degree best suited to their "
+"projected level of language proficiency."
 
 #: templates/home.html:108
-msgid "Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas. Merci."
+msgid ""
+"Notre équipe de professeurs est actuellement au complet, nous ne "
+"recrutons pas. Merci."
 msgstr "Our teacher team is currently full, we do not recruit. Thank you."
 
 #: templates/home.html:109
-msgid "Autant que possible, nous recrutons des professeurs parlant la langue des apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus fluide d'une langue vers l'autre."
-msgstr "We try our best to hire teachers who also speak the students' language (Farsi, Pashto, Arabic, etc), in order to facilitate a quick-paced transition from one language to the next."
+msgid ""
+"Autant que possible, nous recrutons des professeurs parlant la langue des"
+" apprenants (farsi, pashto, arabe, etc.) afin d'assurer un saut plus "
+"fluide d'une langue vers l'autre."
+msgstr ""
+"We try our best to hire teachers who also speak the students' language "
+"(Farsi, Pashto, Arabic, etc), in order to facilitate a quick-paced "
+"transition from one language to the next."
 
 #: templates/home.html:110
-msgid "Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre Thot sont invités à envoyer un mail avec CV et lettre de motivation à professeurs@thot-fle.fr. Les postes sont rémunérés."
-msgstr "FFL teachers wishing to work with Thot are invited to send an e-mail with their CV and a cover letter to professeurs@thot-fle.fr. All positions are compensated."
+msgid ""
+"Les professeurs de Français Langue Etrangère (FLE) souhaitant re- joindre"
+" Thot sont invités à envoyer un mail avec CV et lettre de motivation à "
+"professeurs@thot-fle.fr. Les postes sont rémunérés."
+msgstr ""
+"FFL teachers wishing to work with Thot are invited to send an e-mail with"
+" their CV and a cover letter to professeurs@thot-fle.fr. All positions "
+"are compensated."
 
 #: templates/home.html:121
 msgid "Une formation rapide et innovante"
 msgstr "A Fast and Innovative Education"
 
 #: templates/home.html:125
-msgid "Nous construisons nos programmes autour de la réalité culturelle et plurilingue des apprenants :"
-msgstr "Our teaching programs are built around the cultural and multilingual reality of our students :"
+msgid ""
+"Nous construisons nos programmes autour de la réalité culturelle et "
+"plurilingue des apprenants :"
+msgstr ""
+"Our teaching programs are built around the cultural and multilingual "
+"reality of our students :"
 
 #: templates/home.html:127
-msgid "utilisation des logiques syntaxiques et lexicales des langues connues pour créer une passerelle logique vers le français"
-msgstr "Use of the syntactical and lexical reasoning inherent to known languages in order to create logcial bridge towards the French language."
+msgid ""
+"utilisation des logiques syntaxiques et lexicales des langues connues "
+"pour créer une passerelle logique vers le français"
+msgstr ""
+"Use of the syntactical and lexical reasoning inherent to known languages "
+"in order to create logcial bridge towards the French language."
 
 #: templates/home.html:128
 msgid "échanges interculturels."
@@ -205,12 +250,21 @@ msgid "Nous associons des méthodologies diversifiées dans notre pédagogie :"
 msgstr "We combine various methodologies in our teaching program :"
 
 #: templates/home.html:133
-msgid "programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux méthodes)"
-msgstr "RFI and TV5 Monde's methodologies (in which all of our teachers are specifically trained)"
+msgid ""
+"programmes RFI Savoirs et TV5 Monde (avec formation des professeurs aux "
+"méthodes)"
+msgstr ""
+"RFI and TV5 Monde's methodologies (in which all of our teachers are "
+"specifically trained)"
 
 #: templates/home.html:134
-msgid "mises en situation réelles des apprenants (remplissage de formulaires, démarches professionnelles ou administratives, échanges avec des interlocuteurs du quotidien)"
-msgstr "Simulation of real-life situations for students (form filling, administrative processes or career training, everyday small talk)"
+msgid ""
+"mises en situation réelles des apprenants (remplissage de formulaires, "
+"démarches professionnelles ou administratives, échanges avec des "
+"interlocuteurs du quotidien)"
+msgstr ""
+"Simulation of real-life situations for students (form filling, "
+"administrative processes or career training, everyday small talk)"
 
 #: templates/home.html:135
 msgid "introduction à la vie culturelle (patrimoine et société), etc."
@@ -221,35 +275,61 @@ msgid "Un diplôme d'aptitude au français reconnu par l'Etat"
 msgstr "A French Proficiency Degree Recognized by the French State"
 
 #: templates/home.html:150
-msgid "Thot s'engage à mener ses apprenants vers l'obtention du DELF Pro (qui atteste de la capacité à interagir en milieu professionnel en fonction du niveau de langue)."
-msgstr "Thot commits itself to accompanying students to the acquisition of the DELF Pro (which attests to one's ability to interact in a professional setting depending on the level of the langauge)"
+msgid ""
+"Thot s'engage à mener ses apprenants vers l'obtention du DELF Pro (qui "
+"atteste de la capacité à interagir en milieu professionnel en fonction du"
+" niveau de langue)."
+msgstr ""
+"Thot commits itself to accompanying students to the acquisition of the "
+"DELF Pro (which attests to one's ability to interact in a professional "
+"setting depending on the level of the langauge)"
 
 #: templates/home.html:151
-msgid "Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à un diplôme international, reconnu par l'Etat français."
-msgstr "The degree is delivered after both a written and an oral exam. It therefore matches the requirements of an international degree, recognized by the French government."
+msgid ""
+"Il est délivré après examen écrit et oral en centre d'examen, et "
+"correspond donc à un diplôme international, reconnu par l'Etat français."
+msgstr ""
+"The degree is delivered after both a written and an oral exam. It "
+"therefore matches the requirements of an international degree, recognized"
+" by the French government."
 
 #: templates/home.html:160
 msgid "Bénévoles, venez chez Thot&nbsp;!"
 msgstr "Volunteers, we need you!"
 
 #: templates/home.html:164
-msgid "La formation Thot est rendue efficace grâce la conjonction d’un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompagnants."
-msgstr "If Thot courses are so efficient, it is thanks to the combination of teaching by qualified professors and your intervention as tutors and companions."
+msgid ""
+"La formation Thot est rendue efficace grâce la conjonction d’un "
+"enseignement par des professeurs diplômés et votre intervention en tant "
+"que tuteurs et accompagnants."
+msgstr ""
+"If Thot courses are so efficient, it is thanks to the combination of "
+"teaching by qualified professors and your intervention as tutors and "
+"companions."
 
 #: templates/home.html:166
 msgid "Les bénévoles sont formés à la méthodologie Thot."
 msgstr "All volunteers will be trained in the Thot methodology."
 
 #: templates/home.html:167
-msgid "Leurs interventions consolident les cours des professeurs et vont du tutorat à d'autres activités inclusives (sorties culturelles, jeux, conversations...)."
-msgstr "Their interventions aim to consolidate material covered in class, and range from tutoring sessions to other, inclusive activities (cultural activities, games, conversations...)"
+msgid ""
+"Leurs interventions consolident les cours des professeurs et vont du "
+"tutorat à d'autres activités inclusives (sorties culturelles, jeux, "
+"conversations...)."
+msgstr ""
+"Their interventions aim to consolidate material covered in class, and "
+"range from tutoring sessions to other, inclusive activities (cultural "
+"activities, games, conversations...)"
 
 #: templates/home.html:169
-msgid "Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures hebdomadaires sur 4 mois."
-msgstr "We ask the volunteers who want to work with Thot to be available 2 hours per week during 4 months"
+msgid ""
+"Nous demandons aux bénévoles qui souhaitent s'investir chez nous 2 heures"
+" hebdomadaires sur 4 mois."
+msgstr ""
+"We ask the volunteers who want to work with Thot to be available 2 hours "
+"per week during 4 months"
 
-#: templates/home.html:172
-#: templates/home.html:500
+#: templates/home.html:172 templates/home.html:606
 msgid "Télécharger"
 msgstr "Download"
 
@@ -278,16 +358,25 @@ msgid "suivre chaque cours sans exception"
 msgstr "attend each class without exception"
 
 #: templates/home.html:216
-msgid "Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 août à 11h."
+msgid ""
+"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 "
+"août à 11h."
 msgstr "Registration is open! You can register until 9 August at 11am."
 
 #: templates/home.html:226
-msgid "La prochaine session d'inscription sera ouverte, sur notre site internet du 7 août à 11h au 9 août à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "The next registration session will be opened on our website from August 7th at 11am to 9th August at 11am. A \"I want to register\" button will be visible on this site, and will take you to the registration form. To access the form in another language, change the language of the website to the top right of the page."
+msgid ""
+"La prochaine session d'inscription sera ouverte, sur notre site internet "
+"du 8 janvier à 11h30 au 10 janvier à 11h. Un bouton \"Je veux "
+"m'inscrire\" sera visible sur ce site, et vous mènera au formulaire "
+"d'inscription. Pour accéder au formulaire dans une autre langue, changez "
+"la langue du site internet en haut à droite de la page."
+msgstr ""
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu en janvier 2018"
-msgstr "Registration for the September to January session is closed. The next registration session will take place in January 2018."
+msgid ""
+"Les inscriptions pour la session de février à mai sont fermées. La "
+"prochaine session d'inscription aura lieu fin mai 2018."
+msgstr ""
 
 #: templates/home.html:240
 msgid "A PROPOS"
@@ -302,8 +391,18 @@ msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "Why did we name the school \"Thot\"?"
 
 #: templates/home.html:255
-msgid "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France."
-msgstr "Thot was the Egyptian God that embodied the concept of Knowledge. His mission was to spread his knowledge, hence his invention of language. This symbol epitomizes our mission: to convey, through language, a possibility to all individuals to fulfill their potential, here in France."
+msgid ""
+"Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
+"mission étant de disséminer ses connaissances, il inventa le langage. Ce "
+"symbole est à l'image de la mission que nous nous sommes confiée : "
+"transmettre par le langage la possibilité pour les individus de "
+"s'épanouir ici, en France."
+msgstr ""
+"Thot was the Egyptian God that embodied the concept of Knowledge. His "
+"mission was to spread his knowledge, hence his invention of language. "
+"This symbol epitomizes our mission: to convey, through language, a "
+"possibility to all individuals to fulfill their potential, here in "
+"France."
 
 #: templates/home.html:259
 msgid "Qui sommes-nous ?"
@@ -311,9 +410,25 @@ msgstr "Who Are We?"
 
 #: templates/home.html:263
 msgid ""
-"L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires toutes dramatiques, et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</p>\n"
-"        <p>A ce jour, aucune formation gratuite et qualifiante, dispensée par des professeurs diplômés, ne leur est pourtant proposée. Nous créons donc l'école Thot pour pallier l’absence de formation diplômante à destination des réfugiés et demandeurs d’asile."
-msgstr "The Thot team was created over the course of various support and advocacy campaigns for refugees and \" \"asylum seekers. In spite of their diverse nationalities, their coequally harrowing stories, and their disparate social backgrounds, one, same question seemed to be on everyone's lips: \"Where can we learn French?\" </p><p>To this day, not a single recognised degree, free of charge and taught by qualified professors, has been offered to them. Our creation of the Thot school aims to fill this gap, putting an end to the absence of available language training for refugees and asylum seekers."
+"L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
+"demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
+" toutes dramatiques, et leurs niveaux sociaux très variés, nous avons "
+"constaté qu'une question leur demeurait commune : « Où pouvons-nous "
+"apprendre le français ? »</p>\n"
+"        <p>A ce jour, aucune formation gratuite et qualifiante, dispensée"
+" par des professeurs diplômés, ne leur est pourtant proposée. Nous créons"
+" donc l'école Thot pour pallier l’absence de formation diplômante à "
+"destination des réfugiés et demandeurs d’asile."
+msgstr ""
+"The Thot team was created over the course of various support and advocacy"
+" campaigns for refugees and \" \"asylum seekers. In spite of their "
+"diverse nationalities, their coequally harrowing stories, and their "
+"disparate social backgrounds, one, same question seemed to be on "
+"everyone's lips: \"Where can we learn French?\" </p><p>To this day, not a"
+" single recognised degree, free of charge and taught by qualified "
+"professors, has been offered to them. Our creation of the Thot school "
+"aims to fill this gap, putting an end to the absence of available "
+"language training for refugees and asylum seekers."
 
 #: templates/home.html:267
 msgid "présidente"
@@ -336,8 +451,15 @@ msgid "Comment gérons-nous notre budget ?"
 msgstr "Our Budget: How Does It Work?"
 
 #: templates/home.html:283
-msgid "Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour."
-msgstr "We believe in total transparency, especially since our funds come as much from individual citizens as they do from private and public institutions. As such, we commit outselves to publicly publishing our updated budget:"
+msgid ""
+"Nous croyons en la transparence, d'autant plus que les fonds dont nous "
+"disposons viennent du grand public autant que d'institutions privées et "
+"publiques. C'est pourquoi nous publions notre budget à jour."
+msgstr ""
+"We believe in total transparency, especially since our funds come as much"
+" from individual citizens as they do from private and public "
+"institutions. As such, we commit outselves to publicly publishing our "
+"updated budget:"
 
 #: templates/home.html:306
 msgid "Je veux consulter le budget"
@@ -352,11 +474,15 @@ msgid "Nous écrire par voie électronique"
 msgstr "To contact us via email:"
 
 #: templates/home.html:333
-msgid "Pour un renseignement concernant les postes des professeurs de FLE à Thot :"
+msgid ""
+"Pour un renseignement concernant les postes des professeurs de FLE à Thot"
+" :"
 msgstr "For informations about becoming french teacher at Thot :"
 
 #: templates/home.html:335
-msgid "Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas."
+msgid ""
+"Notre équipe de professeurs est actuellement au complet, nous ne "
+"recrutons pas."
 msgstr "Our teacher team is currently full, we do not recruit. Thank you."
 
 #: templates/home.html:340
@@ -391,31 +517,33 @@ msgstr "A great thanks for trusting us!"
 msgid "Partenaires"
 msgstr "Partners"
 
-#: templates/home.html:459
+#: templates/home.html:565
 msgid "Remerciements"
 msgstr "Special thanks"
 
-#: templates/home.html:461
+#: templates/home.html:567
 msgid ""
-"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad · Tina Bouffet · Axel Dreyfus ·\n"
+"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad "
+"· Tina Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon · Thibaut Sardier"
 msgstr ""
-"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad · Tina Bouffet · Axel Dreyfus ·\n"
+"Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad "
+"· Tina Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon · Thibaut Sardier"
 
-#: templates/home.html:478
+#: templates/home.html:584
 msgid "Ils parlent de nous"
 msgstr "They talk about us"
 
-#: templates/home.html:483
+#: templates/home.html:589
 msgid "Parutions dans la presse"
 msgstr "Publications in the press"
 
-#: templates/home.html:489
+#: templates/home.html:595
 msgid "Voir"
 msgstr "See"
 
-#: templates/home.html:495
+#: templates/home.html:601
 msgid "Communiqué de Presse"
 msgstr "Press Release"
 
@@ -460,3 +588,48 @@ msgstr "Press Release"
 
 #~ msgid "responsable de l'enseignement et de la formation"
 #~ msgstr "supervisor of teaching and training"
+
+#~ msgid ""
+#~ "<span class=\"level3\"> %(nb_students)s </span> \n"
+#~ "            <span class=\"level2\">apprenants <br>\n"
+#~ "              pris en charge en 2016 grâce à vos dons</span>"
+#~ msgstr ""
+#~ "<span class=\"level3\"> %(nb_students)s </span> \n"
+#~ "                <span class=\"level2\">learners <br>\n"
+#~ "                  started the training in "
+#~ "2016 thanks to your donations</span>"
+
+#~ msgid ""
+#~ "La prochaine session d'inscription sera "
+#~ "ouverte, sur notre site internet du "
+#~ "7 août à 11h au 9 août à "
+#~ "11h. Un bouton \"Je veux m'inscrire\""
+#~ " sera visible sur ce site, et "
+#~ "vous mènera au formulaire d'inscription. "
+#~ "Pour accéder au formulaire dans une "
+#~ "autre langue, changez la langue du "
+#~ "site internet en haut à droite de"
+#~ " la page."
+#~ msgstr ""
+#~ "The next registration session will be"
+#~ " opened on our website from August"
+#~ " 7th at 11am to 9th August at"
+#~ " 11am. A \"I want to register\" "
+#~ "button will be visible on this "
+#~ "site, and will take you to the "
+#~ "registration form. To access the form"
+#~ " in another language, change the "
+#~ "language of the website to the top"
+#~ " right of the page."
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "septembre à janvier sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "en janvier 2018"
+#~ msgstr ""
+#~ "Registration for the September to "
+#~ "January session is closed. The next "
+#~ "registration session will take place in"
+#~ " January 2018."
+
