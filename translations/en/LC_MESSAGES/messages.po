@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-01-03 17:55+0100\n"
-"PO-Revision-Date: 2017-07-31 10:52+0100\n"
+"POT-Creation-Date: 2018-01-05 12:29+0100\n"
+"PO-Revision-Date: 2018-01-04 16:04+0100\n"
 "Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -28,8 +28,6 @@ msgid ""
 "Bienvenue chez Thot, école diplômante de français pour les réfugiés "
 "et demandeurs d’asile"
 msgstr ""
-"Welcome to THOT, the French language awarding school for refugees and "
-"asylum-seekers."
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
@@ -263,8 +261,6 @@ msgid ""
 "démarches professionnelles ou administratives, échanges avec des "
 "interlocuteurs du quotidien)"
 msgstr ""
-"Simulation of real-life situations for students (form filling, "
-"administrative processes or career training, everyday small talk)"
 
 #: templates/home.html:135
 msgid "introduction à la vie culturelle (patrimoine et société), etc."
@@ -359,9 +355,9 @@ msgstr "attend each class without exception"
 
 #: templates/home.html:216
 msgid ""
-"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 "
-"août à 11h."
-msgstr "Registration is open! You can register until 9 August at 11am."
+"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 10 "
+"janvier à 11h."
+msgstr ""
 
 #: templates/home.html:226
 msgid ""
@@ -371,12 +367,19 @@ msgid ""
 "d'inscription. Pour accéder au formulaire dans une autre langue, changez "
 "la langue du site internet en haut à droite de la page."
 msgstr ""
+"Next registration session will be opened on our website from January 8th "
+"at 11am to January 10th at 11am. « I want to register » button will be "
+"visible on this website and will lead you to the registration form. To "
+"access the form in another language, change the language on the top right"
+" of the page."
 
 #: templates/home.html:227
 msgid ""
 "Les inscriptions pour la session de février à mai sont fermées. La "
 "prochaine session d'inscription aura lieu fin mai 2018."
 msgstr ""
+"Registration for the classes from February to May is now closed . The "
+"next registration session will be at the end of May 2018."
 
 #: templates/home.html:240
 msgid "A PROPOS"
@@ -511,7 +514,7 @@ msgstr "To follow us online:"
 
 #: templates/home.html:398
 msgid "Ils croient en nous, merci à eux&nbsp;!"
-msgstr "A great thanks for trusting us!"
+msgstr ""
 
 #: templates/home.html:402
 msgid "Partenaires"
@@ -553,7 +556,7 @@ msgstr "Press Release"
 #~ msgid "Bénévoles, nous avons besoin de vous"
 #~ msgstr "Volunteers, We Need You!"
 
-#~ msgid "À PROPOS"
+#~ msgid "À PROPOS"
 #~ msgstr "ABOUT"
 
 #~ msgid "SOUTIENS"
@@ -565,7 +568,7 @@ msgstr "Press Release"
 #~ msgid "Qui sommes nous ?"
 #~ msgstr "Who Are We?"
 
-#~ msgid "Ils croient en nous, merci à eux !"
+#~ msgid "Ils croient en nous, merci à eux !"
 #~ msgstr "They trust us, Thanks a lot to them"
 
 #~ msgid "Amis, donateurs, nous avons besoin de vous!"
@@ -632,4 +635,34 @@ msgstr "Press Release"
 #~ "January session is closed. The next "
 #~ "registration session will take place in"
 #~ " January 2018."
+
+#~ msgid ""
+#~ "Bienvenue chez Thot, école diplômante de"
+#~ " français pour les réfugiés et "
+#~ "demandeurs d’asile"
+#~ msgstr ""
+#~ "Welcome to THOT, the French language "
+#~ "awarding school for refugees and "
+#~ "asylum-seekers."
+
+#~ msgid ""
+#~ "mises en situation réelles des "
+#~ "apprenants (remplissage de formulaires, "
+#~ "démarches professionnelles ou administratives, "
+#~ "échanges avec des interlocuteurs du "
+#~ "quotidien)"
+#~ msgstr ""
+#~ "Simulation of real-life situations for"
+#~ " students (form filling, administrative "
+#~ "processes or career training, everyday "
+#~ "small talk)"
+
+#~ msgid ""
+#~ "Les inscriptions sont ouvertes ! Vous"
+#~ " pouvez vous inscrire jusqu'au 9 août"
+#~ " à 11h."
+#~ msgstr "Registration is open! You can register until 9 August at 11am."
+
+#~ msgid "Ils croient en nous, merci à eux&nbsp;!"
+#~ msgstr "A great thanks for trusting us!"
 

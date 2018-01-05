@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-01-03 17:55+0100\n"
+"POT-Creation-Date: 2018-01-05 12:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,8 +300,8 @@ msgstr ""
 
 #: templates/home.html:216
 msgid ""
-"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 9 "
-"août à 11h."
+"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 10 "
+"janvier à 11h."
 msgstr ""
 
 #: templates/home.html:226
