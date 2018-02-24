@@ -256,8 +256,8 @@ msgstr "د جنورى د 8 تاريخ 11 بجو نه تر د جنورى 10 تا�
 "‬"
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de février à mai sont fermées. La prochaine session d'inscription aura lieu fin mai 2018."
-msgstr "اوس د فبروري او می د ټولګیو لپاره راجستر تړلی دی. د نوم لیکنې راتلونکې دوره به د 2018 کال د مى په اخره کې وي.\n"
+msgid "Les inscriptions pour la session de février à mai sont fermées. La prochaine session d'inscription aura lieu le 22 mai 2018 à 11h."
+msgstr "د ریبیرونو او فابریکانو راجستر اوس مهال تړل شوی. د نوم لیکنې دوهم پړاو به د 2018 کال د می په 22 ترسره شي.\n"
 "‬"
 
 #: templates/home.html:240

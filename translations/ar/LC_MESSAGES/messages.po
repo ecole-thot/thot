@@ -255,8 +255,8 @@ msgid "La prochaine session d'inscription sera ouverte, sur notre site internet 
 msgstr "سيتم فتح جلسة التسجيل التالية على موقعنا على الانترنت من 8 يناير في 11 صباحا إلى 10 يناير في 11 صباحا. سوف زر « أريد أن تسجيل » تكون مرئية على هذا الموقع وسوف يأخذك إلى نموذج التسجيل. للدخول إلى النموذج بلغة أخرى، غير لغة الموقع إلى أعلى يسار الصفحة"
 
 #: templates/home.html:227
-msgid "Les inscriptions pour la session de février à mai sont fermées. La prochaine session d'inscription aura lieu fin mai 2018."
-msgstr "تم إغلاق التسجيل للدورة من فبراير إلى مايو. وستعقد جلسة التسجيل التالية في نهاية أيار / مايو 2018."
+msgid "Les inscriptions pour la session de février à mai sont fermées. La prochaine session d'inscription aura lieu le 22 mai 2018 à 11h."
+msgstr "تم إغلاق التسجيل للدورة من فبراير إلى مايو. وستعقد جلسة التسجيل التالية في 22 أيار / مايو 2018 الساعة 11 صباحا"
 
 #: templates/home.html:240
 msgid "A PROPOS"
