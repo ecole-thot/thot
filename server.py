@@ -4,7 +4,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 from flask import Flask, render_template, request
-from flask.ext.babel import Babel
+from flask_babel import Babel
 
 app = Flask(__name__)
 app.config.update(
