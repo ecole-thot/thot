@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-18 11:57+0200\n"
+"POT-Creation-Date: 2018-10-07 10:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: templates/base.html:7
 msgid "Thot, l'école diplomante de français à destination des migrants"
@@ -44,20 +44,20 @@ msgstr ""
 msgid "À PROPOS"
 msgstr ""
 
-#: templates/base.html:81 templates/base.html:154 templates/home.html:322
+#: templates/base.html:81 templates/base.html:154 templates/home.html:324
 msgid "CONTACT"
 msgstr ""
 
-#: templates/base.html:82 templates/base.html:155 templates/home.html:394
+#: templates/base.html:82 templates/base.html:155 templates/home.html:396
 msgid "PARTENAIRES"
 msgstr ""
 
-#: templates/base.html:83 templates/base.html:156 templates/home.html:580
+#: templates/base.html:83 templates/base.html:156 templates/home.html:582
 msgid "PRESSE"
 msgstr ""
 
 #: templates/base.html:92 templates/base.html:125 templates/base.html:228
-#: templates/home.html:50 templates/home.html:297
+#: templates/home.html:50 templates/home.html:299
 msgid "Je veux faire un don"
 msgstr ""
 
@@ -272,7 +272,7 @@ msgid ""
 " hebdomadaires sur 4 mois."
 msgstr ""
 
-#: templates/home.html:172 templates/home.html:608
+#: templates/home.html:172 templates/home.html:610
 msgid "Télécharger"
 msgstr ""
 
@@ -299,12 +299,24 @@ msgid "suivre chaque cours sans exception"
 msgstr ""
 
 #: templates/home.html:216
-msgid ""
-"Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 24 "
-"mai à 11h."
+msgid "Les inscriptions sont ouvertes !"
+msgstr ""
+
+#: templates/home.html:216
+msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
 msgstr ""
 
 #: templates/home.html:226
+msgid ""
+"Les inscriptions pour la session de novembre à mars sont fermées. La "
+"prochaine session d'inscription aura lieu du 5 mars à 11h au 7 mars à "
+"11h.\n"
+"Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera"
+" au formulaire d'inscription. Pour accéder au formulaire dans une autre "
+"langue, changez la langue du site internet en haut à droite de la page."
+msgstr ""
+
+#: templates/home.html:228
 msgid ""
 "La prochaine session d'inscription sera ouverte, sur notre site internet "
 "du 22 mai 11h au 24 mai à 11h. Un bouton \"Je veux m'inscrire\" sera "
@@ -313,28 +325,28 @@ msgid ""
 "internet en haut à droite de la page."
 msgstr ""
 
-#: templates/home.html:228
+#: templates/home.html:230
 msgid ""
-"Les inscriptions pour la session de septembre à janvier sont fermées. La "
+"Les inscriptions pour la session de juin à octobre sont fermées. La "
 "prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton "
 "\"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au "
 "formulaire d'inscription. Pour accéder au formulaire dans une autre "
 "langue, changez la langue du site internet en haut à droite de la page."
 msgstr ""
 
-#: templates/home.html:242
+#: templates/home.html:244
 msgid "A PROPOS"
 msgstr ""
 
-#: templates/home.html:248
+#: templates/home.html:250
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr ""
 
-#: templates/home.html:253
+#: templates/home.html:255
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr ""
 
-#: templates/home.html:257
+#: templates/home.html:259
 msgid ""
 "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa "
 "mission étant de disséminer ses connaissances, il inventa le langage. Ce "
@@ -343,11 +355,11 @@ msgid ""
 "s'épanouir ici, en France."
 msgstr ""
 
-#: templates/home.html:261
+#: templates/home.html:263
 msgid "Qui sommes-nous ?"
 msgstr ""
 
-#: templates/home.html:265
+#: templates/home.html:267
 msgid ""
 "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et "
 "demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires"
@@ -360,113 +372,113 @@ msgid ""
 "destination des réfugiés et demandeurs d’asile."
 msgstr ""
 
-#: templates/home.html:269
+#: templates/home.html:271
 msgid "présidente"
 msgstr ""
 
-#: templates/home.html:271
+#: templates/home.html:273
 msgid "vice-présidente"
 msgstr ""
 
-#: templates/home.html:273
+#: templates/home.html:275
 msgid "trésorière"
 msgstr ""
 
-#: templates/home.html:275
+#: templates/home.html:277
 msgid "directrice pédagogique"
 msgstr ""
 
-#: templates/home.html:281
+#: templates/home.html:283
 msgid "Comment gérons-nous notre budget ?"
 msgstr ""
 
-#: templates/home.html:285
+#: templates/home.html:287
 msgid ""
 "Nous croyons en la transparence, d'autant plus que les fonds dont nous "
 "disposons viennent du grand public autant que d'institutions privées et "
 "publiques. C'est pourquoi nous publions notre budget à jour."
 msgstr ""
 
-#: templates/home.html:308
+#: templates/home.html:310
 msgid "Je veux consulter le budget"
 msgstr ""
 
-#: templates/home.html:328
+#: templates/home.html:330
 msgid "Nous serons ravis de vous répondre"
 msgstr ""
 
-#: templates/home.html:332
+#: templates/home.html:334
 msgid "Nous écrire par voie électronique"
 msgstr ""
 
-#: templates/home.html:335
+#: templates/home.html:337
 msgid ""
 "Pour un renseignement concernant les postes des professeurs de FLE à Thot"
 " :"
 msgstr ""
 
-#: templates/home.html:337
+#: templates/home.html:339
 msgid ""
 "Notre équipe de professeurs est actuellement au complet, nous ne "
 "recrutons pas."
 msgstr ""
 
-#: templates/home.html:342
+#: templates/home.html:344
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr ""
 
-#: templates/home.html:348
+#: templates/home.html:350
 msgid "Pour des partenariats :"
 msgstr ""
 
-#: templates/home.html:353
+#: templates/home.html:355
 msgid "Pour tout autre renseignement :"
 msgstr ""
 
-#: templates/home.html:358
+#: templates/home.html:360
 msgid "Réhabiliter la missive traditionnelle"
 msgstr ""
 
-#: templates/home.html:361
+#: templates/home.html:363
 msgid "Association Thot"
 msgstr ""
 
-#: templates/home.html:367
+#: templates/home.html:369
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr ""
 
-#: templates/home.html:400
+#: templates/home.html:402
 msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
-#: templates/home.html:404
+#: templates/home.html:406
 msgid "Partenaires"
 msgstr ""
 
-#: templates/home.html:567
+#: templates/home.html:569
 msgid "Remerciements"
 msgstr ""
 
-#: templates/home.html:569
+#: templates/home.html:571
 msgid ""
 "Laurent Rivelaygue · Laure Dubuc · Thomas Grange · Javed · Hind · Ershad "
 "· Tina Bouffet · Axel Dreyfus ·\n"
 "                Louis Nordon · Thibaut Sardier"
 msgstr ""
 
-#: templates/home.html:586
+#: templates/home.html:588
 msgid "Ils parlent de nous"
 msgstr ""
 
-#: templates/home.html:591
+#: templates/home.html:593
 msgid "Parutions dans la presse"
 msgstr ""
 
-#: templates/home.html:597
+#: templates/home.html:599
 msgid "Voir"
 msgstr ""
 
-#: templates/home.html:603
+#: templates/home.html:605
 msgid "Communiqué de Presse"
 msgstr ""
 

@@ -213,7 +213,7 @@
 
         {% if registration_open %}
         <br>
-          <div>{% trans %}Les inscriptions sont ouvertes ! Vous pouvez vous inscrire jusqu'au 24 mai à 11h.{% endtrans %}</div>
+          <div>{% trans %}Les inscriptions sont ouvertes !{% endtrans %}  {% trans %}Vous pouvez vous inscrire jusqu'au 11 octobre à 11h.{% endtrans %}</div>
           <a class="btn btn-success btn-lg"  href="{{ registration_links[locale] }}" target="_blank">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -223,9 +223,11 @@
           </a>
         {% else %}
           <div class="wait"><em>
-            {% trans %}La prochaine session d'inscription sera ouverte, sur notre site internet du 22 mai 11h au 24 mai à 11h. Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %}
+            {% trans %}Les inscriptions pour la session de novembre à mars sont fermées. La prochaine session d'inscription aura lieu du 5 mars à 11h au 7 mars à 11h.
+Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %}
+            <! -- {% trans %}La prochaine session d'inscription sera ouverte, sur notre site internet du 22 mai 11h au 24 mai à 11h. Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %} -->
             <!--
-            {% trans %}Les inscriptions pour la session de septembre à janvier sont fermées. La prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %}
+            {% trans %}Les inscriptions pour la session de juin à octobre sont fermées. La prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton "Je veux m'inscrire" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page.{% endtrans %}
             -->
           </em></div>
         {% endif %}
