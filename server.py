@@ -12,15 +12,15 @@ app.config.update(
     BABEL_DEFAULT_TIMEZONE='Europe/Paris')
 babel = Babel(app)
 
-REGISTRATION_OPEN = False
+app.config["REGISTRATION_OPEN"] = False
 
 DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
 REGISTRATION_LINKS = {
-  "fr": "https://docs.google.com/forms/d/e/1FAIpQLSdjsMI8jjs27U6kBizPEsz2XAsxeqgeB6dWiEWTiW0L65KvZw/viewform",
-  "en": "https://docs.google.com/forms/d/e/1FAIpQLSeKrHn-gm4l8SNaJWS_Jv-_ttrqAQYQmZE-0s4nwxXDN5keng/viewform",
-  "ar": "https://docs.google.com/forms/d/e/1FAIpQLScX71P9yLoCzKnGfxYcMMZPnkTnNtJLDeiuFyXfsQwvngPaYQ/viewform",
-  "ps": "https://docs.google.com/forms/d/e/1FAIpQLSfW80ivXWlRCZmPTvVKRD0a20aekGp4CTJq6AvaEQhlwhmC-g/viewform",
-  "fa": "https://docs.google.com/forms/d/e/1FAIpQLSfxnklJkgpxwcK95Ac_8iWMiqkWHG0ZeIbF_71A59G1puGxmQ/viewform"
+  "fr": "https://docs.google.com/forms/d/e/1FAIpQLSdAmE-2HLUGFVTiTvP5aM1xXYQD1BouTaezYTouXmNnW1B0RA/viewform?usp=sf_link",
+  "en": "https://docs.google.com/forms/d/e/1FAIpQLSdX8VE8co2jVdi4uS7UVsHteXKfE2B1tu-i-287rSuPfVx3xQ/viewform?usp=sf_link",
+  "ps": "https://docs.google.com/forms/d/e/1FAIpQLSdcn9ckBwlXslGFUuWVo3v2sSf2cUflu9k79KT9qxGIr3Nrig/viewform?usp=sf_link",
+  "fa": "https://docs.google.com/forms/d/e/1FAIpQLSeENNpL8Olu8TCcr-w2xE8AiYiJGFSDyW614C_EtmvdRwlzMw/viewform?usp=sf_link",
+  "ar": "https://docs.google.com/forms/d/e/1FAIpQLSdFeR2vfkl9rUOEEk4zqk17uRl4DNx2G_Q7fWYhrTCRjkwEqQ/viewform?usp=sf_link",
 }
 
 
@@ -378,7 +378,7 @@ def render_home():
         'home.html',
         donation_link=DONATION_LINK,
         registration_links=REGISTRATION_LINKS,
-        registration_open=REGISTRATION_OPEN,
+        registration_open=app.config["REGISTRATION_OPEN"],
         volunteer_link=VOLUNTEER_LINK,
         volunteer_open=VOLUNTEER_OPEN,
         budget_available=BUDGET_AVAILABLE,
