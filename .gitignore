@@ -3,4 +3,4 @@ build/*
 venv/*
 *.pyc
 *.mo
-update.sh
+update*.sh
