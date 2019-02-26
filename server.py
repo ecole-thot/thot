@@ -16,11 +16,11 @@ app.config["REGISTRATION_OPEN"] = False
 
 DONATION_LINK = "https://thot.iraiser.eu/b/mon-don"
 REGISTRATION_LINKS = {
-  "fr": "https://docs.google.com/forms/d/e/1FAIpQLSdAmE-2HLUGFVTiTvP5aM1xXYQD1BouTaezYTouXmNnW1B0RA/viewform?usp=sf_link",
-  "en": "https://docs.google.com/forms/d/e/1FAIpQLSdX8VE8co2jVdi4uS7UVsHteXKfE2B1tu-i-287rSuPfVx3xQ/viewform?usp=sf_link",
-  "ps": "https://docs.google.com/forms/d/e/1FAIpQLSdcn9ckBwlXslGFUuWVo3v2sSf2cUflu9k79KT9qxGIr3Nrig/viewform?usp=sf_link",
-  "fa": "https://docs.google.com/forms/d/e/1FAIpQLSeENNpL8Olu8TCcr-w2xE8AiYiJGFSDyW614C_EtmvdRwlzMw/viewform?usp=sf_link",
-  "ar": "https://docs.google.com/forms/d/e/1FAIpQLSdFeR2vfkl9rUOEEk4zqk17uRl4DNx2G_Q7fWYhrTCRjkwEqQ/viewform?usp=sf_link",
+  "fr": "https://docs.google.com/forms/d/e/1FAIpQLSfPuC1lUjf3j5QNQ3y20AnjlnrAdt51vFdaZKnnBkGHoHqnMA/viewform",
+  "en": "https://docs.google.com/forms/d/e/1FAIpQLSdH_hX5l3hUB6152PHG628EFvdbpC7O4JV9Peu14FfZ5ysfAg/viewform",
+  "ps": "https://docs.google.com/forms/d/e/1FAIpQLSfjbMirnj1kpOIpHUk9zmj9E74MScyGcsplWoWhIwgaC28TSw/viewform",
+  "fa": "https://docs.google.com/forms/d/e/1FAIpQLSc6ybj8FoKcR0bnMLmooLwWVVyGxFpgWFSmW41jyouZtOBxag/viewform",
+  "ar": "https://docs.google.com/forms/d/e/1FAIpQLSdorxXJNhKenZGA1o_5iGBDGUfmdYK_HAY0udvkABjP890PWQ/viewform",
 }
 
 
