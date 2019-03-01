@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-07 10:36+0200\n"
-"PO-Revision-Date: 2018-10-08 08:55+0200\n"
+"POT-Creation-Date: 2019-02-26 23:22+0100\n"
+"PO-Revision-Date: 2019-03-01 14:11+0100\n"
 "Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.5\n"
 
 #: templates/base.html:7
@@ -25,9 +25,8 @@ msgstr "Thot, the french language awarding school for refugees and asylum seeker
 
 #: templates/base.html:9 templates/base.html:16 templates/base.html:23
 #: templates/base.html:33
-#, fuzzy
 msgid "Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile"
-msgstr "Thot, the french language awarding school for refugees and asylum seekers"
+msgstr ""
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
@@ -45,11 +44,11 @@ msgstr "SIGN UP"
 msgid "À PROPOS"
 msgstr "ABOUT"
 
-#: templates/base.html:81 templates/base.html:154 templates/home.html:324
+#: templates/base.html:81 templates/base.html:154 templates/home.html:319
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: templates/base.html:82 templates/base.html:155 templates/home.html:396
+#: templates/base.html:82 templates/base.html:155 templates/home.html:391
 msgid "PARTENAIRES"
 msgstr "PARTNERS"
 
@@ -58,7 +57,7 @@ msgid "PRESSE"
 msgstr "PRESS"
 
 #: templates/base.html:92 templates/base.html:125 templates/base.html:228
-#: templates/home.html:50 templates/home.html:299
+#: templates/home.html:50 templates/home.html:294
 msgid "Je veux faire un don"
 msgstr "I want to donate"
 
@@ -255,122 +254,112 @@ msgid "Les inscriptions sont ouvertes !"
 msgstr "Registration is open!"
 
 #: templates/home.html:216
-msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
-msgstr "You can register until 11 October at 11 am."
+msgid "Vous pouvez vous inscrire jusqu'au 7 mars à 11h."
+msgstr "You can register until 7 march at 11 am."
 
 #: templates/home.html:226
-msgid "Les inscriptions pour la session de novembre à mars sont fermées. La prochaine session d'inscription aura lieu du 5 mars à 11h au 7 mars à 11h.\n"
-"Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "Registration for the classes from November to March 2019 is now closed. The next registration session will be from 5 march at 11am to 7 march at 11am. \n"
+msgid "Les inscriptions pour la session d'avril à juillet sont fermées. La prochaine session d'inscription aura lieu le 23 juillet à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
+msgstr "Registration for the classes from April to July 2019 is now closed. The next registration session will be on 23rd July at 11am.  \n"
 "« I want to register » button will be visible on this website and will lead you to the registration form. To access the form in another language, change the language on the top right of the page."
 
-#: templates/home.html:228
-msgid "La prochaine session d'inscription sera ouverte, sur notre site internet du 22 mai 11h au 24 mai à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "Next registration session will be opened on our website from 22nd may at 11am to 24th may at 11am. « I want to register » button will be visible on this website and will lead you to the registration form. To access the form in another language, change the language on the top right of the page."
-
-#: templates/home.html:230
-#, fuzzy
-msgid "Les inscriptions pour la session de juin à octobre sont fermées. La prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "Registration for the classes from June to October is now closed . The next registration session will be on 9 October at 11am.« I want to register » button will be visible on this website and will lead you to the registration form. To access the form in another language, change the language on the top right of the page."
-
-#: templates/home.html:244
+#: templates/home.html:239
 msgid "A PROPOS"
 msgstr "ABOUT"
 
-#: templates/home.html:250
+#: templates/home.html:245
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr "Our Mission: Expanding Horizons Everywhere"
 
-#: templates/home.html:255
+#: templates/home.html:250
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "Why did we name the school \"Thot\"?"
 
-#: templates/home.html:259
+#: templates/home.html:254
 msgid "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France."
 msgstr "Thot was the Egyptian God that embodied the concept of Knowledge. His mission was to spread his knowledge, hence his invention of language. This symbol epitomizes our mission: to convey, through language, a possibility to all individuals to fulfill their potential, here in France."
 
-#: templates/home.html:263
+#: templates/home.html:258
 msgid "Qui sommes-nous ?"
 msgstr "Who Are We?"
 
-#: templates/home.html:267
+#: templates/home.html:262
 msgid "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires toutes dramatiques, et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</p>\n"
 "        <p>A ce jour, aucune formation gratuite et qualifiante, dispensée par des professeurs diplômés, ne leur est pourtant proposée. Nous créons donc l'école Thot pour pallier l’absence de formation diplômante à destination des réfugiés et demandeurs d’asile."
 msgstr "The Thot team was created over the course of various support and advocacy campaigns for refugees and \" \"asylum seekers. In spite of their diverse nationalities, their coequally harrowing stories, and their disparate social backgrounds, one, same question seemed to be on everyone's lips: \"Where can we learn French?\" </p><p>To this day, not a single recognised degree, free of charge and taught by qualified professors, has been offered to them. Our creation of the Thot school aims to fill this gap, putting an end to the absence of available language training for refugees and asylum seekers."
 
-#: templates/home.html:271
+#: templates/home.html:266
 msgid "présidente"
 msgstr "president"
 
-#: templates/home.html:273
+#: templates/home.html:268
 msgid "vice-présidente"
 msgstr "vice-president"
 
-#: templates/home.html:275
+#: templates/home.html:270
 msgid "trésorière"
 msgstr "treasurer"
 
-#: templates/home.html:277
+#: templates/home.html:272
 msgid "directrice pédagogique"
 msgstr "Educational Manager"
 
-#: templates/home.html:283
+#: templates/home.html:278
 msgid "Comment gérons-nous notre budget ?"
 msgstr "Our Budget: How Does It Work?"
 
-#: templates/home.html:287
+#: templates/home.html:282
 msgid "Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour."
 msgstr "We believe in total transparency, especially since our funds come as much from individual citizens as they do from private and public institutions. As such, we commit outselves to publicly publishing our updated budget:"
 
-#: templates/home.html:310
+#: templates/home.html:305
 msgid "Je veux consulter le budget"
 msgstr "View Our Budget"
 
-#: templates/home.html:330
+#: templates/home.html:325
 msgid "Nous serons ravis de vous répondre"
 msgstr "We will be happy to reply you"
 
-#: templates/home.html:334
+#: templates/home.html:329
 msgid "Nous écrire par voie électronique"
 msgstr "To contact us via email:"
 
-#: templates/home.html:337
+#: templates/home.html:332
 msgid "Pour un renseignement concernant les postes des professeurs de FLE à Thot :"
 msgstr "For informations about becoming french teacher at Thot :"
 
-#: templates/home.html:339
+#: templates/home.html:334
 msgid "Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas."
 msgstr "Our teacher team is currently full, we do not recruit. Thank you."
 
-#: templates/home.html:344
+#: templates/home.html:339
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr "To volunteer:"
 
-#: templates/home.html:350
+#: templates/home.html:345
 msgid "Pour des partenariats :"
 msgstr "For partnerships:"
 
-#: templates/home.html:355
+#: templates/home.html:350
 msgid "Pour tout autre renseignement :"
 msgstr "For general information: "
 
-#: templates/home.html:360
+#: templates/home.html:355
 msgid "Réhabiliter la missive traditionnelle"
 msgstr "To contact us the old-school way:"
 
-#: templates/home.html:363
+#: templates/home.html:358
 msgid "Association Thot"
 msgstr "Thot Association"
 
-#: templates/home.html:369
+#: templates/home.html:364
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr "To follow us online:"
 
-#: templates/home.html:402
+#: templates/home.html:397
 msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
-#: templates/home.html:406
+#: templates/home.html:401
 msgid "Partenaires"
 msgstr "Partners"
 
@@ -450,6 +439,8 @@ msgstr "Press Release"
 #~ " français pour les réfugiés et "
 #~ "demandeurs d’asile"
 #~ msgstr ""
+#~ "Thot, the french language awarding "
+#~ "school for refugees and asylum seekers"
 
 #~ msgid ""
 #~ "mises en situation réelles des "
@@ -458,3 +449,77 @@ msgstr "Press Release"
 #~ "échanges avec des interlocuteurs du "
 #~ "quotidien)"
 #~ msgstr ""
+
+#~ msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
+#~ msgstr "You can register until 11 October at 11 am."
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "novembre à mars sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "du 5 mars à 11h au 7 mars"
+#~ " à 11h.\n"
+#~ "Un bouton \"Je veux m'inscrire\" sera"
+#~ " visible sur ce site, et vous "
+#~ "mènera au formulaire d'inscription. Pour "
+#~ "accéder au formulaire dans une autre "
+#~ "langue, changez la langue du site "
+#~ "internet en haut à droite de la"
+#~ " page."
+#~ msgstr ""
+#~ "Registration for the classes from "
+#~ "November to March 2019 is now "
+#~ "closed. The next registration session "
+#~ "will be from 5 march at 11am "
+#~ "to 7 march at 11am. \n"
+#~ "« I want to register » button will "
+#~ "be visible on this website and "
+#~ "will lead you to the registration "
+#~ "form. To access the form in "
+#~ "another language, change the language on"
+#~ " the top right of the page."
+
+#~ msgid ""
+#~ "La prochaine session d'inscription sera "
+#~ "ouverte, sur notre site internet du "
+#~ "22 mai 11h au 24 mai à 11h."
+#~ " Un bouton \"Je veux m'inscrire\" "
+#~ "sera visible sur ce site, et vous"
+#~ " mènera au formulaire d'inscription. Pour"
+#~ " accéder au formulaire dans une autre"
+#~ " langue, changez la langue du site"
+#~ " internet en haut à droite de "
+#~ "la page."
+#~ msgstr ""
+#~ "Next registration session will be opened"
+#~ " on our website from 22nd may "
+#~ "at 11am to 24th may at 11am. "
+#~ "« I want to register » button will "
+#~ "be visible on this website and "
+#~ "will lead you to the registration "
+#~ "form. To access the form in "
+#~ "another language, change the language on"
+#~ " the top right of the page."
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "juin à octobre sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "le 9 octobre à 11h. Un bouton "
+#~ "\"Je veux m'inscrire\" sera visible sur"
+#~ " ce site, et vous mènera au "
+#~ "formulaire d'inscription. Pour accéder au "
+#~ "formulaire dans une autre langue, "
+#~ "changez la langue du site internet "
+#~ "en haut à droite de la page."
+#~ msgstr ""
+#~ "Registration for the classes from June"
+#~ " to October is now closed . The"
+#~ " next registration session will be on"
+#~ " 9 October at 11am.« I want to "
+#~ "register » button will be visible on "
+#~ "this website and will lead you to"
+#~ " the registration form. To access the"
+#~ " form in another language, change the"
+#~ " language on the top right of "
+#~ "the page."

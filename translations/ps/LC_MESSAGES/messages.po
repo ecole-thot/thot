@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-07 10:36+0200\n"
-"PO-Revision-Date: 2018-10-08 08:54+0200\n"
+"POT-Creation-Date: 2019-02-26 23:22+0100\n"
+"PO-Revision-Date: 2019-03-01 16:11+0100\n"
 "Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: ps\n"
 "Language-Team: ps <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.5\n"
 
 #: templates/base.html:7
@@ -25,9 +25,8 @@ msgstr "ټي اچ اوو ټي د فرانسوى ژبي ډيپلوم ورکوون
 
 #: templates/base.html:9 templates/base.html:16 templates/base.html:23
 #: templates/base.html:33
-#, fuzzy
 msgid "Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile"
-msgstr "کډوالو او پناه غوښتونکو ته د فرانسوی ژبی  د دیپلوم ورکونکی ښوونځى"
+msgstr ""
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
@@ -45,11 +44,11 @@ msgstr "نوم ليکنه  "
 msgid "À PROPOS"
 msgstr "په اړه معلومات "
 
-#: templates/base.html:81 templates/base.html:154 templates/home.html:324
+#: templates/base.html:81 templates/base.html:154 templates/home.html:319
 msgid "CONTACT"
 msgstr "اړيکه "
 
-#: templates/base.html:82 templates/base.html:155 templates/home.html:396
+#: templates/base.html:82 templates/base.html:155 templates/home.html:391
 msgid "PARTENAIRES"
 msgstr "همکاران"
 
@@ -58,7 +57,7 @@ msgid "PRESSE"
 msgstr "مطبوعات"
 
 #: templates/base.html:92 templates/base.html:125 templates/base.html:228
-#: templates/home.html:50 templates/home.html:299
+#: templates/home.html:50 templates/home.html:294
 msgid "Je veux faire un don"
 msgstr "زه غواړم مرسته وکړم  "
 
@@ -251,134 +250,115 @@ msgid "Les inscriptions sont ouvertes !"
 msgstr "‫نوم لیکنه پرانيستې ده"
 
 #: templates/home.html:216
-msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
-msgstr "تاسو کولی شئ د اكتبور په 11 نېټې د 11 بجو سخه ځانونه راجستر کړئ.\n"
+msgid "Vous pouvez vous inscrire jusqu'au 7 mars à 11h."
+msgstr "تاسو کولی شئ د مارچ په 7 نېټې د 11 بجو سخه ځانونه راجستر کړئ.\n"
 "‬"
 
 #: templates/home.html:226
-msgid "Les inscriptions pour la session de novembre à mars sont fermées. La prochaine session d'inscription aura lieu du 5 mars à 11h au 7 mars à 11h.\n"
-"Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "اوس د نومبر نه تر مارچ 2019 د ټولګیو لپاره راجستر تړلی دی. د نوم لیکنې راتلونکې دوره به د 2019 کال د مارچ  له 5 نېټې د 11 بجو سخه  تر د 7 نېټې تر 11 بجو پورې وي.\n"
+msgid "Les inscriptions pour la session d'avril à juillet sont fermées. La prochaine session d'inscription aura lieu le 23 juillet à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
+msgstr "اوس د اپريل نه تر جولای 2019 د ټولګیو لپاره راجستر تړلی دی. د نوم لیکنې راتلونکې دوره به د 2019 کال د جولاي په 23 نېټې د 11 بجو سخه به خلاص شي .\n"
 "‬\n"
-"‫ « زه غواړم چې نوم ثبت کړم » په دې ویب پاڼه کې به يوه تڼۍ يا Button لیدل کیږي او هغه به تاسو د نوم لیکنې فورمه ته يوسى. په بله ژبه کې فورمه ته د لاسرسی لپاره، د پاڼې په پورته ښي لور کې ژبه بدل کړئ.\n"
+"‫« زه غواړم چې نوم ثبت کړم » په دې ویب پاڼه کې به يوه تڼۍ يا Button لیدل کیږي او هغه به تاسو د نوم لیکنې فورمه ته يوسى. په بله ژبه کې فورمه ته د لاسرسی لپاره، د پاڼې په پورته ښي لور کې ژبه بدل کړئ.\n"
 "‬"
 
-#: templates/home.html:228
-msgid "La prochaine session d'inscription sera ouverte, sur notre site internet du 22 mai 11h au 24 mai à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "د می د 22 تاريخ 11 بجو نه تر د می 24 تاريخ 11 بجو پورى نوم لیکنې به زموږ په ویب پاڼه کې پرانیستل شي. \n"
-"‬\n"
-"‫« زه غواړم چې نوم ثبت کړم » په دې ویب پاڼه کې به يوه تڼۍ يا Button لیدل کیږي او هغه به تاسو د نوم لیکنې فورمه ته يوسى. په بله ژبه کې فورمه ته د لاسرسی لپاره، د پاڼې په پورته ښي لور کې ژبه بدل کړئ."
-
-#: templates/home.html:230
-#, fuzzy
-msgid "Les inscriptions pour la session de juin à octobre sont fermées. La prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "اوس د جون او اکتوبر د ټولګیو لپاره راجستر تړلی دی.\n"
-"‬\n"
-"‏‫‬\n"
-"‬\n"
-"‫‫د نوم لیکنې راتلونکې دوره به د 2018  د 9 اکتوبر په اخره کې وي.‬‬\n"
-"‏‫‬\n"
-"‬\n"
-"‫‫‫« زه غواړم چې نوم ثبت کړم » په دې ویب پاڼه کې به يوه تڼۍ يا Button لیدل کیږي او هغه به تاسو د نوم لیکنې فورمه ته يوسى. په بله ژبه کې فورمه ته د لاسرسی لپاره، د پاڼې په پورته ښي لور کې ژبه بد"
-
-#: templates/home.html:244
+#: templates/home.html:239
 msgid "A PROPOS"
 msgstr "په اړه معلومات"
 
-#: templates/home.html:250
+#: templates/home.html:245
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr "زمونږ ماموريت: هر چا ته خدمت کول دى"
 
-#: templates/home.html:255
+#: templates/home.html:250
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "مونږ ولى دغه مکتب ته ټى اچ اوو ټى نوم ورکړ"
 
-#: templates/home.html:259
+#: templates/home.html:254
 msgid "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France."
 msgstr "ټى اچ اوو ټى د مصريانو خداى ٶ چى علم ته وايي د هغى مقصد دا ٶ چى خلکو ته علم ورسوى نو ددى په وجه هغى ژبه جوړه کړه چى دا سمبول د هغى مقصد افاده کوى نو زمونږ حدف په فرانسه کى همدا دى"
 
-#: templates/home.html:263
+#: templates/home.html:258
 msgid "Qui sommes-nous ?"
 msgstr "مونږ څوک يو"
 
-#: templates/home.html:267
+#: templates/home.html:262
 msgid "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires toutes dramatiques, et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</p>\n"
 "        <p>A ce jour, aucune formation gratuite et qualifiante, dispensée par des professeurs diplômés, ne leur est pourtant proposée. Nous créons donc l'école Thot pour pallier l’absence de formation diplômante à destination des réfugiés et demandeurs d’asile."
 msgstr "د توت ټيم د مختلفو رسنيو او او حمايتى کمپاين په واسطه د مهاجرينو او پناه غوښتوونکو لپاره جوړ شويدى بغير د دوى د قوميت په اساس بلکى د دوى د دردناکه قيصو په اساس او د دوى د تير شوى دردناکه وخت په اساس، هميشه به مونږ د هر يومهاجرينو او پناه غوښتوونک د خولى نه دا پوښتنه اوريدله چى فرانسوى چيرته ذده کړونو له دى امله مونږ ټى اچ اوو ټى مکتب جوړ ه کړ چى مهاجرينو او کډوالو ته د فرانسوي ژبې ذده کړه د با تجربه استاذانو د اسانتياوو سره سره د يو منل شوى تصديق زمينه هم ور کړو "
 
-#: templates/home.html:271
+#: templates/home.html:266
 msgid "présidente"
 msgstr "رئيس"
 
-#: templates/home.html:273
+#: templates/home.html:268
 msgid "vice-présidente"
 msgstr "معاون"
 
-#: templates/home.html:275
+#: templates/home.html:270
 msgid "trésorière"
 msgstr "خذانه دار"
 
-#: templates/home.html:277
+#: templates/home.html:272
 msgid "directrice pédagogique"
 msgstr ""
 
-#: templates/home.html:283
+#: templates/home.html:278
 msgid "Comment gérons-nous notre budget ?"
 msgstr "مونږ خپله بديجه څنګه برابرو"
 
-#: templates/home.html:287
+#: templates/home.html:282
 msgid "Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour."
 msgstr "مونږ په شفافيت باور لرو په خاصه توګه ستاسو د مرستو څخه د اتباعو په توګه \" \"که دولتى وى که شخصى, نو له دې امله موږ خپله بوديجه تازه خپره کړه:"
 
-#: templates/home.html:310
+#: templates/home.html:305
 msgid "Je veux consulter le budget"
 msgstr "( پى ډى اف) تاسو کولاى شى دلته زمونږ مالى امکانات وګورى"
 
-#: templates/home.html:330
+#: templates/home.html:325
 msgid "Nous serons ravis de vous répondre"
 msgstr "مونږ سره اړيکه ونيسى"
 
-#: templates/home.html:334
+#: templates/home.html:329
 msgid "Nous écrire par voie électronique"
 msgstr "د ايميل په واسطه اړيکه ونيسى"
 
-#: templates/home.html:337
+#: templates/home.html:332
 msgid "Pour un renseignement concernant les postes des professeurs de FLE à Thot :"
 msgstr ""
 
-#: templates/home.html:339
+#: templates/home.html:334
 msgid "Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas."
 msgstr ""
 
-#: templates/home.html:344
+#: templates/home.html:339
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr "د داوطلب په توګه"
 
-#: templates/home.html:350
+#: templates/home.html:345
 msgid "Pour des partenariats :"
 msgstr "د مشارکت په توګه"
 
-#: templates/home.html:355
+#: templates/home.html:350
 msgid "Pour tout autre renseignement :"
 msgstr "د عامه معلوماتو له پاره"
 
-#: templates/home.html:360
+#: templates/home.html:355
 msgid "Réhabiliter la missive traditionnelle"
 msgstr "مونږ خپل ادرس بدل کړيدى"
 
-#: templates/home.html:363
+#: templates/home.html:358
 msgid "Association Thot"
 msgstr "Association Thot"
 
-#: templates/home.html:369
+#: templates/home.html:364
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr "که غواړى انلاين اړيکه ټينګه کړى"
 
-#: templates/home.html:402
+#: templates/home.html:397
 msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
-#: templates/home.html:406
+#: templates/home.html:401
 msgid "Partenaires"
 msgstr "همکاران"
 
@@ -457,7 +437,7 @@ msgstr "مطبوعاتى اعلاميه"
 #~ "Bienvenue chez Thot, école diplômante de"
 #~ " français pour les réfugiés et "
 #~ "demandeurs d’asile"
-#~ msgstr ""
+#~ msgstr "کډوالو او پناه غوښتونکو ته د فرانسوی ژبی  د دیپلوم ورکونکی ښوونځى"
 
 #~ msgid ""
 #~ "mises en situation réelles des "
@@ -466,3 +446,90 @@ msgstr "مطبوعاتى اعلاميه"
 #~ "échanges avec des interlocuteurs du "
 #~ "quotidien)"
 #~ msgstr ""
+
+#~ msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
+#~ msgstr ""
+#~ "تاسو کولی شئ د اكتبور په 11 نېټې د 11 بجو سخه ځانونه راجستر کړئ.\n"
+#~ "‬"
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "novembre à mars sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "du 5 mars à 11h au 7 mars"
+#~ " à 11h.\n"
+#~ "Un bouton \"Je veux m'inscrire\" sera"
+#~ " visible sur ce site, et vous "
+#~ "mènera au formulaire d'inscription. Pour "
+#~ "accéder au formulaire dans une autre "
+#~ "langue, changez la langue du site "
+#~ "internet en haut à droite de la"
+#~ " page."
+#~ msgstr ""
+#~ "اوس د نومبر نه تر مارچ 2019 "
+#~ "د ټولګیو لپاره راجستر تړلی دی. د"
+#~ " نوم لیکنې راتلونکې دوره به د "
+#~ "2019 کال د مارچ  له 5 نېټې د"
+#~ " 11 بجو سخه  تر د 7 نېټې "
+#~ "تر 11 بجو پورې وي.\n"
+#~ "‬\n"
+#~ "‫ « زه غواړم چې نوم ثبت کړم » "
+#~ "په دې ویب پاڼه کې به يوه تڼۍ"
+#~ " يا Button لیدل کیږي او هغه به"
+#~ " تاسو د نوم لیکنې فورمه ته "
+#~ "يوسى. په بله ژبه کې فورمه ته "
+#~ "د لاسرسی لپاره، د پاڼې په پورته"
+#~ " ښي لور کې ژبه بدل کړئ.\n"
+#~ "‬"
+
+#~ msgid ""
+#~ "La prochaine session d'inscription sera "
+#~ "ouverte, sur notre site internet du "
+#~ "22 mai 11h au 24 mai à 11h."
+#~ " Un bouton \"Je veux m'inscrire\" "
+#~ "sera visible sur ce site, et vous"
+#~ " mènera au formulaire d'inscription. Pour"
+#~ " accéder au formulaire dans une autre"
+#~ " langue, changez la langue du site"
+#~ " internet en haut à droite de "
+#~ "la page."
+#~ msgstr ""
+#~ "د می د 22 تاريخ 11 بجو نه"
+#~ " تر د می 24 تاريخ 11 بجو "
+#~ "پورى نوم لیکنې به زموږ په ویب "
+#~ "پاڼه کې پرانیستل شي. \n"
+#~ "‬\n"
+#~ "‫« زه غواړم چې نوم ثبت کړم » په"
+#~ " دې ویب پاڼه کې به يوه تڼۍ "
+#~ "يا Button لیدل کیږي او هغه به "
+#~ "تاسو د نوم لیکنې فورمه ته يوسى."
+#~ " په بله ژبه کې فورمه ته د "
+#~ "لاسرسی لپاره، د پاڼې په پورته ښي"
+#~ " لور کې ژبه بدل کړئ."
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "juin à octobre sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "le 9 octobre à 11h. Un bouton "
+#~ "\"Je veux m'inscrire\" sera visible sur"
+#~ " ce site, et vous mènera au "
+#~ "formulaire d'inscription. Pour accéder au "
+#~ "formulaire dans une autre langue, "
+#~ "changez la langue du site internet "
+#~ "en haut à droite de la page."
+#~ msgstr ""
+#~ "اوس د جون او اکتوبر د ټولګیو لپاره راجستر تړلی دی.\n"
+#~ "‬\n"
+#~ "‏‫‬\n"
+#~ "‬\n"
+#~ "‫‫د نوم لیکنې راتلونکې دوره به د 2018  د 9 اکتوبر په اخره کې وي.‬‬\n"
+#~ "‏‫‬\n"
+#~ "‬\n"
+#~ "‫‫‫« زه غواړم چې نوم ثبت کړم » په"
+#~ " دې ویب پاڼه کې به يوه تڼۍ "
+#~ "يا Button لیدل کیږي او هغه به "
+#~ "تاسو د نوم لیکنې فورمه ته يوسى."
+#~ " په بله ژبه کې فورمه ته د "
+#~ "لاسرسی لپاره، د پاڼې په پورته ښي"
+#~ " لور کې ژبه بد"

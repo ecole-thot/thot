@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-07 10:36+0200\n"
-"PO-Revision-Date: 2018-10-08 08:57+0200\n"
+"POT-Creation-Date: 2019-02-26 23:22+0100\n"
+"PO-Revision-Date: 2019-03-01 17:40+0100\n"
 "Last-Translator: Héloïse  <heloise.nio@gmail.com>\n"
 "Language: ar\n"
 "Language-Team: ar <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.5\n"
 
 #: templates/base.html:7
@@ -25,9 +25,8 @@ msgstr "مرحبا بكم في تحوت ،المدرسة الأولى التي �
 
 #: templates/base.html:9 templates/base.html:16 templates/base.html:23
 #: templates/base.html:33
-#, fuzzy
 msgid "Bienvenue chez Thot, école diplômante de français pour les réfugiés et demandeurs d’asile"
-msgstr "المدرسة التي منح اللغة الأجنبية الفرنسية للاجئين وطالبي اللجوء"
+msgstr ""
 
 #: templates/base.html:10
 msgid "thot, ecole, diplome, réfugiés, diplomant, bénévoles"
@@ -45,11 +44,11 @@ msgstr " التسجيل "
 msgid "À PROPOS"
 msgstr " المهمة "
 
-#: templates/base.html:81 templates/base.html:154 templates/home.html:324
+#: templates/base.html:81 templates/base.html:154 templates/home.html:319
 msgid "CONTACT"
 msgstr "التواصل"
 
-#: templates/base.html:82 templates/base.html:155 templates/home.html:396
+#: templates/base.html:82 templates/base.html:155 templates/home.html:391
 msgid "PARTENAIRES"
 msgstr "الشركاء"
 
@@ -58,7 +57,7 @@ msgid "PRESSE"
 msgstr "صحافة"
 
 #: templates/base.html:92 templates/base.html:125 templates/base.html:228
-#: templates/home.html:50 templates/home.html:299
+#: templates/home.html:50 templates/home.html:294
 msgid "Je veux faire un don"
 msgstr "تبرع"
 
@@ -251,124 +250,116 @@ msgid "Les inscriptions sont ouvertes !"
 msgstr "التسجيل مفتوح!"
 
 #: templates/home.html:216
-msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
-msgstr "يمكنك التسجيل حتى 11 أكتوبر في تمام الساعة 11 صباحًا."
-
-#: templates/home.html:226
-msgid "Les inscriptions pour la session de novembre à mars sont fermées. La prochaine session d'inscription aura lieu du 5 mars à 11h au 7 mars à 11h.\n"
-"Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "تم إغلاق التسجيل للدورة من نوفبر إلى مارس. وستعقد جلسة التسجيل التالية من 5  مارس الى 7 مارس  2019.\n"
-"‬\n"
-"‫سوف زر « أريد أن تسجيل » تكون مرئية على هذا الموقع وسوف يأخذك إلى نموذج التسجيل. للدخول إلى النموذج بلغة أخرى، غير لغة الموقع إلى \n"
+msgid "Vous pouvez vous inscrire jusqu'au 7 mars à 11h."
+msgstr ".التسجيلات مفتوحة إلى غاية  7 مارس إلى الساعة 11 صباحا\n"
 "‬"
 
-#: templates/home.html:228
-msgid "La prochaine session d'inscription sera ouverte, sur notre site internet du 22 mai 11h au 24 mai à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "سيتم فتح جلسة التسجيل التالية على موقعنا على الويب من 22 مايو في الساعة 11 صباحًا إلى 24 مساءً في الساعة 11 صباحًا. سيكون زر « أريد التسجيل » مرئيًا على هذا الموقع وسيأخذك إلى نموذج التسجيل. للوصول إلى النموذج بلغة أخرى ، قم بتغيير لغة الموقع إلى أعلى يمين الصفحة"
+#: templates/home.html:226
+msgid "Les inscriptions pour la session d'avril à juillet sont fermées. La prochaine session d'inscription aura lieu le 23 juillet à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
+msgstr "  .التسجيلات مغلقة من شهر افريل إلى غاية شهر جويلية .تعاد فتح التسجيلات في 23 جويلية على الساعة 11 صباحا\n"
+"‬\n"
+"‫.زر « اريد التسجيل » سيظهر على هذا الموقع و سيظهر لك نموذج التسجيل \n"
+"‬\n"
+"‫للحصول على نموذج التسجيل بلغة أخرى ، قم بتغيير لغة تصفح الموقع في اعلى يمين الصفحة"
 
-#: templates/home.html:230
-#, fuzzy
-msgid "Les inscriptions pour la session de juin à octobre sont fermées. La prochaine session d'inscription aura lieu le 9 octobre à 11h. Un bouton \"Je veux m'inscrire\" sera visible sur ce site, et vous mènera au formulaire d'inscription. Pour accéder au formulaire dans une autre langue, changez la langue du site internet en haut à droite de la page."
-msgstr "تم إغلاق التسجيل للدورة من يونيو إلى أكتوبر. ستعقد جلسة التسجيل التالية 9 أكتوبر 2018 في الساعة 11 صباحًا.  سوف زر « أريد أن تسجيل » تكون مرئية على هذا الموقع وسوف يأخذك إلى نموذج التسجيل. للدخول إلى النموذج بلغة أخرى، غير لغة الموقع إلى أعلى يسار الصفحة"
-
-#: templates/home.html:244
+#: templates/home.html:239
 msgid "A PROPOS"
 msgstr "معلومات"
 
-#: templates/home.html:250
+#: templates/home.html:245
 msgid "Notre mission, transmettre un horizon à tous"
 msgstr "مهمتنا :<br> فتح الأفاق للجميع"
 
-#: templates/home.html:255
+#: templates/home.html:250
 msgid "Pourquoi avoir nommé l'école \"Thot\" ?"
 msgstr "لماذا سميت المدرسة \" تحوت\" ؟"
 
-#: templates/home.html:259
+#: templates/home.html:254
 msgid "Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France."
 msgstr "كان تحوت الإله المصري الذي جسد مفهوم المعرفة. كانت مهمته تتمثل في نشر المعرفة ، ولذلك اخترع لغة. يمثل هذا الرمز بالتحديد مهمة تحوت : ينقل تمكين الأفراد من الإزدهار في فرنسا عبر اللغة  . وأضف إلى ذلك فإن هذه الشهادة في مستوى اللغة (ولاية دبلوم الدولية الغة الفرسية كلغة أجنبية ) ، تعتبر إثراء للسيرة الذاتية  لطلابنا ما يضمن اندماجهم العالم المهني."
 
-#: templates/home.html:263
+#: templates/home.html:258
 msgid "Qui sommes-nous ?"
 msgstr "من نحن ؟"
 
-#: templates/home.html:267
+#: templates/home.html:262
 msgid "L’équipe Thot s’est constituée lors d'actions de soutien aux réfugiés et demandeurs d’asile. Malgré leurs nationalités nombreuses, leurs histoires toutes dramatiques, et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</p>\n"
 "        <p>A ce jour, aucune formation gratuite et qualifiante, dispensée par des professeurs diplômés, ne leur est pourtant proposée. Nous créons donc l'école Thot pour pallier l’absence de formation diplômante à destination des réfugiés et demandeurs d’asile."
 msgstr "تم تشكيل فريق تحوت من إلتزمنا مع اللاجئين إختلفت جنسياتهم ؛ قصصهم المأساوية ، خلفياتهم الإجتماعية و لكن تساءلوا كلهم السؤال التالي : \" أين يمكننا تعلم اللغة الفرنسية ؟ احتشد العديد من المتطوعين لتقديم دروس الغة الفرنسية، وفي الوقت نفسه،لإنشاء رابط إجتماعي و **** مع اللاجئين. في الوقت نفسه تم إنشاء برنامج دمج جامعي للاجئين وطالبي اللجوء من حملة البكالوريا."
 
-#: templates/home.html:271
+#: templates/home.html:266
 msgid "présidente"
 msgstr " الرئيس"
 
-#: templates/home.html:273
+#: templates/home.html:268
 msgid "vice-présidente"
 msgstr "الرئيس ممتل"
 
-#: templates/home.html:275
+#: templates/home.html:270
 msgid "trésorière"
 msgstr "الخزين"
 
-#: templates/home.html:277
+#: templates/home.html:272
 msgid "directrice pédagogique"
 msgstr "مدير التعليمية"
 
-#: templates/home.html:283
+#: templates/home.html:278
 msgid "Comment gérons-nous notre budget ?"
 msgstr "كيف نتدبر ميزانيتنا ؟"
 
-#: templates/home.html:287
+#: templates/home.html:282
 msgid "Nous croyons en la transparence, d'autant plus que les fonds dont nous disposons viennent du grand public autant que d'institutions privées et publiques. C'est pourquoi nous publions notre budget à jour."
 msgstr "نعتقد في الشفافية ، خصوصا أن الأموال وصلنا إليه من عامة الناس بقدر المؤسسات الخاصة والعامة . و لذلك نشر تحديث ميزانيتنا :"
 
-#: templates/home.html:310
+#: templates/home.html:305
 msgid "Je veux consulter le budget"
 msgstr " ءريد التبرع"
 
-#: templates/home.html:330
+#: templates/home.html:325
 msgid "Nous serons ravis de vous répondre"
 msgstr "نحن متحمسين للقءكم"
 
-#: templates/home.html:334
+#: templates/home.html:329
 msgid "Nous écrire par voie électronique"
 msgstr "اتصلو بنا"
 
-#: templates/home.html:337
+#: templates/home.html:332
 msgid "Pour un renseignement concernant les postes des professeurs de FLE à Thot :"
 msgstr ""
 
-#: templates/home.html:339
+#: templates/home.html:334
 msgid "Notre équipe de professeurs est actuellement au complet, nous ne recrutons pas."
 msgstr ""
 
-#: templates/home.html:344
+#: templates/home.html:339
 msgid "Pour proposer votre aide en tant que bénévole :"
 msgstr "من اجل المساعدات"
 
-#: templates/home.html:350
+#: templates/home.html:345
 msgid "Pour des partenariats :"
 msgstr "من اجل المشاركين"
 
-#: templates/home.html:355
+#: templates/home.html:350
 msgid "Pour tout autre renseignement :"
 msgstr "من اجل المزيد من المعلومات"
 
-#: templates/home.html:360
+#: templates/home.html:355
 msgid "Réhabiliter la missive traditionnelle"
 msgstr "إعادة تأهيل إلكتروني التقليدي"
 
-#: templates/home.html:363
+#: templates/home.html:358
 msgid "Association Thot"
 msgstr "Association Thot"
 
-#: templates/home.html:369
+#: templates/home.html:364
 msgid "Nous suivre et parler de nous sur les réseaux"
 msgstr "تتبعنا عاى الشباك"
 
-#: templates/home.html:402
+#: templates/home.html:397
 msgid "Ils croient en nous, merci à eux&nbsp;!"
 msgstr ""
 
-#: templates/home.html:406
+#: templates/home.html:401
 msgid "Partenaires"
 msgstr "المشاركين"
 
@@ -447,7 +438,7 @@ msgstr "بيان صحفي"
 #~ "Bienvenue chez Thot, école diplômante de"
 #~ " français pour les réfugiés et "
 #~ "demandeurs d’asile"
-#~ msgstr ""
+#~ msgstr "المدرسة التي منح اللغة الأجنبية الفرنسية للاجئين وطالبي اللجوء"
 
 #~ msgid ""
 #~ "mises en situation réelles des "
@@ -456,3 +447,74 @@ msgstr "بيان صحفي"
 #~ "échanges avec des interlocuteurs du "
 #~ "quotidien)"
 #~ msgstr ""
+
+#~ msgid "Vous pouvez vous inscrire jusqu'au 11 octobre à 11h."
+#~ msgstr "يمكنك التسجيل حتى 11 أكتوبر في تمام الساعة 11 صباحًا."
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "novembre à mars sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "du 5 mars à 11h au 7 mars"
+#~ " à 11h.\n"
+#~ "Un bouton \"Je veux m'inscrire\" sera"
+#~ " visible sur ce site, et vous "
+#~ "mènera au formulaire d'inscription. Pour "
+#~ "accéder au formulaire dans une autre "
+#~ "langue, changez la langue du site "
+#~ "internet en haut à droite de la"
+#~ " page."
+#~ msgstr ""
+#~ "تم إغلاق التسجيل للدورة من نوفبر "
+#~ "إلى مارس. وستعقد جلسة التسجيل التالية"
+#~ " من 5  مارس الى 7 مارس  2019."
+#~ "\n"
+#~ "‬\n"
+#~ "‫سوف زر « أريد أن تسجيل » تكون "
+#~ "مرئية على هذا الموقع وسوف يأخذك "
+#~ "إلى نموذج التسجيل. للدخول إلى النموذج"
+#~ " بلغة أخرى، غير لغة الموقع إلى \n"
+#~ ""
+#~ "‬"
+
+#~ msgid ""
+#~ "La prochaine session d'inscription sera "
+#~ "ouverte, sur notre site internet du "
+#~ "22 mai 11h au 24 mai à 11h."
+#~ " Un bouton \"Je veux m'inscrire\" "
+#~ "sera visible sur ce site, et vous"
+#~ " mènera au formulaire d'inscription. Pour"
+#~ " accéder au formulaire dans une autre"
+#~ " langue, changez la langue du site"
+#~ " internet en haut à droite de "
+#~ "la page."
+#~ msgstr ""
+#~ "سيتم فتح جلسة التسجيل التالية على "
+#~ "موقعنا على الويب من 22 مايو في "
+#~ "الساعة 11 صباحًا إلى 24 مساءً في"
+#~ " الساعة 11 صباحًا. سيكون زر « أريد"
+#~ " التسجيل » مرئيًا على هذا الموقع "
+#~ "وسيأخذك إلى نموذج التسجيل. للوصول إلى"
+#~ " النموذج بلغة أخرى ، قم بتغيير "
+#~ "لغة الموقع إلى أعلى يمين الصفحة"
+
+#~ msgid ""
+#~ "Les inscriptions pour la session de "
+#~ "juin à octobre sont fermées. La "
+#~ "prochaine session d'inscription aura lieu "
+#~ "le 9 octobre à 11h. Un bouton "
+#~ "\"Je veux m'inscrire\" sera visible sur"
+#~ " ce site, et vous mènera au "
+#~ "formulaire d'inscription. Pour accéder au "
+#~ "formulaire dans une autre langue, "
+#~ "changez la langue du site internet "
+#~ "en haut à droite de la page."
+#~ msgstr ""
+#~ "تم إغلاق التسجيل للدورة من يونيو "
+#~ "إلى أكتوبر. ستعقد جلسة التسجيل التالية"
+#~ " 9 أكتوبر 2018 في الساعة 11 "
+#~ "صباحًا.  سوف زر « أريد أن تسجيل » "
+#~ "تكون مرئية على هذا الموقع وسوف "
+#~ "يأخذك إلى نموذج التسجيل. للدخول إلى "
+#~ "النموذج بلغة أخرى، غير لغة الموقع "
+#~ "إلى أعلى يسار الصفحة"
